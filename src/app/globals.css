@@ -24,3 +24,54 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .rotate-slow {
+    animation: rotate 10s linear infinite;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .rotate-slow-anticlock {
+    animation: anticlock-rotate 10s linear infinite;
+  }
+
+  @keyframes anticlock-rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+
+  .animate-arrow-fall {
+    animation: fall 2s ease-in-out infinite;
+  }
+
+  @keyframes fall {
+    0% {
+      transform: translateY(-30px);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(40px);
+      opacity: 0;
+    }
+  }
+}
