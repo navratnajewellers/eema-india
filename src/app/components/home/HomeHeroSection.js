@@ -1,23 +1,90 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
+import { motion } from "framer-motion";
+import SeeMore from "./SeeMore";
+
 const HomeHeroSection = () => {
+  const workDetails = [
+    {
+      title: "EEMAX GLOBAL AWARD NIGHT 2019",
+      image:
+        "https://framerusercontent.com/images/xeE2BNz1ZC8WpZmB3ToCHzatvU.jpeg",
+    },
+    {
+      title: "EEMAX Global Awards",
+      image:
+        "https://framerusercontent.com/images/Xokb1ddqeYw8fChnOTjHNKjKei4.jpeg",
+    },
+    {
+      title: "EEMAgine X Gala Night",
+      image:
+        "https://framerusercontent.com/images/JbEsxAQRVzEtQ36HgSwnCROmQT8.jpeg",
+    },
+  ];
+
   return (
-    <div className=" relative bg-gray-400 ">
-      <div className="sticky top-5 h-screen flex items-center justify-center bg-red-500 text-white text-5xl z-[1] mx-7 rounded-2xl">
+    <div className=" relative bg-gray-50 py-7 ">
+      {/* <div className="sticky top-5 h-screen flex items-center justify-center bg-black text-white text-5xl z-[1] mx-7 rounded-2xl">
         Section 1
       </div>
-      <div className="sticky top-5 h-screen flex items-center justify-center bg-green-500 text-white text-5xl z-[2] mx-7 rounded-2xl">
+      <div className="sticky top-5 h-screen flex items-center justify-center bg-orange-600 text-white text-5xl z-[2] mx-7 rounded-2xl">
         Section 2
       </div>
-      <div className="sticky top-5 h-screen flex items-center justify-center bg-blue-500 text-white text-5xl z-[3] mx-7 rounded-2xl">
+      <div className="sticky top-5 h-screen flex items-center justify-center bg-black text-white text-5xl z-[3] mx-7 rounded-2xl">
         Section 3
       </div>
-      <div className="sticky top-5 h-screen flex items-center justify-center bg-yellow-500 text-black text-5xl z-[4] mx-7 rounded-2xl">
+      <div className="sticky top-5 h-screen flex items-center justify-center bg-orange-600 text-black text-5xl z-[4] mx-7 rounded-2xl">
         Section 4
-      </div>
-      <div className="sticky top-5 h-screen flex items-center justify-center bg-purple-500 text-white text-5xl z-[5] mx-7 rounded-2xl">
-        Section 5
-      </div>
+      </div> */}
+      {workDetails.map((data, index) => {
+        const isEven = index % 2 === 0;
+        return (
+          <div
+            key={index}
+            className={`sticky top-5 h-[92vh] flex items-center justify-center ${!isEven ? "bg-orange-600" : "bg-black"} text-white text-5xl mx-7 mb-10 px-7 rounded-[50px]`}
+            style={{ zIndex: `${index + 1}` }}
+          >
+            <div className="grid md:grid-cols-2 gap-2 ml-2 xl:ml-32 ">
+              <motion.div
+                initial={{ opacity: 0, x: -60 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{
+                  duration: 1,
+                  ease: "easeInOut",
+                }}
+                viewport={{ amount: 0.5, once: true }}
+                className=" px-7 "
+              >
+                <h4 className=" mb-7 text-2xl ">(work)</h4>
+                <h2>{data.title}</h2>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, x: 60 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{
+                  duration: 1,
+                  ease: "easeInOut",
+                }}
+                viewport={{ amount: 0.5, once: true }}
+                className="imageWrapper h-[200px] md:h-[350px] mt-9 "
+              >
+                <img src={data.image} alt={data.title} className="" />
+              </motion.div>
+            </div>
+          </div>
+        );
+      })}
+
+      {/* <div className="sticky top-5 h-[92vh] flex items-center justify-center bg-orange-600 text-white font-bold tracking-tight text-7xl z-[4] mx-7 mb-10 px-7 rounded-[50px]">
+        <div className="">
+          <a href="#" className=" inline-block ">
+            <span className=" ">SEE MORE(...)</span>
+          </a>
+        </div>
+      </div> */}
+
+      <SeeMore />
     </div>
   );
 };

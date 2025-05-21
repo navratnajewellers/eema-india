@@ -63,7 +63,7 @@ export default function NavSection() {
         <AnimatedSquare2 />
       </div>
 
-      <div className=" relative md:absolute xl:relative bottom-0 left-0 w-full bg-gray-50 mt-8 ">
+      <div className=" relative md:absolute xl:relative bottom-0 left-0 w-full bg-gray-50 mt-8 overflow-hidden ">
         <div className=" flex justify-center items-center p-0  ">
           <h1 className=" text-[100px] sm:text-[160px] md:text-[240px] xl:text-[250px] text-orange-600 font-extrabold  ">
             EEMA®
