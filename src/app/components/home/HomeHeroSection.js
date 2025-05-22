@@ -25,18 +25,6 @@ const HomeHeroSection = () => {
 
   return (
     <div className=" relative bg-gray-50 py-7 ">
-      {/* <div className="sticky top-5 h-screen flex items-center justify-center bg-black text-white text-5xl z-[1] mx-7 rounded-2xl">
-        Section 1
-      </div>
-      <div className="sticky top-5 h-screen flex items-center justify-center bg-orange-600 text-white text-5xl z-[2] mx-7 rounded-2xl">
-        Section 2
-      </div>
-      <div className="sticky top-5 h-screen flex items-center justify-center bg-black text-white text-5xl z-[3] mx-7 rounded-2xl">
-        Section 3
-      </div>
-      <div className="sticky top-5 h-screen flex items-center justify-center bg-orange-600 text-black text-5xl z-[4] mx-7 rounded-2xl">
-        Section 4
-      </div> */}
       {workDetails.map((data, index) => {
         const isEven = index % 2 === 0;
         return (
@@ -59,30 +47,25 @@ const HomeHeroSection = () => {
                 <h4 className=" mb-7 text-2xl ">(work)</h4>
                 <h2>{data.title}</h2>
               </motion.div>
-              <motion.div
-                initial={{ opacity: 0, x: 60 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{
-                  duration: 1,
-                  ease: "easeInOut",
-                }}
-                viewport={{ amount: 0.5, once: true }}
-                className="imageWrapper h-[200px] md:h-[350px] mt-9 "
-              >
-                <img src={data.image} alt={data.title} className="" />
-              </motion.div>
+
+              <div className=" overflow-hidden ">
+                <motion.div
+                  initial={{ opacity: 0, x: 60 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{
+                    duration: 1,
+                    ease: "easeInOut",
+                  }}
+                  viewport={{ amount: 0.5, once: true }}
+                  className="imageWrapper h-[200px] md:h-[350px] mt-9 "
+                >
+                  <img src={data.image} alt={data.title} className="" />
+                </motion.div>
+              </div>
             </div>
           </div>
         );
       })}
-
-      {/* <div className="sticky top-5 h-[92vh] flex items-center justify-center bg-orange-600 text-white font-bold tracking-tight text-7xl z-[4] mx-7 mb-10 px-7 rounded-[50px]">
-        <div className="">
-          <a href="#" className=" inline-block ">
-            <span className=" ">SEE MORE(...)</span>
-          </a>
-        </div>
-      </div> */}
 
       <SeeMore />
     </div>

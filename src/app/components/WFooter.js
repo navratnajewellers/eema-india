@@ -1,4 +1,4 @@
-const TestFooter = () => {
+const WFooter = () => {
   return (
     <>
       <div className=" h-screen "></div>
@@ -24,4 +24,4 @@ const TestFooter = () => {
   );
 };
 
-export default TestFooter;
+export default WFooter;
