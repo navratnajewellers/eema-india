@@ -8,7 +8,7 @@ export default function WHeader() {
       <section className=" h-[25vh] w-full">
         <Link
           href="/"
-          className=" h-home-container inline-block fixed top-11 left-14 z-50 py-9 px-7 bg-gray-50 rounded-4xl "
+          className=" h-home-container inline-block fixed top-2 left-2 md:top-11 md:left-14 z-50 py-9 px-7 bg-gray-50 rounded-4xl "
         >
           Home
         </Link>

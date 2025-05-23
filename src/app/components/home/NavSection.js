@@ -6,7 +6,7 @@ import AnimatedSquare2 from "./AnimatedSquare2";
 const navItems = [
   {
     text: "About Us",
-    link: "#about-us",
+    link: "#about",
   },
   {
     text: "Members",

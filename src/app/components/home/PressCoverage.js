@@ -62,7 +62,10 @@ export default function PressCoverage() {
   ];
 
   return (
-    <section className=" bg-gray-50 text-black px-7 sm:px-24 relative py-11 ">
+    <section
+      id="news"
+      className=" bg-gray-50 text-black px-7 sm:px-24 relative py-11 "
+    >
       <h4 className=" text-black text-right sticky top-40 z-10 ">
         Press Coverage
       </h4>

@@ -10,17 +10,19 @@ import "./styles/home.css";
 export default function Home() {
   return (
     <>
-      <WHeader />
+      <div className=" relative z-[2] ">
+        <WHeader />
 
-      <HomeHeroSection />
+        <HomeHeroSection />
 
-      <AboutSection />
+        <AboutSection />
 
-      <MemberSection />
+        <MemberSection />
 
-      <PressCoverage />
+        <PressCoverage />
 
-      <ServiceSection />
+        <ServiceSection />
+      </div>
 
       <WFooter />
     </>

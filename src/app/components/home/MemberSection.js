@@ -86,7 +86,7 @@ export default function MemberSection() {
 
   return (
     <section
-      id="member"
+      id="members"
       className=" bg-gray-50 text-black px-7 sm:px-24 relative py-36 "
     >
       <h4 className=" text-2xl sticky top-40 z-10 ">(Meet Us)</h4>
