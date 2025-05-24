@@ -61,7 +61,8 @@ export default function ServiceSection() {
             <motion.div
               initial={{ opacity: 0, x: 90 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1, delay: 0.4, ease: "easeInOut" }}
+              transition={{ duration: 1, ease: "easeInOut" }}
+              viewport={{ amount: 0.5 }}
               onViewportEnter={() => {
                 setServiceNumber(index + 1);
               }}
@@ -71,10 +72,10 @@ export default function ServiceSection() {
               <div className=" hidden md:block md:col-span-1 "></div>
 
               <div className=" py-20 md:col-span-2 px-7 md:px-14  ">
-                <h2 className=" tracking-tight text-4xl mb-4 font-bold ">
+                <h2 className=" text-black tracking-tight text-4xl mb-4 font-bold ">
                   {data.title}
                 </h2>
-                <p className=" leading-relaxed text-xl font-medium ">
+                <p className=" text-black leading-relaxed text-xl font-medium ">
                   {data.description}
                 </p>
               </div>
