@@ -1,6 +1,5 @@
 // app/components/NavSection.tsx or your components folder
-import { ChevronDown, MoveDown } from "lucide-react";
-import AnimatedSquare from "./AnimatedSquare";
+import { MoveDown } from "lucide-react";
 import AnimatedSquare2 from "./AnimatedSquare2";
 
 const navItems = [
@@ -46,7 +45,7 @@ export default function NavSection() {
         </div>
 
         <div className="  mx-2 md:col-span-1">
-          <h2 className=" tracking-tight text-2xl font-bold mb-4 mt-11 sm:mt-0 ">
+          <h2 className=" tracking-tight text-black text-2xl font-bold mb-4 mt-11 sm:mt-0 ">
             EEMA India
           </h2>
           <p className=" leading-relaxed text-lg text-gray-500 font-semibold ">
@@ -58,8 +57,6 @@ export default function NavSection() {
       </div>
 
       <div className=" absolute right-1/12 bottom-[40%] sm:bottom-1/3 xl:bottom-[40%] xl:z-[2] ">
-        {/* <AnimatedSquare /> */}
-
         <AnimatedSquare2 />
       </div>
 

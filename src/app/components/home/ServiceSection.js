@@ -61,11 +61,10 @@ export default function ServiceSection() {
             <motion.div
               initial={{ opacity: 0, x: 90 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1, ease: "easeInOut" }}
+              transition={{ duration: 1, delay: 0.4, ease: "easeInOut" }}
               onViewportEnter={() => {
                 setServiceNumber(index + 1);
               }}
-              viewport={{ amount: 0.5 }}
               key={index}
               className="  grid grid-cols-1 md:grid-cols-3 px-1 md:px-24 mb-7 "
             >
