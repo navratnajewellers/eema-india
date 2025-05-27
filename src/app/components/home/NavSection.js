@@ -25,18 +25,20 @@ const navItems = [
   },
 ];
 
-export default function NavSection() {
+export default function NavSection({ headerNavItems }) {
+  const newNavItems = headerNavItems.length > 0 ? headerNavItems : navItems;
+
   return (
     <section className=" bg-gray-50 h-[75vh] md:h-full ">
       <div className=" grid sm:grid-cols-3 gap-4 px-11 ">
         <div className="flex flex-col gap-4 p-2 max-w-xl xl:ml-12 md:col-span-2">
-          {navItems.map((item, index) => (
+          {newNavItems.map((item, index) => (
             <a
               href={item.link}
               key={index}
-              className=" h-nav-link-container group relative h-9 flex items-center justify-between px-4 py-3 cursor-pointer text-black text-2xl sm:text-4xl font-extrabold transition-all duration-300 hover:text-white"
+              className=" h-nav-link-container group relative h-9 flex items-center justify-between px-4 py-3 cursor-pointer text-black text-2xl sm:text-4xl font-extrabold transition-all duration-300 hover:text-white overflow-hidden "
             >
-              <span className="transition-all duration-300 group-hover:text-5xl ">
+              <span className="transition-all duration-300 group-hover:text-5xl text-nowrap ">
                 {item.text}
               </span>
               <MoveDown className="w-5 h-5 opacity-0 transform translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 text-white" />

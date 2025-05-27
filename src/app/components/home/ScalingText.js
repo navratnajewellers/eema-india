@@ -23,6 +23,7 @@ export default function ScalingText({ text = "SCROLL TO SCALE" }) {
       >
         <motion.h1
           style={{ scale, opacity: scale }}
+          transition={{ duration: 0.5 }}
           className="text-4xl font-semibold text-black"
         >
           {text}

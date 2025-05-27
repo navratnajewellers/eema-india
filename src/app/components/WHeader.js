@@ -2,7 +2,7 @@ import Link from "next/link";
 import NavSection from "./home/NavSection";
 import "../styles/header.css";
 
-export default function WHeader() {
+export default function WHeader({ headerNavItems }) {
   return (
     <header className=" h-screen xl:h-full w-full bg-gray-50 relative  ">
       <section className=" h-[25vh] w-full">
@@ -14,7 +14,7 @@ export default function WHeader() {
         </Link>
       </section>
 
-      <NavSection />
+      <NavSection headerNavItems={headerNavItems} />
     </header>
   );
 }
