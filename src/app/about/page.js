@@ -1,27 +1,29 @@
 "use client";
 
 import AboutCompany from "../components/about/AboutCompany";
+import HRCodePage from "../components/about/HRCodePage";
 import NLTPage from "../components/about/NLTPage";
 import WFooter from "../components/WFooter";
 import WHeader from "../components/WHeader";
+import "../styles/about.css";
 
 export default function AboutPage() {
   const headerNavItems = [
     {
       text: "About EEMA",
-      link: "#about-us",
+      link: "#about-eema",
     },
     {
       text: "National Leadership Team",
-      link: "#members",
+      link: "#national-leadership-team",
     },
     {
       text: "HR Code of Conduct",
-      link: "/eemagine-2024",
+      link: "/hr-code-of-conduct",
     },
     {
       text: "Industry White Papers",
-      link: "/eemax-global",
+      link: "/industry-whitepaper",
     },
   ];
 
@@ -32,7 +34,9 @@ export default function AboutPage() {
 
         <AboutCompany />
 
-        {/* <NLTPage /> */}
+        <NLTPage />
+
+        {/* <HRCodePage /> */}
       </div>
 
       <WFooter />

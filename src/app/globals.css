@@ -105,10 +105,6 @@ body {
   scrollbar-width: none; /* Firefox */
 }
 
-/* .popup-modal-container {
-  
-} */
-
 .popup-modal-container .rs-modal-content {
   padding: 0 !important;
   background-color: transparent !important;
@@ -122,6 +118,3 @@ body {
   font-weight: 900 !important;
   color: #ffffff !important;
 }
-
-/* .popup-modal-container .rs-modal-header-close svg{
-} */

@@ -29,7 +29,7 @@ export default function StartupPopup2() {
       <Modal.Header></Modal.Header>
       <div className=" imageWrapper-fill ">
         <img
-          src="https://www.eemaindia.com/uploads/sliders/66e420119fc9cNrsM1Om1d3.jpeg"
+          src="/images/popup/eema-website-popup-image.png"
           alt="website popup"
         />
       </div>
