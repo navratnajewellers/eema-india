@@ -2,6 +2,7 @@
 
 import AboutCompany from "../components/about/AboutCompany";
 import HRCodePage from "../components/about/HRCodePage";
+import IndustryPapersPage from "../components/about/IndustryPapersPage";
 import NLTPage from "../components/about/NLTPage";
 import WFooter from "../components/WFooter";
 import WHeader from "../components/WHeader";
@@ -19,11 +20,11 @@ export default function AboutPage() {
     },
     {
       text: "HR Code of Conduct",
-      link: "/hr-code-of-conduct",
+      link: "#hr-code-of-conduct",
     },
     {
       text: "Industry White Papers",
-      link: "/industry-whitepaper",
+      link: "#industry-whitepaper",
     },
   ];
 
@@ -36,7 +37,9 @@ export default function AboutPage() {
 
         <NLTPage />
 
-        {/* <HRCodePage /> */}
+        <HRCodePage />
+
+        <IndustryPapersPage />
       </div>
 
       <WFooter />

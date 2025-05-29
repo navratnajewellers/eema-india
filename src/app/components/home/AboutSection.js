@@ -1,5 +1,6 @@
 "use client";
 
+import { ArrowUpRight } from "lucide-react";
 import ScalingText from "./ScalingText";
 import { motion } from "motion/react";
 
@@ -42,6 +43,15 @@ export default function AboutSection() {
           </div>
         </div>
       ))}
+
+      <div className=" flex justify-center items-center py-11 mt-24 mb-4 relative ">
+        <a
+          href="/about"
+          className=" tracking-tight font-semibold text-2xl h-see-more-container "
+        >
+          <span>See More</span>
+        </a>
+      </div>
       {/* <div className=" grid sm:grid-cols-4 gap-2 mt-7 min-h-[50vh] ">
         <div className=" border-2 sm:col-span-1 flex justify-center items-center ">
           <span className=" bg-orange-600 inline-block h-7 w-7 mb-7 rotate-slow "></span>

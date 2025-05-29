@@ -1,0 +1,29 @@
+.h-see-more-container {
+  border: solid 2px var(--color-orange-600);
+  padding: 9px 25px;
+  border-radius: 26px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  z-index: 0;
+}
+
+.h-see-more-container::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  background-color: var(--color-orange-600);
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+
+.h-see-more-container:hover::before {
+  height: 100%;
+}
+
+.h-see-more-container:hover {
+  color: white;
+}
