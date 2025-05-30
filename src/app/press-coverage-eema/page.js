@@ -2,7 +2,6 @@
 
 import AllPressCoverage from "../components/press-coverage/AllPressCoverage";
 import EemaInitiatives from "../components/press-coverage/EemaInitiatives";
-import WFooter from "../components/WFooter";
 import WHeader from "../components/WHeader";
 
 export default function PressCoveragePage() {
@@ -19,14 +18,6 @@ export default function PressCoveragePage() {
 
   return (
     <>
-      {/* <div className=" relative z-[2] bg-gray-50 ">
-        <WHeader headerNavItems={headerNavItems} />
-
-        <AllPressCoverage />
-      </div>
-
-      <WFooter /> */}
-
       <WHeader headerNavItems={headerNavItems} />
 
       <AllPressCoverage />

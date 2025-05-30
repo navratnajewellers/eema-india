@@ -4,7 +4,6 @@ import AboutCompany from "../components/about/AboutCompany";
 import HRCodePage from "../components/about/HRCodePage";
 import IndustryPapersPage from "../components/about/IndustryPapersPage";
 import NLTPage from "../components/about/NLTPage";
-import WFooter from "../components/WFooter";
 import WHeader from "../components/WHeader";
 import "../styles/about.css";
 
@@ -30,20 +29,6 @@ export default function AboutPage() {
 
   return (
     <>
-      {/* <div className=" relative z-[2] bg-gray-50 ">
-        <WHeader headerNavItems={headerNavItems} />
-
-        <AboutCompany />
-
-        <NLTPage />
-
-        <HRCodePage />
-
-        <IndustryPapersPage />
-      </div>
-
-      <WFooter /> */}
-
       <WHeader headerNavItems={headerNavItems} />
 
       <AboutCompany />

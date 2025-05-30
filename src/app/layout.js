@@ -30,7 +30,6 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${interTight.variable} antialiased`}
       >
-        {/* {children} */}
         <div className=" relative z-[2] bg-gray-50 ">{children}</div>
 
         <WFooter />

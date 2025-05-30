@@ -9,19 +9,9 @@ export const metadata = {
 export default function PostLayout({ children }) {
   return (
     <>
-      {/* <div className=" relative z-[2] bg-gray-50 ">
-        <WHeader />
+      <WHeader />
 
-        {children}
-      </div>
-
-      <WFooter /> */}
-
-      <>
-        <WHeader />
-
-        {children}
-      </>
+      {children}
     </>
   );
 }
