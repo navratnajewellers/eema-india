@@ -35,8 +35,7 @@ export default function Home() {
 
   return (
     <>
-      <div className=" relative z-[2] ">
-        {/* <StartupPopup /> */}
+      {/* <div className=" relative z-[2] ">
 
         <StartupPopup2 />
 
@@ -53,7 +52,21 @@ export default function Home() {
         <ServiceSection />
       </div>
 
-      <WFooter />
+      <WFooter /> */}
+
+      <StartupPopup2 />
+
+      <WHeader headerNavItems={headerNavItems} />
+
+      <HomeHeroSection />
+
+      <AboutSection />
+
+      <MemberSection />
+
+      <PressCoverage />
+
+      <ServiceSection />
     </>
   );
 }

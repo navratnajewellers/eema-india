@@ -30,7 +30,7 @@ export default function AboutPage() {
 
   return (
     <>
-      <div className=" relative z-[2] bg-gray-50 ">
+      {/* <div className=" relative z-[2] bg-gray-50 ">
         <WHeader headerNavItems={headerNavItems} />
 
         <AboutCompany />
@@ -42,7 +42,17 @@ export default function AboutPage() {
         <IndustryPapersPage />
       </div>
 
-      <WFooter />
+      <WFooter /> */}
+
+      <WHeader headerNavItems={headerNavItems} />
+
+      <AboutCompany />
+
+      <NLTPage />
+
+      <HRCodePage />
+
+      <IndustryPapersPage />
     </>
   );
 }

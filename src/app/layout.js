@@ -1,6 +1,8 @@
 import { Geist, Geist_Mono, Inter_Tight } from "next/font/google";
 import "./globals.css";
 import "rsuite/dist/rsuite-no-reset.min.css";
+import WHeader from "./components/WHeader";
+import WFooter from "./components/WFooter";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,7 +30,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${interTight.variable} antialiased`}
       >
-        {children}
+        {/* {children} */}
+        <div className=" relative z-[2] bg-gray-50 ">{children}</div>
+
+        <WFooter />
       </body>
     </html>
   );

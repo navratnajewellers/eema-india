@@ -19,15 +19,19 @@ export default function PressCoveragePage() {
 
   return (
     <>
-      <div className=" relative z-[2] bg-gray-50 ">
+      {/* <div className=" relative z-[2] bg-gray-50 ">
         <WHeader headerNavItems={headerNavItems} />
 
         <AllPressCoverage />
-
-        {/* <EemaInitiatives /> */}
       </div>
 
-      <WFooter />
+      <WFooter /> */}
+
+      <WHeader headerNavItems={headerNavItems} />
+
+      <AllPressCoverage />
+
+      {/* <EemaInitiatives /> */}
     </>
   );
 }

@@ -4,5 +4,5 @@ export const metadata = {
 };
 
 export default function PressCoverageLayout({ children }) {
-  return <div>{children}</div>;
+  return <>{children}</>;
 }

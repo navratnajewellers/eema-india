@@ -26,7 +26,7 @@ const navItems = [
 ];
 
 export default function NavSection({ headerNavItems }) {
-  const newNavItems = headerNavItems.length > 0 ? headerNavItems : navItems;
+  const newNavItems = headerNavItems?.length > 0 ? headerNavItems : navItems;
 
   return (
     <section className=" bg-gray-50 h-[75vh] md:h-full ">
