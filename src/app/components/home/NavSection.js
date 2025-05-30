@@ -5,11 +5,11 @@ import AnimatedSquare2 from "./AnimatedSquare2";
 const navItems = [
   {
     text: "About Us",
-    link: "#about",
+    link: "/#about",
   },
   {
     text: "Members",
-    link: "#members",
+    link: "/#members",
   },
   {
     text: "Eemagine 2024",

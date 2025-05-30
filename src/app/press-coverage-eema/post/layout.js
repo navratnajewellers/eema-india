@@ -1,8 +1,7 @@
-import WFooter from "../../components/WFooter";
 import WHeader from "../../components/WHeader";
 
 export const metadata = {
-  title: "Post | EEMA India",
+  title: "Press Coverage | Posts | EEMA India",
   description: "EEMA India Organization",
 };
 
@@ -11,7 +10,7 @@ export default function PostLayout({ children }) {
     <>
       <WHeader />
 
-      {children}
+      <section className=" py-28 px-28 ">{children}</section>
     </>
   );
 }
