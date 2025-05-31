@@ -264,7 +264,7 @@ const totalPressCoverageData = [
       "Events, entertainment industry says Covid-19 hit 60 mln livelihoods; seeks urgent govt help",
     image:
       "/images/press-coverage/news/1585923260_cropped-ad8f05af-a0d3-4a66-87b0-4306b3b8aa62.jpg",
-    link: "https://eemaindia.com/Events,%20entertainment%20industry%20says%20Covid-19%20hit%2060%20mln%20livelihoods;%20seeks%20urgent%20govt%20help",
+    link: "#",
   },
   {
     date: "Mar 25, 2020",
@@ -278,7 +278,7 @@ const totalPressCoverageData = [
     title:
       "Events, entertainment industry says Covid-19 hit 60 million livelihoods; seeks urgent government help",
     image: "/images/press-coverage/news/1585923544_Theatre_hall.jpg",
-    link: "https://eemaindia.com/Events,%20entertainment%20industry%20says%20Covid-19%20hit%2060%20mln%20livelihoods;%20seeks%20urgent%20govt%20help",
+    link: "#",
   },
   {
     date: "Mar 24, 2020",

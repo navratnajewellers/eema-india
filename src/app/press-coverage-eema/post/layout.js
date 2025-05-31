@@ -10,7 +10,7 @@ export default function PostLayout({ children }) {
     <>
       <WHeader />
 
-      <section className=" py-28 px-28 ">{children}</section>
+      <section className=" py-28 px-11 md:px-28 ">{children}</section>
     </>
   );
 }
