@@ -44,7 +44,6 @@ const HomeHeroSection = () => {
                 viewport={{ amount: 0.5, once: true }}
                 className=" px-7 "
               >
-                <h4 className=" mb-7 text-2xl ">(work)</h4>
                 <h2>{data.title}</h2>
               </motion.div>
 

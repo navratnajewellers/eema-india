@@ -64,7 +64,7 @@ const totalPressCoverageData = [
     title: "EEMA GIVES CALL TO OPEN SAFE EVENTS TO SAVE EVENTS",
     image:
       "/images/press-coverage/news/1600936375_Western Times_Ahm_EEMA_23.08.20_Pg03.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/eema-gives-call-to-open-safe-events-to-save-events",
+    link: "/press-coverage-eema/post/eema-gives-call-to-open-safe-events-to-save-events",
   },
   {
     date: "Apr 21, 2020",
@@ -146,21 +146,21 @@ const totalPressCoverageData = [
       "Coronavirus impact: Events industry comes to a standstill, no relief until November",
     image:
       "/images/press-coverage/news/1585918191_STADIUM-AUSTRALIA-VS-NZ-770x433.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/coronavirus-impact-events-industry-comes-to-a-standstill-no-relief-until-november",
+    link: "/press-coverage-eema/post/coronavirus-impact-events-industry-comes-to-a-standstill-no-relief-until-november",
   },
   {
     date: "Mar 31, 2020",
     title:
       "We hope as an industry we can rise to the occasion and change the paradigm: Sanjoy Roy, MD Teamwork Arts & President-EEMA",
     image: "/images/press-coverage/news/1585917788_1585647669_biFYTj_roy.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/we-hope-as-an-industry-we-can-rise-to-the-occasion-and-change-the-paradigm-sanjoy-roy-md-teamwork-arts-president-eema",
+    link: "/press-coverage-eema/post/we-hope-as-an-industry-we-can-rise-to-the-occasion-and-change-the-paradigm-sanjoy-roy-md-teamwork-arts-president-eema",
   },
   {
     date: "Mar 31, 2020",
     title: "136 million jobs at risk in post-corona India",
     image:
       "/images/press-coverage/news/1585919125_jobs_1585584289372_1585584289585.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/136-million-jobs-at-risk-in-post-corona-india",
+    link: "/press-coverage-eema/post/136-million-jobs-at-risk-in-post-corona-india",
   },
   {
     date: "Mar 30, 2020",
@@ -168,7 +168,7 @@ const totalPressCoverageData = [
       "Coronavirus: Indian events and exhibition sector to take ?1 trillion hit",
     image:
       "/images/press-coverage/news/1585918272_L4_1549092348143_1585567117023.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/coronavirus-indian-events-and-exhibition-sector-to-take-1-trillion-hit",
+    link: "/press-coverage-eema/post/coronavirus-indian-events-and-exhibition-sector-to-take-1-trillion-hit",
   },
   {
     date: "Mar 26, 2020",
@@ -315,7 +315,7 @@ const totalPressCoverageData = [
     date: "Apr 26, 2019",
     title: "NORTH Meeet - At Pullman",
     image: "/images/press-coverage/news/1556276967_DSC_9455.jpeg",
-    link: "https://eemaindia.com/press-coverage-eema/north-meeet-at-pullman",
+    link: "/press-coverage-eema/post/north-meeet-at-pullman",
   },
   {
     date: "Aug 06, 2019",
@@ -323,7 +323,7 @@ const totalPressCoverageData = [
       "EEMA to work together to transform Capital into an international cultural hub",
     image:
       "/images/press-coverage/news/1568635525_Deputy-CM-Manish-Sisodia-Minister-Kailash-Gehlot-with-EEMA-Members-at-EEMAX-Global-Award.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/eema-to-work-together-to-transform-capital-into-an-international-cultural-hub",
+    link: "/press-coverage-eema/post/eema-to-work-together-to-transform-capital-into-an-international-cultural-hub",
   },
   {
     date: "Jul 12, 2019",
@@ -331,71 +331,71 @@ const totalPressCoverageData = [
       "Special Postal Cover launched for Events & Entertainment Management Association (EEMA)",
     image:
       "/images/press-coverage/news/1563513971_Niti-Aayog-CEO-Shr-Amitabh-Kant-releasing-the-Special-Postal-Cover-of-EEMA-members-at-Niti Aayog-Sansad-Marg.jpeg",
-    link: "https://eemaindia.com/press-coverage-eema/special-postal-cover-launched-for-events-entertainment-management-association-eema",
+    link: "/press-coverage-eema/post/special-postal-cover-launched-for-events-entertainment-management-association-eema",
   },
   {
     date: "Apr 30, 2019",
     title: "EEMA South Factor",
     image: "/images/press-coverage/news/1556277308_IMG-20190426-WA0003.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/eema-south-factor",
+    link: "/press-coverage-eema/post/eema-south-factor",
   },
   {
     date: "Apr 10, 2019",
     title:
       "Gourmet Experiences Will Entertain India’s Top Wedding & Event Planners at GES 2019",
     image: "/images/press-coverage/news/1555392469_lead392.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/gourmet-experiences-will-entertain-india-s-top-wedding-event-planners-at-ges-2019",
+    link: "/press-coverage-eema/post/gourmet-experiences-will-entertain-india-s-top-wedding-event-planners-at-ges-2019",
   },
   {
     date: "Mar 01, 2019",
     title: "Upcoming – PALM EXPO 2019 | 30th May – 1st June 2019",
     image: "/images/press-coverage/news/1554887221_Palm-Expo-1280x720.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/upcoming-palm-expo-2019-30th-may-1st-june-2019",
+    link: "/press-coverage-eema/post/upcoming-palm-expo-2019-30th-may-1st-june-2019",
   },
   {
     date: "Apr 15, 2019",
     title:
       "Event and IP industry stalwarts to converge under one roof at India Event IP Conclave 2019",
     image: "/images/press-coverage/news/1555586472_Event.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/event-and-ip-industry-stalwarts-to-converge-under-one-roof-at-india-event-ip-conclave-2019",
+    link: "/press-coverage-eema/post/event-and-ip-industry-stalwarts-to-converge-under-one-roof-at-india-event-ip-conclave-2019",
   },
   {
     date: "Apr 15, 2019",
     title:
       "EEMA Signed an MOU with Amity University Uttar Pradesh (AUUP) paving",
     image: "/images/press-coverage/news/1555312373__MoU_Amity.jpeg",
-    link: "https://eemaindia.com/press-coverage-eema/eema-signed-an-mou-with-amity-university-uttar-pradesh-auup-paving",
+    link: "/press-coverage-eema/post/eema-signed-an-mou-with-amity-university-uttar-pradesh-auup-paving",
   },
   {
     date: "Feb 25, 2019",
     title: "Thinking 22 with Prahlad Kakkar",
     image: "/images/press-coverage/news/1555586111_Prahalad-Kakkar.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/thinking-22-with-prahlad-kakkar",
+    link: "/press-coverage-eema/post/thinking-22-with-prahlad-kakkar",
   },
   {
     date: "Feb 07, 2019",
     title: "BLTM",
     image: "/images/press-coverage/news/1549877073_DSC_0303.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/bltm",
+    link: "/press-coverage-eema/post/bltm",
   },
   {
     date: "Feb 25, 2019",
     title: "Republic Day Event",
     image: "/images/press-coverage/news/1555586207_70-yeard.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/republic-day-event",
+    link: "/press-coverage-eema/post/republic-day-event",
   },
   {
     date: "Feb 25, 2019",
     title: "EEMA-SEGMA Event Industry Meet",
     image: "/images/press-coverage/news/1555586283_Segma.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/eema-segma-event-industry-meet",
+    link: "/press-coverage-eema/post/eema-segma-event-industry-meet",
   },
   {
     date: "Aug 29, 2018",
     title: "Organising Events, Expos in the State Just Got Easier",
     image:
       "/images/press-coverage/news/1549876806_eema-logo-featured-image-min.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/organising-events-expos-in-the-state-just-got-easier",
+    link: "/press-coverage-eema/post/organising-events-expos-in-the-state-just-got-easier",
   },
   {
     date: "Aug 29, 2018",
@@ -403,61 +403,61 @@ const totalPressCoverageData = [
       "EEMA - The Presenters Dialogue Brings Anchor community on one platform",
     image:
       "/images/press-coverage/news/1549876684_40285193_2106470349363480_7245474932019167232_o.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/eema-the-presenters-dialogue-brings-anchor-community-on-one-platform",
+    link: "/press-coverage-eema/post/eema-the-presenters-dialogue-brings-anchor-community-on-one-platform",
   },
   {
     date: "Apr 25, 2018",
     title:
       "EEMA Members Come Together to Pledge for Safety at Event Show Asia Mumbai",
     image: "/images/press-coverage/news/1555586659_EVent-1.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/eema-members-come-together-to-pledge-for-safety-at-event-show-asia-mumbai",
+    link: "/press-coverage-eema/post/eema-members-come-together-to-pledge-for-safety-at-event-show-asia-mumbai",
   },
   {
     date: "Feb 07, 2019",
     title: "OTM, the leading travel show in Asia-Pacific",
     image: "/images/press-coverage/news/1549877286_OTM1.jpeg",
-    link: "https://eemaindia.com/press-coverage-eema/otm-the-leading-travel-show-in-asia-pacific",
+    link: "/press-coverage-eema/post/otm-the-leading-travel-show-in-asia-pacific",
   },
   {
     date: "Aug 31, 2018",
     title: "EEMA WEST MEET",
     image: "/images/press-coverage/news/1549343219_eema-west-meet.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/eema-west-meet",
+    link: "/press-coverage-eema/post/eema-west-meet",
   },
   {
     date: "May 21, 2018",
     title:
       "500+ event service providers convene for 3rd edition of Spotlight Awards 2018 in Jaipur",
     image: "/images/press-coverage/news/1549876369_eema.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/500-event-service-providers-convene-for-3rd-edition-of-spotlight-awards-2018-in-jaipur",
+    link: "/press-coverage-eema/post/500-event-service-providers-convene-for-3rd-edition-of-spotlight-awards-2018-in-jaipur",
   },
   {
     date: "Jul 09, 2018",
     title:
       "Sanjeev Pasricha, Himanshu Shah, KJS Gurna and others Win EEMA National Executive Council Elections",
     image: "/images/press-coverage/news/1555393157_lead-image123.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/sanjeev-pasricha-himanshu-shah-kjs-gurna-and-others-win-eema-national-executive-council-elections",
+    link: "/press-coverage-eema/post/sanjeev-pasricha-himanshu-shah-kjs-gurna-and-others-win-eema-national-executive-council-elections",
   },
   {
     date: "May 21, 2018",
     title:
       "Sanjoy Roy Unanimously Nominated and Elected Next President of EEMA",
     image: "/images/press-coverage/news/1549284288_grid-img1.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/sanjoy-roy-unanimously-nominated-and-elected-next-president-of-eema",
+    link: "/press-coverage-eema/post/sanjoy-roy-unanimously-nominated-and-elected-next-president-of-eema",
   },
   {
     date: "Mar 19, 2018",
     title:
       "EEMA Organises Workshop on 'Creating a World Class Award Winning Agency'",
     image: "/images/press-coverage/news/1555586377_Workshop.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/eema-organises-workshop-on-creating-a-world-class-award-winning-agency",
+    link: "/press-coverage-eema/post/eema-organises-workshop-on-creating-a-world-class-award-winning-agency",
   },
   {
     date: "Feb 26, 2018",
     title:
       "EEMA On the Path of Enhancing Knowledge With a Series of Informative Initiatives",
     image: "/images/press-coverage/news/1549875515_sushma-2.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/eema-on-the-path-of-enhancing-knowledge-with-a-series-of-informative-initiatives",
+    link: "/press-coverage-eema/post/eema-on-the-path-of-enhancing-knowledge-with-a-series-of-informative-initiatives",
   },
   {
     date: "Apr 20, 2018",
@@ -465,74 +465,74 @@ const totalPressCoverageData = [
       "EEMA Hosts a Masterclass with Mandeep Malhotra to Enable Events Planners 'Get Future Ready'",
     image:
       "/images/press-coverage/news/1549876115_master-classmandeep-malhotra750x1200-1280x720.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/eema-hosts-a-masterclass-with-mandeep-malhotra-to-enable-events-planners-get-future-ready",
+    link: "/press-coverage-eema/post/eema-hosts-a-masterclass-with-mandeep-malhotra-to-enable-events-planners-get-future-ready",
   },
   {
     date: "Apr 10, 2018",
     title:
       "EEMA Continues its 10-Year Celebrations; Announces New Chapters in Goa and Pune",
     image: "/images/press-coverage/news/1555393647_eema26.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/eema-continues-its-10-year-celebrations-announces-new-chapters-in-goa-and-pune-1",
+    link: "/press-coverage-eema/post/eema-continues-its-10-year-celebrations-announces-new-chapters-in-goa-and-pune-1",
   },
   {
     date: "May 26, 2016",
     title:
       "Road To Event Safety' to be discussed at EEMA PALM Conference Session 2016",
     image: "/images/press-coverage/news/1549874448_Untitled-1.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/road-to-event-safety-to-be-discussed-at-eema-palm-conference-session-2016",
+    link: "/press-coverage-eema/post/road-to-event-safety-to-be-discussed-at-eema-palm-conference-session-2016",
   },
   {
     date: "May 26, 2016",
     title: "EEMA ‘Road To Event Safety’ Conference Session @ PALM EXPO 2016",
     image: "/images/press-coverage/news/1549874534_lead58.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/eema-road-to-event-safety-conference-session-palm-expo-2016",
+    link: "/press-coverage-eema/post/eema-road-to-event-safety-conference-session-palm-expo-2016",
   },
   {
     date: "Feb 24, 2018",
     title: "EEMA Futsal League: In A League Of Its Own",
     image:
       "/images/press-coverage/news/1549875298_winning-team-team-fountainhead.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/eema-futsal-league-in-a-league-of-its-own",
+    link: "/press-coverage-eema/post/eema-futsal-league-in-a-league-of-its-own",
   },
   {
     date: "Dec 30, 2016",
     title:
       "High Court rejects plea to vacate injunction; asks copyright licensors to prove their ownership",
     image: "/images/press-coverage/news/1549875115_3-4.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/high-court-rejects-plea-to-vacate-injunction-asks-copyright-licensors-to-prove-their-ownership",
+    link: "/press-coverage-eema/post/high-court-rejects-plea-to-vacate-injunction-asks-copyright-licensors-to-prove-their-ownership",
   },
   {
     date: "May 07, 2016",
     title: "‘We build bridges in the spirit of one-people-one world’",
     image:
       "/images/press-coverage/news/1549871316_2016_5largeimg07_May_2016_063205307.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/we-build-bridges-in-the-spirit-of-one-people-one-world",
+    link: "/press-coverage-eema/post/we-build-bridges-in-the-spirit-of-one-people-one-world",
   },
   {
     date: "May 03, 2016",
     title: "EEMAGINE '16 sets off to a heady start",
     image: "/images/press-coverage/news/1549870374_slider-image-2.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/eemagine-16-sets-off-to-a-heady-start",
+    link: "/press-coverage-eema/post/eemagine-16-sets-off-to-a-heady-start",
   },
   {
     date: "May 25, 2016",
     title: "‘Road To Event Safety’ At EEMA PALM Conference Session",
     image: "/images/press-coverage/news/1549871798_Untitled-1-Recovered.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/road-to-event-safety-at-eema-palm-conference-session",
+    link: "/press-coverage-eema/post/road-to-event-safety-at-eema-palm-conference-session",
   },
   {
     date: "May 23, 2016",
     title:
       "EVENTS AND EXPERIENTIAL MARKETING INDUSTRY STALWARTS TO DISCUSS 'ROAD TO EVENT SAFETY' AT EEMA PALM CONFERENCE SESSION",
     image: "/images/press-coverage/news/1549871405_Untitled-12.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/events-and-experiential-marketing-industry-stalwarts-to-discuss-road-to-event-safety-at-eema-palm-conference-session",
+    link: "/press-coverage-eema/post/events-and-experiential-marketing-industry-stalwarts-to-discuss-road-to-event-safety-at-eema-palm-conference-session",
   },
   {
     date: "May 02, 2016",
     title:
       "The EEMA PALM Conference Session at the Palm Conference & Seminar 2016 to examine 'Road to Event Safety in India'",
     image: "/images/press-coverage/news/1549869618_palm-expo.jpg",
-    link: "https://eemaindia.com/press-coverage-eema/the-eema-palm-conference-session-at-the-palm-conference-amp-seminar-2016-to-examine-road-to-event-safety-in-india",
+    link: "/press-coverage-eema/post/the-eema-palm-conference-session-at-the-palm-conference-amp-seminar-2016-to-examine-road-to-event-safety-in-india",
   },
 ];
 
@@ -542,7 +542,7 @@ export default function AllPressCoverage() {
     return tempPCData;
   });
 
-  const [displayDataLastIndex, setDisplayDataLastIndex] = useState(3);
+  const [displayDataLastIndex, setDisplayDataLastIndex] = useState(6);
 
   useEffect(() => {
     setPressCoverageData(totalPressCoverageData.slice(0, displayDataLastIndex));

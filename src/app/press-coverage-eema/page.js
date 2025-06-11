@@ -22,7 +22,7 @@ export default function PressCoveragePage() {
 
       <AllPressCoverage />
 
-      {/* <EemaInitiatives /> */}
+      <EemaInitiatives />
     </>
   );
 }
