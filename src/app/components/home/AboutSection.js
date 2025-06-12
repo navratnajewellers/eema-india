@@ -22,7 +22,9 @@ export default function AboutSection() {
 
   return (
     <section id="about" className=" bg-gray-50 px-7 sm:px-24 relative py-11 ">
-      <h4 className=" text-2xl text-black sticky top-40 z-10 ">(About Us)</h4>
+      <h4 className=" text-2xl text-black sticky top-40 z-10 w-fit bg-gray-50 ">
+        (About Us)
+      </h4>
       {aboutData.map((data, index) => (
         <div
           key={index}

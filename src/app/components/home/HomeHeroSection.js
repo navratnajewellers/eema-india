@@ -66,7 +66,7 @@ const HomeHeroSection = () => {
         );
       })}
 
-      <SeeMore />
+      {/* <SeeMore /> */}
     </div>
   );
 };

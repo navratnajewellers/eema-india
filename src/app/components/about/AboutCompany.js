@@ -40,7 +40,9 @@ const AboutCompany = () => {
       id="about-eema"
       className=" bg-gray-50 px-7 sm:px-24 relative py-11 "
     >
-      <h4 className=" text-2xl text-black sticky top-40 z-10 ">(About EEMA)</h4>
+      <h4 className=" text-2xl text-black sticky top-40 z-10 w-fit bg-gray-50 ">
+        (About EEMA)
+      </h4>
       {aboutCompanyData.map((data, index) => (
         <div
           key={index}

@@ -8,79 +8,77 @@ export default function MemberSection() {
       name: "Samit Garg",
       post: "President",
       company: "E Factor Experiences Limited",
-      twitter: "#",
-      linkedin: "#",
-      image:
-        "https://framerusercontent.com/images/s7QZIjw19OakCTOtz4Ea2TJyuPU.jpeg",
+      instagram: "https://www.instagram.com/samit.garg/?hl=en",
+      linkedin: "https://www.linkedin.com/in/samit-garg-5735598/",
+      image: "/images/team/samit-garg.jpg",
     },
     {
-      name: "PVN Vidyasagar",
+      name: "Sagar Pingali",
       post: "Executive Vice President",
       company: "Catpro Events",
-      twitter: "#",
-      linkedin: "#",
-      image:
-        "https://framerusercontent.com/images/pKFplD4TeUOajTb2K3gkkQRfI.jpeg",
+      instagram: "https://www.instagram.com/sagarpingali1/?hl=en",
+      linkedin: "https://www.linkedin.com/in/sagar-pingali-1352aa5/",
+      image: "/images/team/sagar-pingali.jpg",
     },
     {
       name: "Ankur Kalra",
       post: "General Secretary",
       company: "Vibgyor Brand Services",
-      twitter: "#",
-      linkedin: "#",
-      image:
-        "https://framerusercontent.com/images/EpddwxHdVzYBD973tSQzzLLdexo.jpeg",
+      instagram: "https://www.instagram.com/ankurkalra76/",
+      linkedin:
+        "https://www.linkedin.com/in/kalraankur/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in",
+      image: "/images/team/ankur-kalra-photo.jpg",
     },
     {
       name: "Taranbir Sahni",
       post: "Secretary",
       company: "White Horse Event Management",
-      twitter: "#",
-      linkedin: "#",
-      image:
-        "https://framerusercontent.com/images/MzzdQNGVUI8kv5070Ye62b9I1Q.jpeg",
+      instagram: "https://www.instagram.com/taranbirsahni",
+      linkedin:
+        "https://www.linkedin.com/in/taranbir-sahni-3b45a215/?originalSubdomain=in",
+      image: "/images/team/taranbir-sahni.jpg",
     },
     {
       name: "Jagmohan Singh",
       post: "Treasurer",
       company: "TNBT Marketing Services Pvt. Ltd.",
-      twitter: "#",
-      linkedin: "#",
-      image:
-        "https://framerusercontent.com/images/PqZ1d3Qx7FLbMbM7V7Xjdite9Uk.jpeg",
+      instagram: "https://www.instagram.com/jagskhan818/",
+      linkedin:
+        "https://www.linkedin.com/in/jagmohan-singh-b69077a/?originalSubdomain=in",
+      image: "/images/team/jagmohan-singh.jpg",
     },
     {
       name: "Ruchin Kohli",
       post: "Vice President - North",
       company: "Occasion Experts Pvt. Ltd.",
-      twitter: "#",
-      linkedin: "#",
-      image: "https://eemaindia.com/uploads/teams/66d06d6501e98j02SjdaOfl.jpeg",
+      instagram: "https://instagram.com/ruchinkohli?igshid=MzRlODBiNWFlZA==",
+      linkedin: "https://www.linkedin.com/in/ruchin-kohli-807961167/",
+      image: "/images/team/ruchin-kohli.jpg",
     },
     {
       name: "DV Vinod Gopal",
       post: "Vice President - South",
       company: "Red Chariots Event Management & Marketing",
-      twitter: "#",
-      linkedin: "#",
-      image:
-        "https://framerusercontent.com/images/IZkFPkZz8mFsJtXebHyRsjiq7co.jpeg",
+      instagram: "https://www.instagram.com/dvvinodgopal/",
+      linkedin: "https://www.linkedin.com/in/d-v-vinod-gopal-80784321/",
+      image: "/images/team/d-v-vinod.jpg",
     },
     {
       name: "Harshal Kothari",
       post: "Vice President - West",
       company: "Rising Events",
-      twitter: "#",
-      linkedin: "#",
-      image: "https://eemaindia.com/uploads/teams/66d06f1549585lGSzXzedo7.jpeg",
+      instagram: "https://www.instagram.com/harshal_rising_events/?img_index=1",
+      linkedin: "https://www.linkedin.com/in/harshal-kothari/",
+      image: "/images/team/harshal-kothari.jpg",
     },
     {
       name: "Sonu Nanda",
       post: "Vice President - East",
       company: "Prelude Novel Ventures",
-      twitter: "#",
-      linkedin: "#",
-      image: "https://eemaindia.com/uploads/teams/632166ed25b67MfcUIxLlpf.jpeg",
+      instagram: "",
+      linkedin:
+        "https://www.linkedin.com/in/kshetramohan-sonu-nanda-845aa270/?originalSubdomain=in",
+      image: "/images/team/sonu-nanda.jpg",
     },
   ];
 
@@ -131,10 +129,10 @@ export default function MemberSection() {
                 <div>
                   <div className=" flex justify-between items-center ">
                     <a
-                      href={data.twitter}
+                      href={data.instagram}
                       className=" font-semibold tracking-tight "
                     >
-                      TWITTER
+                      INSTAGRAM
                     </a>
                     <a
                       href={data.linkedin}

@@ -18,8 +18,8 @@ export default function Home() {
       link: "#members",
     },
     {
-      text: "Eemagine 2024",
-      link: "/eemagine-2024",
+      text: "Eemagine 2025",
+      link: "/eemagine-2025",
     },
     {
       text: "EEMAX Global",

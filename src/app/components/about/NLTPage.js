@@ -175,7 +175,7 @@ export default function NLTPage() {
       id="national-leadership-team"
       className=" bg-gray-50 text-black px-7 sm:px-24 relative py-36 "
     >
-      <h4 className=" text-2xl text-black font-semibold sticky top-40 z-[12] ">
+      <h4 className=" text-2xl text-black font-semibold sticky top-40 z-[12] w-fit py-4 bg-gray-50 ">
         (National Leadership Team)
       </h4>
 
