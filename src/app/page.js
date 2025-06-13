@@ -1,3 +1,4 @@
+import { Divider } from "rsuite";
 import AboutSection from "./components/home/AboutSection";
 import HomeHeroSection from "./components/home/HomeHeroSection";
 import MemberSection from "./components/home/MemberSection";
@@ -40,6 +41,8 @@ export default function Home() {
       <HomeHeroSection />
 
       <AboutSection />
+
+      <div className=" w-[90%] h-0.5 bg-gray-200 m-auto "></div>
 
       <MemberSection />
 

@@ -1,6 +1,10 @@
 // app/components/NavSection.tsx or your components folder
+"use client";
+
 import { MoveDown } from "lucide-react";
 import AnimatedSquare2 from "./AnimatedSquare2";
+import Image from "next/image";
+import { useMediaQuery } from "rsuite";
 
 const navItems = [
   {
@@ -28,8 +32,10 @@ const navItems = [
 export default function NavSection({ headerNavItems }) {
   const newNavItems = headerNavItems?.length > 0 ? headerNavItems : navItems;
 
+  const [isMobile] = useMediaQuery("(max-width: 768px)");
+
   return (
-    <section className=" bg-gray-50 h-[75vh] md:h-full ">
+    <section className=" bg-gray-50 min-h-[65vh] md:h-full xl:min-h-[95vh] relative ">
       <div className=" grid sm:grid-cols-3 gap-4 px-11 ">
         <div className="flex flex-col gap-4 p-2 max-w-xl xl:ml-12 md:col-span-2">
           {newNavItems.map((item, index) => (
@@ -58,15 +64,26 @@ export default function NavSection({ headerNavItems }) {
         </div>
       </div>
 
-      <div className=" absolute right-1/12 bottom-[40%] sm:bottom-1/3 xl:bottom-[40%] xl:z-[2] ">
+      <div className=" absolute right-1/12 bottom-[20%] sm:bottom-1/3 xl:bottom-[40%] xl:z-[2] ">
         <AnimatedSquare2 />
       </div>
 
-      <div className=" relative md:absolute xl:relative bottom-0 left-0 w-full bg-gray-50 mt-8 overflow-hidden ">
+      {/* <div className=" relative md:absolute xl:relative bottom-0 left-0 w-full bg-gray-50 mt-8 overflow-hidden ">
         <div className=" flex justify-center items-center p-0  ">
           <h1 className=" text-[100px] sm:text-[160px] md:text-[240px] xl:text-[250px] text-orange-600 font-extrabold  ">
             EEMA®
           </h1>
+        </div>
+      </div> */}
+
+      <div className=" relative md:absolute bottom-0 left-0 w-full mt-8 overflow-hidden ">
+        <div className=" flex justify-center items-center p-0  ">
+          <Image
+            src="https://eemaindia.com/theme/FrontThemeTemplate/images/innlogo.svg"
+            alt="company-logo"
+            height={isMobile ? 250 : 450}
+            width={isMobile ? 350 : 650}
+          />
         </div>
       </div>
     </section>
