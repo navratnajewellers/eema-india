@@ -22,7 +22,7 @@ export default function AboutSection() {
 
   return (
     <section id="about" className=" bg-gray-50 px-7 sm:px-24 relative py-11 ">
-      <h4 className=" text-2xl text-black sticky top-40 z-10 w-fit bg-gray-50 ">
+      <h4 className=" text-2xl font-bold text-shadow-black sticky top-40 z-10 w-fit bg-gray-50 ">
         (About Us)
       </h4>
       {aboutData.map((data, index) => (
@@ -51,7 +51,7 @@ export default function AboutSection() {
           href="/about"
           className=" tracking-tight font-semibold text-2xl h-see-more-container "
         >
-          <span>See More</span>
+          <span className=" text-black ">See More</span>
         </a>
       </div>
       {/* <div className=" grid sm:grid-cols-4 gap-2 mt-7 min-h-[50vh] ">

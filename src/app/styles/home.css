@@ -27,3 +27,35 @@
 .h-see-more-container:hover {
   color: white;
 }
+
+/* Member CTA section */
+
+.m-cta-bg-sec {
+  border: solid 1px red;
+}
+
+.m-cta-bg-sec::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    -45deg,
+    rgba(164, 71, 37, 0.83),
+    rgba(196, 73, 29, 0.83),
+    rgba(205, 69, 20, 0.83),
+    rgba(227, 70, 12, 0.83),
+    rgba(255, 68, 0, 0.83)
+  );
+  /* background: linear-gradient(
+    -45deg,
+    rgba(37, 58, 110, 0.93),
+    rgba(29, 83, 137, 0.93),
+    rgba(20, 110, 166, 0.93),
+    rgba(12, 133, 190, 0.93),
+    rgba(5, 155, 214, 0.93)
+  ); */
+  z-index: -5;
+}

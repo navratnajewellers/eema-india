@@ -41,7 +41,7 @@ export default function ServiceSection() {
 
   return (
     <section className=" bg-gray-50 px-7 sm:px-24 relative py-28 ">
-      <h4 className=" text-black font-medium text-right sticky top-40 z-10 ">
+      <h4 className=" text-black font-bold text-right sticky top-40 z-10 ">
         (SERVICES)
       </h4>
 
