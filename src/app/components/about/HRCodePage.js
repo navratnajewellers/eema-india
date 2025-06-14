@@ -36,7 +36,7 @@ export default function HRCodePage() {
       id="hr-code-of-conduct"
       className=" bg-gray-50 text-black px-7 sm:px-24 relative py-36  "
     >
-      <div className=" sticky top-40 z-10 text-right ">
+      <div className=" block md:sticky top-40 z-10 text-right ">
         <h4 className=" text-black font-semibold ">(HR Code of Conduct)</h4>
         <motion.div
           initial={{ opacity: 0, x: -60 }}
@@ -52,7 +52,7 @@ export default function HRCodePage() {
         </motion.div>
       </div>
 
-      <div className=" grid grid-cols-1 md:grid-cols-2 gap-2 mr-44 ">
+      <div className=" grid grid-cols-1 md:grid-cols-2 gap-2 mr-0 md:mr-44 ">
         <section className=" relative py-11 ">
           <div className=" sticky top-40 z-10 px-11">
             <h3 className=" text-3xl tracking-tight font-semibold mb-4 ">

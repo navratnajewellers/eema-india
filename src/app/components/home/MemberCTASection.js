@@ -20,7 +20,7 @@ export default function MemberCTASection() {
         <h2 className=" text-2xl md:text-4xl font-bold mb-7 ">
           Join EEMA and Shape the Future of Events and Experiences in India
         </h2>
-        <p className=" text-lg md:text-xl font-medium mb-4 px-24  text-gray-200">
+        <p className=" text-lg md:text-xl font-medium mb-4 px-11 md:px-24 text-gray-200">
           Be a part of India’s most influential network of event professionals,
           creators, and experience-makers.
         </p>

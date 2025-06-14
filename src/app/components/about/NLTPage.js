@@ -4,11 +4,18 @@ import { Table, useMediaQuery } from "rsuite";
 import { Cell, HeaderCell } from "rsuite-table";
 import Column from "rsuite/esm/Table/TableColumn";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 export default function NLTPage() {
   const [isMobile] = useMediaQuery("(max-width: 768px)");
 
   const [isTablet] = useMediaQuery("(max-width: 1111px)");
+
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const NECData = [
     {
@@ -170,17 +177,19 @@ export default function NLTPage() {
     },
   ];
 
+  if (!mounted) return null;
+
   return (
     <section
       id="national-leadership-team"
-      className=" bg-gray-50 text-black px-7 sm:px-24 relative py-36 "
+      className=" bg-gray-50 text-black px-7 sm:px-24 relative py-36 overflow-hidden md:overflow-auto "
     >
-      <h4 className=" text-2xl text-black font-semibold sticky top-40 z-[12] w-fit py-4 bg-gray-50 ">
+      <h4 className=" text-2xl text-black font-semibold block md:sticky top-40 z-[12] w-fit py-4 bg-gray-50 ">
         (National Leadership Team)
       </h4>
 
       {/* first table */}
-      <div className=" grid grid-cols-1 md:grid-cols-6 gap-2 relative mt-16 ">
+      <div className=" grid grid-cols-1 md:grid-cols-6 gap-11 md:gap-2 relative mt-16 ">
         <section className=" md:col-span-2 pl-11 ">
           <div className=" sticky top-60 z-10 ">
             <motion.h4
@@ -218,7 +227,7 @@ export default function NLTPage() {
           >
             <Table
               // height={300}
-              width={isMobile ? 400 : isTablet ? 500 : 770}
+              width={isMobile ? 350 : isTablet ? 500 : 770}
               data={NECData}
               bordered
               cellBordered
@@ -258,7 +267,7 @@ export default function NLTPage() {
       </div>
 
       {/* second table */}
-      <div className=" grid grid-cols-1 md:grid-cols-6 gap-2 relative mt-16 ">
+      <div className=" grid grid-cols-1 md:grid-cols-6 gap-11 md:gap-2 relative mt-16 ">
         <section className=" md:col-span-2 pl-11 ">
           <div className=" sticky top-60 z-10 ">
             <motion.h4
@@ -296,7 +305,7 @@ export default function NLTPage() {
           >
             <Table
               // height={300}
-              width={isMobile ? 400 : isTablet ? 500 : 750}
+              width={isMobile ? 350 : isTablet ? 500 : 750}
               data={jointSecretaryData}
               bordered
               cellBordered
@@ -336,7 +345,7 @@ export default function NLTPage() {
       </div>
 
       {/* third table */}
-      <div className=" grid grid-cols-1 md:grid-cols-6 gap-2 relative mt-16 ">
+      <div className=" grid grid-cols-1 md:grid-cols-6 gap-11 md:gap-2 relative mt-16 ">
         <section className=" md:col-span-2 pl-11 ">
           <div className=" sticky top-60 z-10 ">
             <motion.h4
@@ -374,7 +383,7 @@ export default function NLTPage() {
           >
             <Table
               // height={300}
-              width={isMobile ? 400 : isTablet ? 500 : 580}
+              width={isMobile ? 350 : isTablet ? 500 : 580}
               data={secretariatTeamData}
               bordered
               cellBordered

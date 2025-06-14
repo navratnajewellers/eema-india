@@ -1,9 +1,8 @@
-// app/components/NavSection.tsx or your components folder
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { MoveDown } from "lucide-react";
 import AnimatedSquare2 from "./AnimatedSquare2";
-import Image from "next/image";
 import { useMediaQuery } from "rsuite";
 
 const navItems = [
@@ -64,7 +63,7 @@ export default function NavSection({ headerNavItems }) {
         </div>
       </div>
 
-      <div className=" absolute right-1/12 bottom-[20%] sm:bottom-1/3 xl:bottom-[40%] xl:z-[2] ">
+      <div className=" absolute right-1/12 bottom-[100%] sm:bottom-1/3 xl:bottom-[45%] xl:z-[2] ">
         <AnimatedSquare2 />
       </div>
 
@@ -76,13 +75,12 @@ export default function NavSection({ headerNavItems }) {
         </div>
       </div> */}
 
-      <div className=" relative md:absolute bottom-0 left-0 w-full mt-8 overflow-hidden ">
+      <div className=" relative md:absolute xl:relative bottom-0 left-0 w-full mt-2 overflow-hidden ">
         <div className=" flex justify-center items-center p-0  ">
-          <Image
+          <img
             src="https://eemaindia.com/theme/FrontThemeTemplate/images/innlogo.svg"
             alt="company-logo"
-            height={isMobile ? 250 : 450}
-            width={isMobile ? 350 : 650}
+            className=" h-[250px] w-[350px] md:h-[450px] md:w-[650px] "
           />
         </div>
       </div>

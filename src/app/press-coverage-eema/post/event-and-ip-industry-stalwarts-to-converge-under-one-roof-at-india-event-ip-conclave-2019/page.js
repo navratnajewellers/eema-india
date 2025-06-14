@@ -6,11 +6,18 @@ import { Cell, HeaderCell } from "rsuite-table";
 import Column from "rsuite/esm/Table/TableColumn";
 import { motion } from "motion/react";
 import "../../../styles/about.css";
+import { useEffect, useState } from "react";
 
 export default function Post12() {
   const [isMobile] = useMediaQuery("(max-width: 768px)");
 
   const [isTablet] = useMediaQuery("(max-width: 1111px)");
+
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const post12Data = [
     `India's leading curator and aggregator of IPs, Event Capital (EC); a part of Laqshya Media Group, announced 42 speakers who will be part of India Event IP Conclave 2019. Scheduled to take place on the 17thApril at JW Marriott in Juhu, Mumbai; the India Event IP Conclave will witness more than 50 speakers from different genres like fashion, music, sports, lifestyle, education who will share insights on the growth and monetization of IP for higher revenue and profit generation. The conclave will also witness participation of more than 300 delegates.`,
@@ -198,6 +205,8 @@ export default function Post12() {
     },
   ];
 
+  if (!mounted) return null;
+
   return (
     <>
       <PostHeader
@@ -220,7 +229,7 @@ export default function Post12() {
         ))}
       </div>
 
-      <section className=" flex flex-col justify-center items-center ">
+      <section className=" flex flex-col justify-center items-center overflow-hidden ">
         <h4 className=" text-black text-3xl tracking-tight font-semibold mb-11 ">
           List of 42 Speakers
         </h4>
@@ -234,7 +243,7 @@ export default function Post12() {
         >
           <Table
             // height={300}
-            width={isMobile ? 400 : isTablet ? 500 : 600}
+            width={isMobile ? 350 : isTablet ? 500 : 600}
             data={SpeakerData}
             bordered
             cellBordered

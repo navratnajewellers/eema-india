@@ -52,12 +52,12 @@ export default function IndustryPapersPage() {
       id="industry-whitepaper"
       className=" bg-gray-50 text-black px-7 sm:px-24 relative py-36  "
     >
-      <h4 className=" text-black font-semibold text-right sticky top-40 z-10 ">
+      <h4 className=" text-black font-semibold text-right block md:sticky top-40 z-10 ">
         (Industry White Papers)
       </h4>
 
       <div className=" relative py-11 ">
-        <div className=" w-1/2 sticky top-40 md:top-[50%] z-10 ">
+        <div className=" w-1/2 sticky top-40 md:top-[50%] z-10 left-full md:left-0 ">
           <div className=" flex justify-center ">
             <span className=" bg-orange-600 flex justify-center items-center h-20 w-20 rotate-slow ">
               <h2 className=" text-9xl text-white rotate-slow-anticlock ">
