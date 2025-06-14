@@ -243,7 +243,7 @@ export default function Post12() {
         >
           <Table
             // height={300}
-            width={isMobile ? 350 : isTablet ? 500 : 600}
+            width={isMobile ? 350 : isTablet ? 600 : 600}
             data={SpeakerData}
             bordered
             cellBordered

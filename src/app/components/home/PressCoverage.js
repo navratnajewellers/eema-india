@@ -66,8 +66,8 @@ export default function PressCoverage() {
       id="news"
       className=" bg-gray-50 text-black px-7 sm:px-24 relative py-11 "
     >
-      <h4 className=" text-black font-bold text-right sticky top-40 z-10 ">
-        (Press Coverage)
+      <h4 className=" text-black font-bold text-right sticky top-40 left-full z-10 bg-gray-50 w-fit border-b-2 border-orange-600 pb-1 ">
+        Press Coverage
       </h4>
 
       {pressCoverageData.map((data, index) => (

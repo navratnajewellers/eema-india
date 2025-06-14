@@ -87,8 +87,8 @@ export default function MemberSection() {
       id="members"
       className=" bg-gray-50 text-black px-7 sm:px-24 relative py-36 "
     >
-      <h4 className=" text-2xl font-bold sticky top-40 z-10 w-fit bg-gray-50 ">
-        (Meet Us)
+      <h4 className=" text-2xl font-bold sticky top-40 z-10 w-24 pb-2 bg-gray-50 border-b-2 border-orange-600 ">
+        National Executive Committee
       </h4>
 
       <p className=" leading-relaxed text-2xl font-semibold max-w-2xl mb-32 mt-28 pr-32 text-gray-500 ">

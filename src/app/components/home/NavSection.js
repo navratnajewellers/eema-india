@@ -34,7 +34,7 @@ export default function NavSection({ headerNavItems }) {
   const [isMobile] = useMediaQuery("(max-width: 768px)");
 
   return (
-    <section className=" bg-gray-50 min-h-[65vh] md:h-full xl:min-h-[95vh] relative ">
+    <section className=" bg-gray-50 min-h-[65vh] md:h-[75vh] xl:min-h-[95vh] relative ">
       <div className=" grid sm:grid-cols-3 gap-4 px-11 ">
         <div className="flex flex-col gap-4 p-2 max-w-xl xl:ml-12 md:col-span-2">
           {newNavItems.map((item, index) => (

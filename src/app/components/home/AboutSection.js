@@ -22,8 +22,8 @@ export default function AboutSection() {
 
   return (
     <section id="about" className=" bg-gray-50 px-7 sm:px-24 relative py-11 ">
-      <h4 className=" text-2xl font-bold text-shadow-black sticky top-40 z-10 w-fit bg-gray-50 ">
-        (About Us)
+      <h4 className=" text-2xl font-bold text-shadow-black sticky top-40 z-10 w-fit bg-gray-50 border-b-2 border-orange-600 pb-1 ">
+        About Us
       </h4>
       {aboutData.map((data, index) => (
         <div
@@ -49,9 +49,9 @@ export default function AboutSection() {
       <div className=" flex justify-center items-center py-11 mt-24 mb-4 relative ">
         <a
           href="/about"
-          className=" tracking-tight font-semibold text-2xl h-see-more-container "
+          className=" tracking-tight font-semibold text-2xl h-see-more-container text-black hover:text-white "
         >
-          <span className=" text-black ">See More</span>
+          <span>See More</span>
         </a>
       </div>
       {/* <div className=" grid sm:grid-cols-4 gap-2 mt-7 min-h-[50vh] ">

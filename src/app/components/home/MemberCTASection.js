@@ -24,14 +24,25 @@ export default function MemberCTASection() {
           Be a part of India’s most influential network of event professionals,
           creators, and experience-makers.
         </p>
-        <a
-          href="/become-emma-member"
-          className=" border-2 inline-block py-2 px-9 mt-7 rounded-4xl group border-white hover:bg-white transition-colors cursor-pointer "
-        >
-          <span className=" text-black font-bold group-hover:text-orange-600 transition-colors ">
-            Become a Member
-          </span>
-        </a>
+        <div className=" mt-7 ">
+          <a
+            href="/become-emma-member"
+            className=" border-2 inline-block py-2 px-9 rounded-4xl group border-white hover:bg-white transition-colors cursor-pointer mr-7 mb-7 "
+          >
+            <span className=" text-black font-bold group-hover:text-orange-600 transition-colors ">
+              Become a Member
+            </span>
+          </a>
+
+          <a
+            href="/member"
+            className=" border-2 inline-block py-2 px-9 rounded-4xl group border-white bg-white hover:bg-transparent transition-colors cursor-pointer "
+          >
+            <span className=" text-orange-600 font-bold group-hover:text-white transition-colors ">
+              Learn More
+            </span>
+          </a>
+        </div>
       </div>
     </section>
   );

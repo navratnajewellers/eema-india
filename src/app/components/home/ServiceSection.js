@@ -41,8 +41,8 @@ export default function ServiceSection() {
 
   return (
     <section className=" bg-gray-50 px-7 sm:px-24 relative py-28 ">
-      <h4 className=" text-black font-bold text-right sticky top-40 z-10 ">
-        (SERVICES)
+      <h4 className=" text-black font-bold text-right sticky top-40 left-full z-10 bg-gray-50 w-fit border-b-2 border-orange-600 pb-1 ">
+        SERVICES
       </h4>
 
       <div className=" relative py-11 ">
