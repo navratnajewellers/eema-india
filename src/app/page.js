@@ -28,7 +28,7 @@ export default function Home() {
     },
     {
       text: "Careers",
-      link: "/careers",
+      link: "/career",
     },
   ];
 

@@ -5,6 +5,8 @@ import Slider from "react-slick";
 import WHeader from "../components/WHeader";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { ArrowUpRight } from "lucide-react";
+import { Accordion } from "rsuite";
 
 export default function CareerPage() {
   const headerNavItems = [
@@ -23,6 +25,20 @@ export default function CareerPage() {
     autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   const slides = [
@@ -31,28 +47,28 @@ export default function CareerPage() {
         "https://d3r3sr3o54kk15.cloudfront.net/s3fs-public/styles/webp/public/carees/nasscom_values/2%202.png.webp?itok=OTLs73iv",
       title: "LifeLong Learning",
       description:
-        "Nasscom encourages and supports ongoing personal and professional development, recognizing that learning is a lifelong journey essential for growth and innovation in the rapidly evolving tech landscape.",
+        "EEMA encourages and supports ongoing personal and professional development, recognizing that learning is a lifelong journey essential for growth and innovation in the rapidly evolving tech landscape.",
     },
     {
       image:
         "https://d3r3sr3o54kk15.cloudfront.net/s3fs-public/styles/webp/public/carees/nasscom_values/Effective%20Collaboration.png.webp?itok=dfCNRY8E",
       title: "Trustworthiness",
       description:
-        "Nasscom maintains an unyielding commitment to trustworthiness and integrity in all its interactions and endeavors, ensuring reliability and confidence in the tech industry.",
+        "EEMA maintains an unyielding commitment to trustworthiness and integrity in all its interactions and endeavors, ensuring reliability and confidence in the tech industry.",
     },
     {
       image:
         "https://d3r3sr3o54kk15.cloudfront.net/s3fs-public/styles/webp/public/carees/nasscom_values/Continuous%20Learning.png.webp?itok=J64T31Sm",
       title: "Collaborative Spirit",
       description:
-        "Nasscom promotes and cultivates a culture of seamless and efficient teamwork, harnessing the collective expertise and diverse perspectives of its members and partners to achieve common goals and objectives.",
+        "EEMA promotes and cultivates a culture of seamless and efficient teamwork, harnessing the collective expertise and diverse perspectives of its members and partners to achieve common goals and objectives.",
     },
     {
       image:
         "https://d3r3sr3o54kk15.cloudfront.net/s3fs-public/styles/webp/public/carees/nasscom_values/Championing%20Inclusion.png.webp?itok=hulbt7bO",
       title: "Impactful Delivery",
       description:
-        "Nasscom is dedicated to achieving the greatest positive effect and influence through its actions, projects, and initiatives, driving significant progress in the technology sector.",
+        "EEMA is dedicated to achieving the greatest positive effect and influence through its actions, projects, and initiatives, driving significant progress in the technology sector.",
     },
   ];
 
@@ -92,12 +108,6 @@ export default function CareerPage() {
               close to 80% of the organized revenue in this space is represented
               through the EEMA members.
             </p>
-            <p className=" leading-relaxed font-medium mb-4 ">
-              If you are an enthusiastic, creative, and eager candidate to join
-              the experiential industry & passionate about event planning and
-              creating unique brand experiences, this is your chance to learn
-              and grow in an exciting field!
-            </p>
           </section>
           <section className=" col-span-3 relative pt-[66%] ">
             <div className=" flex justify-center items-center sticky top-2/4 z-10 ">
@@ -110,7 +120,7 @@ export default function CareerPage() {
       </section>
 
       <div className=" py-11 ">
-        <section className=" flex justify-center items-center border-2 -mb-32 ">
+        <section className=" flex justify-center items-center -mb-32 ">
           <div className=" relative w-[80%] h-[500px] ">
             <Image
               src="https://d3r3sr3o54kk15.cloudfront.net/s3fs-public/styles/webp/public/Landing_page_banner/career.jpg.webp?itok=K1J_zqnu"
@@ -133,7 +143,10 @@ export default function CareerPage() {
                 className="[&_.slick-slide]:px-4 [&_.slick-list]:-mx-4"
               >
                 {slides.map((data, index) => (
-                  <div key={index} className=" border-2 ">
+                  <div
+                    key={index}
+                    className=" shadow-md rounded-2xl bg-black/5 overflow-hidden "
+                  >
                     <div className="w-full h-[200px] relative rounded-xl overflow-hidden shadow-md ">
                       <Image
                         src={data.image}
@@ -142,7 +155,7 @@ export default function CareerPage() {
                         className="object-cover"
                       />
                     </div>
-                    <div className=" py-7 ">
+                    <div className=" py-7 px-2 text-center ">
                       <h2 className=" tracking-tight font-bold mb-4 text-3xl ">
                         {data.title}
                       </h2>
@@ -156,7 +169,100 @@ export default function CareerPage() {
             </div>
           </div>
         </section>
+
+        <section className=" w-[80%] m-auto py-24 ">
+          <h2 className=" tracking-tight font-bold text-3xl md:text-4xl mb-4 text-orange-600 ">
+            Join EEMA
+          </h2>
+          <p className=" leading-relaxed font-semibold text-lg text-gray-400 mb-7 ">
+            If you are an enthusiastic, creative, and eager candidate to join
+            the experiential industry & passionate about event planning and
+            creating unique brand experiences, this is your chance to learn and
+            grow in an exciting field!
+          </p>
+          <a
+            href="#"
+            className=" h-nav-link-container group relative h-1.5 w-fit flex items-center justify-between px-4 py-3 cursor-pointer text-black text-xl font-semibold transition-all duration-300 hover:text-white "
+          >
+            <span className="transition-all duration-300 group-hover:text-2xl text-nowrap ">
+              Apply Now
+            </span>
+            <ArrowUpRight className="w-4 h-4 ml-1.5 opacity-0 transform translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 text-white" />
+          </a>
+        </section>
       </div>
+
+      <div className=" w-[90%] h-0.5 bg-gray-200 m-auto "></div>
+
+      <section className=" py-24 px-28 ">
+        <h2 className=" tracking-tight font-bold text-3xl md:text-4xl mb-11 text-orange-600 ">
+          Frequently Asked Questions
+        </h2>
+        <Accordion defaultActiveKey={1} bordered>
+          <Accordion.Panel
+            header="What is the hiring and interview process?"
+            eventKey={1}
+          >
+            <div className=" py-2 ">
+              <p className=" text-gray-500 leading-relaxed mb-4 text-lg ">
+                We recommend everyone who is keen to apply to EEMA to go through
+                our website thoroughly. It is important for the applicant to be
+                fully aware about the impact EEMA creates and be clear if they
+                want to be part of the journey.
+              </p>
+              <p className=" text-gray-500 leading-relaxed mb-4 text-lg ">
+                Once you get shortlisted, you are called for interviews. There
+                3-4 rounds of interviews which is a combination of discussion
+                with the interviewer and case study / presentation on some
+                related topic. Each discussion is elimination round.
+              </p>
+              <div className=" py-4 text-gray-700 leading-relaxed ">
+                <span className=" font-semibold ">Email: </span>
+                <span>
+                  <a
+                    href="mailto:career@eemaindia.com"
+                    className=" inline-block hover:text-blue-500 "
+                  >
+                    career@eemaindia.com
+                  </a>
+                </span>
+              </div>
+            </div>
+          </Accordion.Panel>
+          <Accordion.Panel
+            header="Can I apply for multiple openings at EEMA?"
+            eventKey={2}
+          >
+            <div className=" py-2 ">
+              <p className=" text-gray-500 leading-relaxed text-lg ">
+                You can apply for as many roles as you deem fit for yourself and
+                your career.
+              </p>
+            </div>
+          </Accordion.Panel>
+          <Accordion.Panel
+            header="How to apply for a job role and hiring process?"
+            eventKey={3}
+          >
+            <div className=" py-2 ">
+              <div className=" py-4 text-gray-700 leading-relaxed ">
+                <span className=" font-semibold ">You can apply at </span>
+                <span>
+                  <a
+                    href="mailto:career@eemaindia.com"
+                    className=" inline-block hover:text-blue-500 "
+                  >
+                    career@eemaindia.com
+                  </a>
+                </span>
+              </div>
+              <p className=" text-gray-500 leading-relaxed text-lg ">
+                You will be contacted if your profile is shortlisted.
+              </p>
+            </div>
+          </Accordion.Panel>
+        </Accordion>
+      </section>
     </>
   );
 }
