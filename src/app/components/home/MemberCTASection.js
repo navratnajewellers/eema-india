@@ -29,7 +29,7 @@ export default function MemberCTASection() {
             href="/become-emma-member"
             className=" border-2 inline-block py-2 px-9 rounded-4xl group border-white hover:bg-white transition-colors cursor-pointer mr-7 mb-7 "
           >
-            <span className=" text-black font-bold group-hover:text-orange-600 transition-colors ">
+            <span className=" text-white font-bold group-hover:text-orange-600 transition-colors ">
               Become a Member
             </span>
           </a>

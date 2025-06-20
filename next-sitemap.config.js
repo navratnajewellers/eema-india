@@ -6,10 +6,10 @@ module.exports = {
   sitemapSize: 5000,
 
   additionalPaths: async (config) => [
-    { loc: "/", lastMod: new Date().toISOString(), priority: 1.0 },
-    { loc: "/about", lastMod: new Date().toISOString(), priority: 0.8 },
-    { loc: "/contact", lastMod: new Date().toISOString(), priority: 0.7 },
-    { loc: "/product", lastMod: new Date().toISOString(), priority: 0.7 },
+    { loc: "/", lastmod: new Date().toISOString(), priority: 1.0 },
+    { loc: "/about", lastmod: new Date().toISOString(), priority: 0.8 },
+    { loc: "/contact", lastmod: new Date().toISOString(), priority: 0.7 },
+    { loc: "/product", lastmod: new Date().toISOString(), priority: 0.7 },
   ],
 
   robotsTxtOptions: {

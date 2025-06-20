@@ -3,7 +3,6 @@
 
 import { MoveDown } from "lucide-react";
 import AnimatedSquare2 from "./AnimatedSquare2";
-import { useMediaQuery } from "rsuite";
 
 const navItems = [
   {
@@ -30,8 +29,6 @@ const navItems = [
 
 export default function NavSection({ headerNavItems }) {
   const newNavItems = headerNavItems?.length > 0 ? headerNavItems : navItems;
-
-  const [isMobile] = useMediaQuery("(max-width: 768px)");
 
   return (
     <section className=" bg-gray-50 min-h-[65vh] md:h-[75vh] xl:min-h-[95vh] relative ">
@@ -67,20 +64,12 @@ export default function NavSection({ headerNavItems }) {
         <AnimatedSquare2 />
       </div>
 
-      {/* <div className=" relative md:absolute xl:relative bottom-0 left-0 w-full bg-gray-50 mt-8 overflow-hidden ">
-        <div className=" flex justify-center items-center p-0  ">
-          <h1 className=" text-[100px] sm:text-[160px] md:text-[240px] xl:text-[250px] text-orange-600 font-extrabold  ">
-            EEMA®
-          </h1>
-        </div>
-      </div> */}
-
       <div className=" relative md:absolute xl:relative bottom-0 left-0 w-full mt-2 overflow-hidden ">
-        <div className=" flex justify-center items-center p-0  ">
+        <div className=" flex justify-center items-center p-0 xl:mt-14  ">
           <img
             src="https://eemaindia.com/theme/FrontThemeTemplate/images/innlogo.svg"
             alt="company-logo"
-            className=" h-[250px] w-[350px] md:h-[450px] md:w-[650px] "
+            className=" h-[250px] w-[350px] md:h-[270px] md:w-[650px] "
           />
         </div>
       </div>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import NavSection from "./home/NavSection";
 import "../styles/header.css";
+import HeaderSideBar from "./HeaderSideBar";
 
 export default function WHeader({ headerNavItems }) {
   return (
@@ -12,6 +13,8 @@ export default function WHeader({ headerNavItems }) {
         >
           Home
         </Link>
+
+        <HeaderSideBar />
       </section>
 
       <NavSection headerNavItems={headerNavItems} />

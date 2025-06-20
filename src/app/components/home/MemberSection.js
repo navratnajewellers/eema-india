@@ -61,7 +61,7 @@ export default function MemberSection() {
       company: "Red Chariots Event Management & Marketing",
       instagram: "https://www.instagram.com/dvvinodgopal/",
       linkedin: "https://www.linkedin.com/in/d-v-vinod-gopal-80784321/",
-      image: "/images/team/d-v-vinod.jpg",
+      image: "/images/team/d-v-vinod-2.jpg",
     },
     {
       name: "Harshal Kothari",
