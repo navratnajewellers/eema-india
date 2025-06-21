@@ -5,7 +5,7 @@ import HeaderSideBar from "./HeaderSideBar";
 
 export default function WHeader({ headerNavItems }) {
   return (
-    <header className=" h-screen xl:h-full w-full bg-gray-50 relative  ">
+    <header className=" h-screen xl:h-full w-full bg-gray-50 relative shadow-md border-b-2 border-gray-200 pb-11  ">
       <section className=" h-[25vh] w-full">
         <Link
           href="/"
