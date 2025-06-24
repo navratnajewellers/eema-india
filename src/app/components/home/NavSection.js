@@ -3,6 +3,7 @@
 
 import { MoveDown } from "lucide-react";
 import AnimatedSquare2 from "./AnimatedSquare2";
+import Link from "next/link";
 
 const navItems = [
   {
@@ -27,7 +28,10 @@ const navItems = [
   },
 ];
 
-export default function NavSection({ headerNavItems }) {
+export default function NavSection({
+  headerNavItems,
+  headerImage = "/images/logo/eema-logo-orange-black.png",
+}) {
   const newNavItems = headerNavItems?.length > 0 ? headerNavItems : navItems;
 
   return (
@@ -49,9 +53,12 @@ export default function NavSection({ headerNavItems }) {
         </div>
 
         <div className="  mx-2 md:col-span-1">
-          <h2 className=" tracking-tight text-black text-2xl font-bold mb-4 mt-11 sm:mt-0 ">
+          <Link
+            href="/"
+            className=" block tracking-tight text-black text-2xl font-bold mb-4 mt-11 sm:mt-0 hover:text-orange-600 "
+          >
             EEMA India
-          </h2>
+          </Link>
           <p className=" leading-relaxed text-lg text-gray-500 font-semibold ">
             EEMA is an autonomous, non-profit body of registered companies,
             institutions, and professionals operating within India’s Events and
@@ -67,7 +74,7 @@ export default function NavSection({ headerNavItems }) {
       <div className=" relative md:absolute xl:relative bottom-0 left-0 w-full mt-2 overflow-hidden ">
         <div className=" flex justify-center items-center p-0 xl:mt-14  ">
           <img
-            src="https://eemaindia.com/theme/FrontThemeTemplate/images/innlogo.svg"
+            src={headerImage}
             alt="company-logo"
             className=" h-[250px] w-[350px] md:h-[270px] md:w-[650px] "
           />

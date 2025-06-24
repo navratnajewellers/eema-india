@@ -3,9 +3,9 @@ import NavSection from "./home/NavSection";
 import "../styles/header.css";
 import HeaderSideBar from "./HeaderSideBar";
 
-export default function WHeader({ headerNavItems }) {
+export default function WHeader({ headerNavItems, headerImage }) {
   return (
-    <header className=" h-screen xl:h-full w-full bg-gray-50 relative shadow-md border-b-2 border-gray-200 pb-11  ">
+    <header className=" h-screen xl:h-full w-full bg-gray-50 relative shadow-md border-b-2 border-gray-200 pb-24  ">
       <section className=" h-[25vh] w-full">
         <Link
           href="/"
@@ -17,7 +17,7 @@ export default function WHeader({ headerNavItems }) {
         <HeaderSideBar />
       </section>
 
-      <NavSection headerNavItems={headerNavItems} />
+      <NavSection headerNavItems={headerNavItems} headerImage={headerImage} />
     </header>
   );
 }

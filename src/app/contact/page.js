@@ -1,6 +1,6 @@
 "use client";
 
-import { LocationEdit, Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import ContactForm from "../components/contactComponent/ContactForm";
 import WHeader from "../components/WHeader";
 
