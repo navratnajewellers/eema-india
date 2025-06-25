@@ -2,6 +2,7 @@
 
 import Hamburger from "hamburger-react";
 import { ArrowDown, ArrowUpRight } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
 import { Drawer, useMediaQuery } from "rsuite";
 
@@ -77,9 +78,12 @@ export default function HeaderSideBar() {
       >
         <Drawer.Body>
           <nav>
-            <h2 className=" text-2xl font-bold leading-relaxed text-orange-600 text-center ">
+            <Link
+              href="/"
+              className=" block text-2xl font-bold leading-relaxed text-orange-600 text-center "
+            >
               EEMA India
-            </h2>
+            </Link>
             <ul className=" flex flex-col mt-7 ">
               <li className=" relative group py-2 ">
                 <SpecialButtonEffect text="About Us" toggleText="about" />
@@ -88,7 +92,7 @@ export default function HeaderSideBar() {
                 >
                   <li>
                     <a
-                      href="#"
+                      href="/about"
                       className=" block px-4 py-2 hover:bg-gray-100 text-gray-800 hover:text-orange-600 hover:font-semibold transition-all "
                     >
                       About EEMA
@@ -96,7 +100,7 @@ export default function HeaderSideBar() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/about/#national-leadership-team"
                       className=" block px-4 py-2 hover:bg-gray-100 text-gray-800 hover:text-orange-600 hover:font-semibold transition-all "
                     >
                       National Leadership Team
@@ -153,7 +157,7 @@ export default function HeaderSideBar() {
                 >
                   <li>
                     <a
-                      href="#"
+                      href="/press-coverage-eema/"
                       className=" block px-4 py-2 hover:bg-gray-100 text-gray-800 hover:text-orange-600 hover:font-semibold transition-all "
                     >
                       Press Coverage
@@ -161,7 +165,7 @@ export default function HeaderSideBar() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/press-coverage-eema/#eema-initiatives"
                       className=" block px-4 py-2 hover:bg-gray-100 text-gray-800 hover:text-orange-600 hover:font-semibold transition-all "
                     >
                       EEMA Initiative
@@ -170,10 +174,13 @@ export default function HeaderSideBar() {
                 </ul>
               </li>
               <li className=" py-2 ">
-                <SpecialTextEffect text="Newsletter" link="#" />
+                <SpecialTextEffect text="Newsletter" link="/newsletter" />
               </li>
               <li className=" py-2 ">
-                <SpecialTextEffect text="Regional Initiative" link="#" />
+                <SpecialTextEffect
+                  text="Regional Initiative"
+                  link="/eema-regional-initiatives"
+                />
               </li>
               <li className=" relative group py-2 ">
                 <SpecialButtonEffect text="EEMAGINE" toggleText="eemagine" />
@@ -199,16 +206,16 @@ export default function HeaderSideBar() {
                 </ul>
               </li>
               <li className=" py-2 ">
-                <SpecialTextEffect text="EEMAX Global" link="#" />
+                <SpecialTextEffect text="EEMAX Global" link="/eemaxglobal" />
               </li>
               <li className=" py-2 ">
                 <SpecialTextEffect text="SpotLight Awards" link="#" />
               </li>
               <li className=" py-2 ">
-                <SpecialTextEffect text="Career" link="#" />
+                <SpecialTextEffect text="Career" link="/career" />
               </li>
               <li className=" py-2 ">
-                <SpecialTextEffect text="Contact Us" link="#" />
+                <SpecialTextEffect text="Contact Us" link="/contact" />
               </li>
             </ul>
           </nav>

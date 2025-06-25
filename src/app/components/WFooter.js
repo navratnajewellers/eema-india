@@ -21,7 +21,7 @@ const WFooter = () => {
     },
     {
       title: "About Us",
-      link: "#about",
+      link: "/about",
     },
     {
       title: "Privacy",
@@ -29,15 +29,15 @@ const WFooter = () => {
     },
     {
       title: "Careers",
-      link: "#",
+      link: "/career",
     },
     {
       title: "Contact Us",
-      link: "#",
+      link: "/contact",
     },
     {
       title: "EEMAX GLOBAL",
-      link: "#",
+      link: "/eemaxglobal",
     },
     {
       title: "Events",
@@ -45,7 +45,7 @@ const WFooter = () => {
     },
     {
       title: "News",
-      link: "#news",
+      link: "/press-coverage-eema",
     },
   ];
 

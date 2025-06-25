@@ -103,15 +103,16 @@ const EemaxGallery = () => {
                     }}
                     viewport={{ amount: 0.5 }}
                     key={index}
-                    href="#"
-                    className=" border-2 shadow-md rounded-2xl bg-black/5 overflow-hidden block "
+                    href={data.image}
+                    target="_blank"
+                    className=" border-2 shadow-md rounded-2xl bg-black/5 overflow-hidden block border-gray-200 "
                   >
                     <div className="w-full h-[350px] relative rounded-xl overflow-hidden shadow-md ">
                       <Image
                         src={data.image}
                         alt={`image-${index + 1}`}
                         fill
-                        className="object-cover"
+                        className="object-cover hover:scale-110 transition-all"
                       />
                     </div>
                   </motion.a>

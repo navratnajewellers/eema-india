@@ -60,13 +60,13 @@ export default function EemaxglobalPage() {
 
   return (
     <>
-      <WHeader
+      {/* <WHeader
         headerNavItems={headerNavItems}
         headerImage="/images/logo/eemax-2025-logo.png"
-      />
+      /> */}
 
       {/* Hero Section */}
-      <section className="relative w-full h-screen overflow-hidden mb-7">
+      <section className="relative w-full h-screen overflow-hidden mb-7 ">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover"
           autoPlay

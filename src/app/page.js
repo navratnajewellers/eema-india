@@ -24,7 +24,7 @@ export default function Home() {
     },
     {
       text: "EEMAX Global",
-      link: "/eemax-global",
+      link: "/eemaxglobal",
     },
     {
       text: "Careers",
