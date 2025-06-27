@@ -59,3 +59,11 @@
   ); */
   z-index: -5;
 }
+
+.rs-timeline-item:nth-child(even) {
+  flex-direction: row-reverse !important;
+}
+
+.rs-timeline-item-time {
+  padding-left: 17px !important;
+}

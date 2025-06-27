@@ -1,5 +1,6 @@
 import AboutSection from "./components/home/AboutSection";
 import HomeHeroSection from "./components/home/HomeHeroSection";
+import JourneyTimeline from "./components/home/JourneyTimeline";
 import MemberCTASection from "./components/home/MemberCTASection";
 import MemberSection from "./components/home/MemberSection";
 import PressCoverage from "./components/home/PressCoverage";
@@ -42,7 +43,9 @@ export default function Home() {
 
       <WHeader headerNavItems={headerNavItems} />
 
-      <AboutSection />
+      {/* <AboutSection /> */}
+
+      <JourneyTimeline />
 
       <div className=" w-[90%] h-0.5 bg-gray-200 m-auto "></div>
 

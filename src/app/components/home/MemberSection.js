@@ -87,11 +87,11 @@ export default function MemberSection() {
       id="members"
       className=" bg-gray-50 text-black px-7 sm:px-24 relative py-36 "
     >
-      <h4 className=" text-2xl font-bold sticky top-40 z-10 w-24 pb-2 bg-gray-50 border-b-2 border-orange-600 ">
+      <h4 className=" text-2xl font-bold sticky top-40 z-10 w-32 pb-2 bg-gray-50 border-b-2 border-orange-600 ">
         National Executive Committee
       </h4>
 
-      <p className=" leading-relaxed text-2xl font-semibold max-w-2xl mb-32 mt-28 pr-32 text-gray-500 ">
+      <p className=" leading-relaxed text-2xl font-semibold max-w-2xl mb-32 mt-28 pr-32 text-gray-500 mx-auto ">
         Meet the visionary leaders steering EEMA towards innovation, unity, and
         excellence across India’s event and experiential landscape.
       </p>
