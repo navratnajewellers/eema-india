@@ -23,6 +23,10 @@ const navItems = [
     link: "/eemaxglobal",
   },
   {
+    text: "Knowledge Center",
+    link: "/knowledge-center",
+  },
+  {
     text: "Careers",
     link: "/career",
   },

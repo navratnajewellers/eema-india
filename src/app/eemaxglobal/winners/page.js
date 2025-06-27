@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Nav } from "rsuite";
+import { Divider, Nav } from "rsuite";
 import { motion } from "framer-motion";
 import EemaxWinner2024 from "./EemaxWinner2024";
 
@@ -63,6 +63,8 @@ export default function EemaxWinnerPage() {
               </h4>
             </div>
           </motion.div>
+
+          <Divider />
 
           <motion.div
             id="2023-2024"

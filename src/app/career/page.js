@@ -82,11 +82,11 @@ export default function CareerPage() {
       >
         <div>
           <h2 className=" leading-relaxed text-6xl font-bold text-orange-600 ">
-            Career
+            Careers
           </h2>
         </div>
         <div className=" grid grid-cols-1 md:grid-cols-12 gap-8 ">
-          <section className=" col-span-9 text-black ">
+          <section className=" col-span-12 md:col-span-9 text-black ">
             <h4 className=" tracking-tight text-3xl font-bold text-orange-500 mb-7 ">
               Shape your career, unlock your full potential, and make a
               meaningful impact.
@@ -109,7 +109,7 @@ export default function CareerPage() {
               through the EEMA members.
             </p>
           </section>
-          <section className=" col-span-3 relative pt-[66%] ">
+          <section className=" col-span-12 md:col-span-3 relative pt-11 md:pt-[66%] mx-auto ">
             <div className=" flex justify-center items-center sticky top-2/4 z-10 ">
               <a className=" inline-block border-2 py-3 px-9 rounded-4xl bg-orange-600 text-white leading-relaxed font-semibold cursor-pointer ">
                 WORK WITH US
@@ -194,7 +194,7 @@ export default function CareerPage() {
 
       <div className=" w-[90%] h-0.5 bg-gray-200 m-auto "></div>
 
-      <section className=" py-24 px-28 ">
+      <section className=" py-24 px-7 md:px-28 ">
         <h2 className=" tracking-tight font-bold text-3xl md:text-4xl mb-11 text-orange-600 ">
           Frequently Asked Questions
         </h2>

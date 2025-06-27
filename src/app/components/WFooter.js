@@ -212,7 +212,7 @@ const WFooter = () => {
                   href="#"
                   className=" text-orange-600 font-bold tracking-tight ml-1 "
                 >
-                  SAHATYA
+                  SAHAYTA
                 </a>
               </span>
             </section>

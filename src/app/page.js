@@ -27,6 +27,10 @@ export default function Home() {
       link: "/eemaxglobal",
     },
     {
+      text: "Knowledge Center",
+      link: "/knowledge-center",
+    },
+    {
       text: "Careers",
       link: "/career",
     },
