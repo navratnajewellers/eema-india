@@ -1,5 +1,6 @@
 "use client";
 
+import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 
 export default function MemberSection() {
@@ -129,8 +130,27 @@ export default function MemberSection() {
                 </div>
 
                 <div>
-                  <div className=" flex justify-between items-center ">
+                  <div className=" mt-11 md:mt-auto flex justify-between items-center ">
                     <a
+                      href={data.instagram}
+                      className=" h-nav-link-container group relative h-1.5 w-fit flex items-center justify-between px-4 py-3 cursor-pointer text-black text-sm font-semibold transition-all duration-300 hover:text-white "
+                    >
+                      <span className="transition-all duration-300 group-hover:text-[16px] text-nowrap ">
+                        INSTAGRAM
+                      </span>
+                      <ArrowUpRight className="w-4 h-4 ml-1.5 opacity-0 transform translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 text-black" />
+                    </a>
+
+                    <a
+                      href={data.linkedin}
+                      className=" h-nav-link-container group relative h-1.5 w-fit flex items-center justify-between px-4 py-3 cursor-pointer text-black text-sm font-semibold transition-all duration-300 hover:text-white "
+                    >
+                      <span className="transition-all duration-300 group-hover:text-[16px] text-nowrap ">
+                        LINKEDIN
+                      </span>
+                      <ArrowUpRight className="w-4 h-4 ml-1.5 opacity-0 transform translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 text-black" />
+                    </a>
+                    {/* <a
                       href={data.instagram}
                       className=" font-semibold tracking-tight "
                     >
@@ -141,7 +161,7 @@ export default function MemberSection() {
                       className=" font-semibold tracking-tight "
                     >
                       LINKEDIN
-                    </a>
+                    </a> */}
                   </div>
                   <span className=" block text-right font-medium tracking-tight ">
                     {index + 1}/{memberDetails.length}

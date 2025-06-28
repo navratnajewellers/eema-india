@@ -169,7 +169,6 @@ export default function EemaxglobalPage() {
           src="/images/eemax-global-assets/eemax-global-banner.jpg"
           alt="EEMAX Global Banner"
           fill
-          className=" object-cover "
         />
       </section>
 

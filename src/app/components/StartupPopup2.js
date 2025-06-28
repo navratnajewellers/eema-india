@@ -1,7 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
-// components/StartupPopup.js
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Modal } from "rsuite";
 
@@ -27,10 +26,18 @@ export default function StartupPopup2() {
       className=" popup-modal-container "
     >
       <Modal.Header></Modal.Header>
-      <div className=" imageWrapper-fill ">
+      {/* <div className=" imageWrapper-fill ">
         <img
           src="/images/popup/eema-website-popup-image.png"
           alt="website popup"
+        />
+      </div> */}
+      <div className=" w-full h-[250px] md:h-[450px] relative ">
+        <Image
+          src="/images/popup/eema-website-popup-image.png"
+          alt="website popup"
+          fill
+          className=" rounded-2xl "
         />
       </div>
     </Modal>
