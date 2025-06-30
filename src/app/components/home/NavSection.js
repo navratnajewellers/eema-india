@@ -8,11 +8,11 @@ import Image from "next/image";
 const navItems = [
   {
     text: "About Us",
-    link: "/#about",
+    link: "/about",
   },
   {
     text: "Members",
-    link: "/#members",
+    link: "/members",
   },
   {
     text: "Eemagine 2025",

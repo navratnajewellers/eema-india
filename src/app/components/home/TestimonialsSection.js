@@ -46,7 +46,7 @@ export default function TestimonialsSection() {
         </p>
       </div>
       <div className="max-w-3xl mx-auto">
-        <Slider {...settings}>
+        <Slider {...settings} className=" [&_.slick-list]:!pb-6 ">
           {testimonials.map((item, index) => (
             <motion.div
               key={index}

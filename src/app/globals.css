@@ -153,3 +153,31 @@ body {
     display: inline-block;
   }
 }
+
+/* border with bubble at both end */
+.fancy-border {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.fancy-border::before,
+.fancy-border::after {
+  content: "";
+  position: absolute;
+  width: 194px;
+  height: 194px;
+  background-color: oklch(83.7% 0.128 66.29);
+  border-radius: 100%;
+  z-index: -10;
+}
+
+.fancy-border::before {
+  top: -80px;
+  right: -80px;
+}
+
+.fancy-border::after {
+  bottom: -80px;
+  left: -80px;
+}
