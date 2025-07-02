@@ -181,3 +181,11 @@ body {
   bottom: -80px;
   left: -80px;
 }
+
+@media screen and (max-width: 768px) {
+  .fancy-border::before,
+  .fancy-border::after {
+    width: 154px;
+    height: 154px;
+  }
+}
