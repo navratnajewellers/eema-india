@@ -112,7 +112,7 @@ export default function HeaderSideBar() {
                 <SpecialTextEffect text="Gallery" link="#" />
               </li>
               <li className=" relative group py-2 ">
-                <SpecialButtonEffect text="Members" toggleText="Members" />
+                <SpecialButtonEffect text="Members" toggleText="member" />
                 <ul
                   className={` absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 transform -translate-y-2 transition-all duration-200 z-50 invisible ${openDropdowns.member && isTablet ? "visible opacity-100 translate-y-0" : " group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible "} `}
                 >
@@ -151,7 +151,7 @@ export default function HeaderSideBar() {
                 </ul>
               </li>
               <li className=" relative group py-2 ">
-                <SpecialButtonEffect text="News" toggleText="News" />
+                <SpecialButtonEffect text="News" toggleText="news" />
                 <ul
                   className={` absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 transform -translate-y-2 transition-all duration-200 z-50 invisible ${openDropdowns.news && isTablet ? "visible opacity-100 translate-y-0" : " group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible "} `}
                 >

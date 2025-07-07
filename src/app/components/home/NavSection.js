@@ -40,6 +40,19 @@ export default function NavSection({
 
   return (
     <section className=" bg-gray-50 h-full relative ">
+      <div className=" relative bottom-0 left-0 w-full mt-2 md:mt-2 xl:mt-2 mb-20 overflow-hidden ">
+        <div className=" flex justify-center items-center p-0 xl:mt-14  ">
+          <div className=" relative h-[160px] w-[340px] md:h-[150px] md:w-[370px] ">
+            <Image src={headerImage} alt="company-logo" fill />
+          </div>
+          {/* <img
+            src={headerImage}
+            alt="company-logo"
+            className=" h-[250px] w-[350px] md:h-[270px] md:w-[650px] "
+          /> */}
+        </div>
+      </div>
+
       <div className=" grid sm:grid-cols-3 gap-4 px-11 ">
         <div className="flex flex-col gap-4 p-2 max-w-xl xl:ml-12 md:col-span-2">
           {newNavItems.map((item, index) => (
@@ -71,21 +84,8 @@ export default function NavSection({
         </div>
       </div>
 
-      <div className=" absolute right-1/12 bottom-[100%] md:bottom-[45%] xl:bottom-[45%] xl:z-[2] ">
+      <div className=" absolute right-1/12 bottom-[25%] md:bottom-[60%] xl:bottom-[52%] xl:z-[2] ">
         <AnimatedSquare2 />
-      </div>
-
-      <div className=" relative bottom-0 left-0 w-full mt-11 md:mt-36 xl:mt-11 overflow-hidden ">
-        <div className=" flex justify-center items-center p-0 xl:mt-14  ">
-          <div className=" relative h-[160px] w-[340px] md:h-[270px] md:w-[650px] ">
-            <Image src={headerImage} alt="company-logo" fill />
-          </div>
-          {/* <img
-            src={headerImage}
-            alt="company-logo"
-            className=" h-[250px] w-[350px] md:h-[270px] md:w-[650px] "
-          /> */}
-        </div>
       </div>
     </section>
   );

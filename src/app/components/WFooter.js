@@ -40,12 +40,12 @@ const WFooter = () => {
       link: "/eemaxglobal",
     },
     {
-      title: "Events",
-      link: "#",
-    },
-    {
       title: "News",
       link: "/press-coverage-eema",
+    },
+    {
+      title: "Knowledge Center",
+      link: "#",
     },
   ];
 
@@ -117,8 +117,8 @@ const WFooter = () => {
 
       <section className=" fixed top-0 left-0 z-[1] h-full w-full pl-6 pr-6 pt-9 overflow-scroll xl:overflow-hidden no-scrollbar ">
         <div className="  bg-black text-white w-full rounded-t-4xl py-4 px-11 ">
-          <div className=" grid grid-cols-1 xl:grid-cols-12 mt-24 gap-20 xl:gap-0.5 ">
-            <div className=" tracking-tight flex flex-col gap-7 md:col-span-4 ">
+          <div className=" grid grid-cols-1 xl:grid-cols-12 mt-24 gap-20 xl:gap-10 ">
+            <div className=" tracking-tight flex flex-col gap-7 md:col-span-6 ">
               <h4 className=" text-lg ">(LET&apos;S CONNECT)</h4>
               <h2 className=" text-3xl ">
                 E-330, Ground Floor, Greater Kailash Part – 2, New Delhi. 110048
@@ -139,7 +139,7 @@ const WFooter = () => {
               ))}
             </div>
 
-            <div className=" flex flex-col gap-2 md:col-span-2 pl-2.5 ">
+            <div className=" flex flex-col gap-2 md:col-span-3 pl-2.5 ">
               <h4 className=" mb-5 tracking-tight ">Company</h4>
 
               {sec2Data.map((data, index) => (
@@ -156,29 +156,7 @@ const WFooter = () => {
               ))}
             </div>
 
-            <div className=" flex flex-col gap-2 md:col-span-4 ">
-              <h4 className="mb-5 tracking-tight">Documents</h4>
-
-              {sec3Data.map((data, index) => (
-                <a
-                  key={index}
-                  href={data.link}
-                  className=" h-nav-link-container group relative h-1.5 hover:h-fit w-fit flex items-center justify-between px-4 py-3 cursor-pointer text-white text-sm font-semibold transition-all duration-300 hover:text-black "
-                >
-                  <span className="transition-all duration-300 group-hover:opacity-0 group-hover:hidden text-nowrap ">
-                    {data.title.length > 40
-                      ? `${data.title.slice(0, 40)}...`
-                      : data.title}
-                  </span>
-                  <span className="transition-all duration-300 opacity-0 group-hover:text-[16px] group-hover:opacity-100">
-                    {data.title}
-                  </span>
-                  <ArrowUpRight className="w-4 h-4 ml-1.5 opacity-0 transform translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 text-black" />
-                </a>
-              ))}
-            </div>
-
-            <div className=" flex flex-col gap-2 md:col-span-2 pl-4 ">
+            <div className=" flex flex-col gap-2 md:col-span-3 pl-4 ">
               <h4 className="mb-5 tracking-tight">(FOLLOW US)</h4>
 
               {sec4Data.map((data, index) => (

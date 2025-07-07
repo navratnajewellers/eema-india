@@ -74,7 +74,7 @@ export default function WhyJoinSection() {
         viewport={{ once: true }}
         className="mb-16"
       >
-        <h2 className="text-3xl font-bold mb-9 w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600 ">
+        <h2 className="text-3xl text-black font-bold mb-9 w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600 ">
           Why Join EEMA?
         </h2>
         <p className="text-gray-600 max-w-xl mx-auto">

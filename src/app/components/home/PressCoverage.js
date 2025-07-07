@@ -6,58 +6,38 @@ import { motion } from "motion/react";
 export default function PressCoverage() {
   const pressCoverageData = [
     {
-      date: "May 30, 2021",
-      title: "Event Community Steps forward for Covid Assistance",
-      image: "/images/press-coverage/1622621570_Pioneer.webp",
-      link: "https://www.dailypioneer.com/2021/business/event-community-steps-forward-for-covid-assistance.html",
-    },
-    {
-      date: "May 29, 2021",
+      date: "May 27, 2025",
       title:
-        "Live experience doesn’t always translate in virtual events: Roshan Abbas",
-      image: "/images/press-coverage/1622621647_IANS Story.webp",
-      link: "https://www.thestatesman.com/entertainment/theatre/live-experience-doesnt-always-translate-virtual-events-roshan-abbas-1502969711.html",
+        "EEMA Spotlight Awards 2025 - Celebrates the unsung heroes of the event industry",
+      image: "/images/press-coverage/h-pr1-Vijay-Batra-2-1068x785.jpg",
+      link: "https://www.google.com/url?q=https://in.eventfaqs.com/2025/05/27/eema-spotlight-awards-2025-celebrates-the-unsung-heroes-of-the-event-industry/&sa=D&source=editors&ust=1751879883324442&usg=AOvVaw2YQ7cr2Y9wLpXnZlaVHYJY",
     },
     {
-      date: "May 27, 2021",
-      title: "EEMA joins Covid Relief Efforts",
-      image: "/images/press-coverage/1622621492_Mint Story_May.webp",
-      link: "https://www.livemint.com/industry/media/eema-joins-covid-relief-efforts-11622090703730.html",
+      date: "May 27, 2025",
+      title: "EEMA Spotlight Awards 2025 honours heroes of event industry",
+      image: "/images/press-coverage/h-pr2-eema-awards.jpg",
+      link: "https://www.google.com/url?q=https://tourismbreakingnews.com/eema-spotlight-awards-2025-honours-heroes-of-event-industry/&sa=D&source=editors&ust=1751879883325549&usg=AOvVaw2u9VeMZUgbtiJ7q1pgcvd8",
     },
     {
-      date: "May 06, 2021",
+      date: "May 27, 2025",
+      title: "The EEMA Spotlight Awards 2025",
+      image:
+        "/images/press-coverage/h-pr3-501002870_1035205322044848_9030631064118380580_n.jpg",
+      link: "https://www.google.com/url?q=https://www.instagram.com/share/_e6FroCmK&sa=D&source=editors&ust=1751879883326541&usg=AOvVaw10hXn-ejJOVouy1CGJfFm1",
+    },
+    {
+      date: "May 27, 2025",
+      title: "The EEMA Spotlight Awards 2025: MICE talk",
+      image:
+        "/images/press-coverage/h-pr4-500076815_1035205338711513_7028311159001074582_n.jpg",
+      link: "https://www.google.com/url?q=https://www.facebook.com/share/16QL2PUJ58/?mibextid%3DwwXIfr&sa=D&source=editors&ust=1751879883327586&usg=AOvVaw1vZjRFLDpcAtNRywV3YRMr",
+    },
+    {
+      date: "April 03, 2025",
       title:
-        "EEMA initiates 24-hour helpline to assist with refilling oxygen cylinders in Delhi",
-      image: "/images/press-coverage/1620463768_NIE Article.webp",
-      link: "https://www.newindianexpress.com/cities/delhi/2021/may/05/24-hour-helpline-to-assist-with-refilling-oxygen-cylinders-in-delhi-2298612.html",
-    },
-    {
-      date: "May 06, 2021",
-      title:
-        "This 24-Hour Oxygen Helpline Is Proving To Be A Savior For Covid Patients In Delhi-NCR",
-      image: "/images/press-coverage/1620463871_ABP Article.webp",
-      link: "https://news.abplive.com/news/india/this-24-hour-oxygen-helpline-is-proving-to-be-a-savior-for-covid-patients-in-delhi-ncr-1457177",
-    },
-    {
-      date: "May 01, 2021",
-      title:
-        "Event Industry’s Covid-SOS Service Addressing 1000 Critical Queries Daily With 50-60% Success Ratio",
-      image: "/images/press-coverage/1620475082_EE Article.webp",
-      link: "http://everythingexperiential.businessworld.in/article/Event-Industry-s-Covid-SOS-Service-Addressing-1000-Critical-Queries-Daily-With-50-60-Success-Ratio/01-05-2021-388325/",
-    },
-    {
-      date: "Apr 22, 2021",
-      title:
-        "With 5 Cr People Dependent On Event Industry, The Government Needs To Hear Us Now",
-      image: "/images/press-coverage/1620480986_EE Article_3.webp",
-      link: "http://everythingexperiential.businessworld.in/article/With-5-Cr-People-Dependent-On-Event-Industry-The-Government-Needs-To-Hear-Us-Now-/22-04-2021-387387/",
-    },
-    {
-      date: "Apr 13, 2021",
-      title:
-        "Live Events Sector braces for tough times ahead as infections rise",
-      image: "/images/press-coverage/1620464015_Mint Article.webp",
-      link: "https://www.livemint.com/news/india/rising-covid-cases-curfews-hit-live-events-again-11618215000753.html",
+        "EEMA Spotlight Awards 2025: Nominate the Game Changers & Trailblazers!",
+      image: "/images/press-coverage/h-pr5-2025-04-03.jpg",
+      link: "https://www.google.com/url?q=https://www.eventfaqs.com/news/ef-21885/eema-spotlight-awards-2025-nominate-the-game-changers-trailblazers&sa=D&source=editors&ust=1751879883328586&usg=AOvVaw3nSIlCVa3Oe74Y_YfpLHvd",
     },
   ];
 
@@ -73,6 +53,7 @@ export default function PressCoverage() {
       {pressCoverageData.map((data, index) => (
         <motion.a
           href={data.link}
+          target="_blank"
           initial={{ opacity: 0, x: -90 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}

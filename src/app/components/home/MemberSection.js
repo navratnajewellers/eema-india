@@ -133,6 +133,7 @@ export default function MemberSection() {
                   <div className=" mt-11 md:mt-auto flex justify-between items-center ">
                     <a
                       href={data.instagram}
+                      target="_blank"
                       className=" h-nav-link-container group relative h-1.5 w-fit flex items-center justify-between px-4 py-3 cursor-pointer text-black text-sm font-semibold transition-all duration-300 hover:text-white "
                     >
                       <span className="transition-all duration-300 group-hover:text-[16px] text-nowrap ">
@@ -143,6 +144,7 @@ export default function MemberSection() {
 
                     <a
                       href={data.linkedin}
+                      target="_blank"
                       className=" h-nav-link-container group relative h-1.5 w-fit flex items-center justify-between px-4 py-3 cursor-pointer text-black text-sm font-semibold transition-all duration-300 hover:text-white "
                     >
                       <span className="transition-all duration-300 group-hover:text-[16px] text-nowrap ">

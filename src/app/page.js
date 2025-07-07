@@ -1,4 +1,5 @@
 import AboutSection from "./components/home/AboutSection";
+import HomeCarousel from "./components/home/HomeCarousel";
 import HomeHeroSection from "./components/home/HomeHeroSection";
 import JourneyTimeline from "./components/home/JourneyTimeline";
 import MemberCTASection from "./components/home/MemberCTASection";
@@ -13,11 +14,13 @@ import "./styles/home.css";
 export default function Home() {
   return (
     <>
-      <StartupPopup2 />
+      {/* <StartupPopup2 /> */}
 
       <WHeader />
 
       {/* <AboutSection /> */}
+
+      <HomeCarousel />
 
       <JourneyTimeline />
 
@@ -39,9 +42,9 @@ export default function Home() {
 
       <PressCoverage />
 
-      <div className=" w-[90%] h-0.5 bg-gray-200 m-auto "></div>
+      {/* <div className=" w-[90%] h-0.5 bg-gray-200 m-auto "></div>
 
-      <ServiceSection />
+      <ServiceSection /> */}
     </>
   );
 }

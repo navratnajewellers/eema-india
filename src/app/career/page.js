@@ -135,7 +135,7 @@ export default function CareersPage() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="text-3xl font-bold mb-14 w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600 "
+            className="text-3xl text-black font-bold mb-14 w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600 "
           >
             How the Joining Process Works
           </motion.h2>
@@ -183,7 +183,7 @@ export default function CareersPage() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="text-3xl font-bold mb-6"
+            className="text-3xl text-black font-bold mb-6"
           >
             Ready to Start Your Journey?
           </motion.h2>
