@@ -30,7 +30,7 @@ const HomeHeroSection = () => {
   ];
 
   return (
-    <div className=" relative bg-gray-50 py-7 ">
+    <div id="flagship-event" className=" relative bg-gray-50 py-7 ">
       {/* first section */}
       <div
         className={`sticky top-5 h-[92vh] flex justify-center items-center bg-black text-white mx-7 mb-10 px-7 rounded-[50px]`}
