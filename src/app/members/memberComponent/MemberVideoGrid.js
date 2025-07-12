@@ -81,7 +81,7 @@ export default function MemberVideoGrid() {
           </p>
         </motion.div>
 
-        <div className="max-w-6xl mx-auto">
+        <div className=" w-[90%] md:w-full max-w-6xl mx-auto">
           <Slider {...settings}>
             {videoTestimonials.map((video, index) => (
               <motion.div

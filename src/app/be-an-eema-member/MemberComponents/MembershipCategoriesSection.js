@@ -190,7 +190,7 @@ export default function MembershipCategoriesSection() {
 
           <Slider
             {...settings}
-            className=" max-w-6xl mx-auto px-7 [&_.slick-slide]:px-4 [&_.slick-list]:-mx-4 [&_.slick-next:before]:!text-black [&_.slick-prev:before]:!text-black "
+            className=" w-[90%] md:w-full max-w-6xl mx-auto md:px-7 [&_.slick-slide]:px-4 [&_.slick-list]:-mx-4 [&_.slick-next:before]:!text-black [&_.slick-prev:before]:!text-black "
           >
             {membershipTiers.map((tier) => (
               <MembershipCard
