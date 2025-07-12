@@ -4242,45 +4242,325 @@
     "zone": "NORTH"
   },
   {
-    "id": 1111,
-    "category": "Platinum",
-    "name": "Harshad",
-    "company": "Toast",
+    "id": 607,
+    "category": "Associate Partner Member",
+    "name": "Nealesh Dalal",
+    "company": "Jd Educationaltrust",
+    "zone": "SOUTH"
+  },
+  {
+    "id": 608,
+    "category": "Star Member",
+    "name": "Sankar Kumar Das",
+    "company": "Sankar Kumar Das",
+    "zone": "EAST"
+  },
+  {
+    "id": 609,
+    "category": "Associate Partner Member",
+    "name": "Jignesh Satish Shah",
+    "company": "Tmc Talent Management Company Pvt. Ltd.",
+    "zone": "WEST"
+  },
+  {
+    "id": 610,
+    "category": "Associate Partner Member",
+    "name": "GIRISH CHAND AGARWAL",
+    "company": "Rajasthali Resorts And Studios Limited",
     "zone": "NORTH"
   },
   {
-    "id": 1111,
-    "category": "Platinum",
-    "name": "Harshad",
-    "company": "Toast",
+    "id": 611,
+    "category": "Associate Partner Member",
+    "name": "Ravi Grover",
+    "company": "- Grover Audio Visual Services",
     "zone": "NORTH"
   },
   {
-    "id": 1111,
-    "category": "Platinum",
-    "name": "Harshad",
-    "company": "Toast",
+    "id": 612,
+    "category": "Associate Partner Member",
+    "name": "Shivam Agarwal",
+    "company": "Mr. Coconut Food & Beverages Pvt. Ltd.",
     "zone": "NORTH"
   },
   {
-    "id": 1111,
-    "category": "Platinum",
-    "name": "Harshad",
-    "company": "Toast",
+    "id": 613,
+    "category": "Associate Partner Member",
+    "name": "Dharmishtha Mehta",
+    "company": "Aeiou",
     "zone": "NORTH"
   },
   {
-    "id": 1111,
-    "category": "Platinum",
-    "name": "Harshad",
-    "company": "Toast",
+    "id": 614,
+    "category": "Associate Partner Member",
+    "name": "BOSCO ( Raju Prasad Rao Gadde )",
+    "company": "Bosco Dance Company",
+    "zone": "SOUTH"
+  },
+  {
+    "id": 615,
+    "category": "Star Member",
+    "name": "Abner Dias",
+    "company": "Abner Dias",
+    "zone": "SOUTH"
+  },
+  {
+    "id": 616,
+    "category": "Star Member",
+    "name": "Pavleen Chadlok",
+    "company": "Pavleen Chadlok",
     "zone": "NORTH"
   },
   {
-    "id": 1111,
-    "category": "Platinum",
-    "name": "Harshad",
-    "company": "Toast",
+    "id": 617,
+    "category": "Associate Partner Member",
+    "name": "Vikas Choudhery",
+    "company": "Hyatt Consultancy Pvt. Ltd",
     "zone": "NORTH"
+  },
+  {
+    "id": 618,
+    "category": "Associate Partner Member",
+    "name": "Gurdeep Singh Sabarwal",
+    "company": "Furniture Interior Rental Pvt. Ltd.",
+    "zone": "NORTH"
+  },
+  {
+    "id": 619,
+    "category": "Associate Partner Member",
+    "name": "Uttam Gupta",
+    "company": "Big Logistics India Pvt Ltd",
+    "zone": "NORTH"
+  },
+  {
+    "id": 620,
+    "category": "Associate Partner Member",
+    "name": "Armayesh Buhariwala",
+    "company": "Buhariwala Logistics",
+    "zone": "WEST"
+  },
+  {
+    "id": 621,
+    "category": "Star Member",
+    "name": "Sumati Anand",
+    "company": "Sumati Anand",
+    "zone": "NORTH"
+  },
+  {
+    "id": 622,
+    "category": "Associate Partner Member",
+    "name": "Archana Agarwal",
+    "company": "Archana Enterprises",
+    "zone": "NORTH"
+  },
+  {
+    "id": 623,
+    "category": "Associate Partner Member",
+    "name": "Himanshu Dhanuka",
+    "company": "Eskay Video Pvt Ltd",
+    "zone": "EAST"
+  },
+  {
+    "id": 624,
+    "category": "Star Member",
+    "name": "Bianca",
+    "company": "Bianca Menzies",
+    "zone": "SOUTH"
+  },
+  {
+    "id": 625,
+    "category": "Associate Partner Member",
+    "name": "Lilesh Soni",
+    "company": "Soni Rental Power Private Limited",
+    "zone": "EAST"
+  },
+  {
+    "id": 626,
+    "category": "Star Member",
+    "name": "Natalia Deniese",
+    "company": "Natalia Deniese",
+    "zone": "SOUTH"
+  },
+  {
+    "id": 627,
+    "category": "Associate Partner Member",
+    "name": "Abhishek Sansi",
+    "company": "Indicolour Prints",
+    "zone": "NORTH"
+  },
+  {
+    "id": 628,
+    "category": "Associate Partner Member",
+    "name": "Anu George",
+    "company": "Coatsman Offshore Services Pvt. Ltd.",
+    "zone": "WEST"
+  },
+  {
+    "id": 629,
+    "category": "Club Member",
+    "name": "Free Lancer",
+    "company": "Gladson",
+    "zone": "SOUTH"
+  },
+  {
+    "id": 630,
+    "category": "Star Member",
+    "name": "Vipin Aneja",
+    "company": "Vipin Aneja",
+    "zone": "WEST"
+  },
+  {
+    "id": 631,
+    "category": "Star Member",
+    "name": "Shefali Saxena",
+    "company": "Shefali Saxena",
+    "zone": "WEST"
+  },
+  {
+    "id": 632,
+    "category": "Star Member",
+    "name": "Sulagna",
+    "company": "Sulagna",
+    "zone": "EAST"
+  },
+  {
+    "id": 633,
+    "category": "Associate Partner Member",
+    "name": "Vijay Sabhlok",
+    "company": "Event Resource",
+    "zone": "WEST"
+  },
+  {
+    "id": 634,
+    "category": "Star Member",
+    "name": "Deboshree Dey",
+    "company": "Deboshree Dey",
+    "zone": "EAST"
+  },
+  {
+    "id": 635,
+    "category": "Star Member",
+    "name": "Veeramani A-Thrillveera",
+    "company": "Veeramani A-thrillveera",
+    "zone": "SOUTH"
+  },
+  {
+    "id": 636,
+    "category": "Star Member",
+    "name": "Bhavana Bhatia",
+    "company": "Bhavana Bhatia",
+    "zone": "WEST"
+  },
+  {
+    "id": 637,
+    "category": "Associate Partner Member",
+    "name": "Ameya Chavan",
+    "company": "Ameya Chavan",
+    "zone": "WEST"
+  },
+  {
+    "id": 638,
+    "category": "Star Member",
+    "name": "Shivaani Sen",
+    "company": "Shivaani Sen(anchor)",
+    "zone": "WEST"
+  },
+  {
+    "id": 639,
+    "category": "Star Member",
+    "name": "Nancy Sam",
+    "company": "Nancy Sam",
+    "zone": "SOUTH"
+  },
+  {
+    "id": 640,
+    "category": "Star Member",
+    "name": "Jinny",
+    "company": "Jinny",
+    "zone": "SOUTH"
+  },
+  {
+    "id": 641,
+    "category": "Associate Partner Member",
+    "name": "Ankur Rara Jethlia",
+    "company": "The Raj Palace",
+    "zone": "NORTH"
+  },
+  {
+    "id": 642,
+    "category": "Associate Partner Member",
+    "name": "Purnananad Sharma",
+    "company": "Spontaneous Caterers Pvt Ltd",
+    "zone": "NORTH"
+  },
+  {
+    "id": 643,
+    "category": "Star Member",
+    "name": "Lokesh Madan",
+    "company": "Lokesh Madan",
+    "zone": "NORTH"
+  },
+  {
+    "id": 644,
+    "category": "Star Member",
+    "name": "Diksha Raina",
+    "company": "Diksha Raina",
+    "zone": "NORTH"
+  },
+  {
+    "id": 645,
+    "category": "Star Member",
+    "name": "Bhawnaa Daswani",
+    "company": "Bhawnaa Daswani",
+    "zone": "NORTH"
+  },
+  {
+    "id": 646,
+    "category": "Star Member",
+    "name": "Nikita Nebhwani",
+    "company": "Nikita Nebhwani",
+    "zone": "NORTH"
+  },
+  {
+    "id": 647,
+    "category": "Associate Partner Member",
+    "name": "Prasun Roy",
+    "company": "Schenker India Pvt Ltd.",
+    "zone": "NORTH"
+  },
+  {
+    "id": 648,
+    "category": "Star Member",
+    "name": "Manasi Mishra",
+    "company": "Manasi Mishra",
+    "zone": "EAST"
+  },
+  {
+    "id": 649,
+    "category": "Star Member",
+    "name": "Anuj Talpade",
+    "company": "Anuj Talpade",
+    "zone": "WEST"
+  },
+  {
+    "id": 650,
+    "category": "Associate Partner Member",
+    "name": "Radhe Sham",
+    "company": "Capital Tent & Light House",
+    "zone": "NORTH"
+  },
+  {
+    "id": 651,
+    "category": "Star Member",
+    "name": "Akshatha Das",
+    "company": "Akshatha Das",
+    "zone": "SOUTH"
+  },
+  {
+    "id": 652,
+    "category": "Associate Partner Member",
+    "name": "Mahesh Kumar BS",
+    "company": "Lasertech Entertainment Pvt. Ltd.",
+    "zone": "SOUTH"
   }
 ]

@@ -114,7 +114,7 @@ export default function WhyJoinSection() {
           className="mt-20"
         >
           <a
-            href="/join"
+            href="/be-an-eema-member"
             className="inline-block bg-orange-400 text-white px-6 py-3 rounded-full font-semibold hover:bg-orange-600 transition"
           >
             Become a Member
