@@ -73,7 +73,7 @@ export default function WhyJoin() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-3xl md:text-4xl font-bold w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600"
+          className=" text-black text-3xl md:text-4xl font-bold w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600"
         >
           Why Join EEMA?
         </motion.h2>
@@ -109,7 +109,9 @@ export default function WhyJoin() {
               />
             </div>
             <div className="p-6 text-center">
-              <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
+              <h3 className=" text-black text-xl font-semibold mb-3">
+                {item.title}
+              </h3>
               <p className="text-gray-700">{item.description}</p>
             </div>
           </motion.div>

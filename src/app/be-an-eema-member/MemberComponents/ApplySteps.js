@@ -31,7 +31,7 @@ export default function ApplySteps() {
     <section className="py-16 px-4 bg-white fancy-border ">
       <div className="max-w-4xl mx-auto text-center mb-12">
         <motion.h2
-          className="text-3xl md:text-4xl font-bold w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600 mb-6"
+          className=" text-black text-3xl md:text-4xl font-bold w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600 mb-6"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -62,7 +62,9 @@ export default function ApplySteps() {
               <LucideCheckCircle className="w-6 h-6" />
             </div>
             <div>
-              <h3 className="font-semibold text-lg">{step.title}</h3>
+              <h3 className=" text-black font-semibold text-lg">
+                {step.title}
+              </h3>
               <p className="text-gray-600 text-sm mt-1">{step.description}</p>
             </div>
           </motion.div>

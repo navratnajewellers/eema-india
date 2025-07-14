@@ -85,7 +85,7 @@ export default function CareersPage() {
               className=" text-black order-2 md:order-1 "
             >
               <div className=" max-w-2xl mx-auto mb-16  ">
-                <h4 className=" tracking-tight text-2xl font-bold w-fit mx-auto border-l-4 border-r-4 border-orange-600 px-4 ">
+                <h4 className=" text-black tracking-tight text-2xl font-bold w-fit mx-auto border-l-4 border-r-4 border-orange-600 px-4 ">
                   Shape your career, unlock your full potential, and make a
                   meaningful impact.
                 </h4>
@@ -187,7 +187,7 @@ export default function CareersPage() {
           >
             Ready to Start Your Journey?
           </motion.h2>
-          <p className="text-lg md:text-xl max-w-2xl mx-auto">
+          <p className=" text-black text-lg md:text-xl max-w-2xl mx-auto">
             Come work with the industry leaders!
           </p>
           <div className="space-x-4 mt-7 ">

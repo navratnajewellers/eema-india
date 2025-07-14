@@ -31,7 +31,7 @@ export default function FAQSection() {
     <section className="py-16 px-4 bg-gray-50">
       <div className="max-w-4xl mx-auto text-center mb-10">
         <motion.h2
-          className="text-3xl md:text-4xl font-bold w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600 mb-6 "
+          className=" text-black text-3xl md:text-4xl font-bold w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600 mb-6 "
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}

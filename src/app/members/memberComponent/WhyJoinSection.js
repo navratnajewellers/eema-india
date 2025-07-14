@@ -99,7 +99,9 @@ export default function WhyJoinSection() {
             >
               <div className="bg-gray-50 p-6 rounded-xl shadow-lg text-center h-full flex flex-col items-center justify-center space-y-4">
                 <div>{item.icon}</div>
-                <h3 className="text-lg font-semibold">{item.title}</h3>
+                <h3 className="text-lg font-semibold text-black ">
+                  {item.title}
+                </h3>
                 <p className="text-gray-600 text-sm">{item.description}</p>
               </div>
             </motion.div>
