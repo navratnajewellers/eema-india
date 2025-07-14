@@ -49,16 +49,10 @@
     rgba(227, 70, 12, 0.83),
     rgba(255, 68, 0, 0.83)
   );
-  /* background: linear-gradient(
-    -45deg,
-    rgba(37, 58, 110, 0.93),
-    rgba(29, 83, 137, 0.93),
-    rgba(20, 110, 166, 0.93),
-    rgba(12, 133, 190, 0.93),
-    rgba(5, 155, 214, 0.93)
-  ); */
   z-index: -5;
 }
+
+/* timeline section */
 
 .rs-timeline-item:nth-child(even) {
   flex-direction: row-reverse !important;
@@ -67,3 +61,33 @@
 .rs-timeline-item-time {
   padding-left: 17px !important;
 }
+
+.tm-list {
+  position: relative;
+  padding-left: 10px;
+  z-index: 0;
+}
+
+.tm-list::before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  top: 10px;
+  left: -8px;
+  background-color: oklch(64.6% 0.222 41.116);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* .tm-list::after {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  top: 10px;
+  right: -8px;
+  background-color: oklch(64.6% 0.222 41.116);
+  border-radius: 50%;
+  z-index: 1;
+} */
