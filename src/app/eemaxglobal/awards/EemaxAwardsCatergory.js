@@ -266,7 +266,7 @@ export default function EemaxAwardsCatergory({ setActiveSection }) {
   return (
     <motion.section
       id="categories"
-      className=" py-11 "
+      className=" "
       onViewportEnter={() => setActiveSection("categories")}
     >
       <Image

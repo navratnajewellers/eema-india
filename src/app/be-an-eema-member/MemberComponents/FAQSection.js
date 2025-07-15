@@ -48,7 +48,7 @@ export default function FAQSection() {
         </motion.p>
       </div>
 
-      <div className=" mt-16 ">
+      <div className=" mt-16 text-black ">
         <Accordion className=" max-w-3xl mx-auto space-y-4 [&_.rs-panel-btn:focus]:!bg-white [&_.rs-panel-btn:hover]:!bg-white [&_.rs-panel:before]:hidden ">
           {faqs.map((faq, index) => (
             <Accordion.Panel

@@ -72,7 +72,7 @@ export default function NavSection({
           ))}
         </div>
 
-        <div className="  mx-2 md:col-span-1">
+        <div className="  mx-2 md:col-span-1 md:mt-11 ">
           <Link
             href="/"
             className=" block tracking-tight text-black text-2xl font-bold mb-4 mt-11 sm:mt-0 hover:text-orange-600 "

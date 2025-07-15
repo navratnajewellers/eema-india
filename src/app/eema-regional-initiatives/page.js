@@ -112,7 +112,7 @@ export default function RegionalInitiativesPage() {
     <>
       <WHeader />
 
-      <div className="px-6 md:px-24 py-24 max-w-6xl mx-auto space-y-16">
+      <div className="px-6 md:px-24 py-24 max-w-6xl mx-auto space-y-16 text-black ">
         {/* Hero Section */}
         <section className="text-center space-y-4 mt-11 py-7 ">
           <h1 className="text-4xl font-bold text-primary text-orange-600 uppercase ">
@@ -126,7 +126,7 @@ export default function RegionalInitiativesPage() {
 
         {/* What Are Regional Initiatives */}
         <section className="space-y-4">
-          <h2 className="text-2xl font-semibold border-l-4 border-orange-600 pl-4 ">
+          <h2 className="text-2xl font-semibold border-l-4 border-orange-600 pl-4 text-black ">
             What Are Regional Initiatives?
           </h2>
           <p className=" leading-relaxed text-gray-500 pt-4 ">
@@ -178,7 +178,7 @@ export default function RegionalInitiativesPage() {
         </div>
 
         {/* feature section */}
-        <section className=" max-w-4xl mx-auto rounded-2xl shadow-md mt-32 ">
+        <section className=" max-w-4xl mx-auto rounded-2xl shadow-md mt-32 border-2 border-gray-200 p-4 text-black ">
           <Tabs
             defaultActiveKey="1"
             vertical={isMobile ? false : true}
@@ -200,7 +200,7 @@ export default function RegionalInitiativesPage() {
                       className=" object-cover "
                     />
                   </div>
-                  <h4 className=" inline-block border-l-4 border-orange-600 pl-4 tracking-tight text-2xl text-orange-600 font-semibold mt-7 ">
+                  <h4 className=" inline-block pl-4 tracking-tight text-2xl text-orange-600 font-semibold mt-4 ">
                     {data.title}
                   </h4>
                   <p className=" leading-relaxed font-light text-lg text-gray-500 ">
@@ -213,7 +213,7 @@ export default function RegionalInitiativesPage() {
         </section>
 
         {/* Testimonial */}
-        <section className="text-center space-y-4 italic border-l-4 border-primary border-orange-600 pl-6 mt-44 mb-11 ">
+        <section className="text-center space-y-4 italic border-l-4 border-primary border-orange-600 pl-6 mt-44 mb-11 text-black ">
           <p>
             “Thanks to EEMA’s support, we’ve grown from a small vendor group to
             a recognized voice in state-level policy.”

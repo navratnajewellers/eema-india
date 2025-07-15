@@ -435,7 +435,7 @@ export default function MemberSection() {
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
               viewport={{ once: true }}
-              className="snap-center flex-shrink-0 w-[90vw] md:w-[60vw] xl:w-[60vw] bg-white shadow-xl rounded-2xl p-6"
+              className="snap-center flex-shrink-0 w-[90vw] md:w-[60vw] xl:w-[60vw] bg-white text-black shadow-xl rounded-2xl p-6"
             >
               <div className=" hidden md:flex justify-center mb-4 ">
                 <span className=" bg-orange-600 inline-block h-4 w-4 ml-0 md:ml-64 rotate-slow "></span>

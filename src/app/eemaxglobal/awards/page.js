@@ -4,6 +4,9 @@ import { Nav } from "rsuite";
 import EemaxAwardsCatergory from "./EemaxAwardsCatergory";
 import { useState } from "react";
 import EemaxAwardsFees from "./EemaxAwardsFees";
+import EemaAwardsJuryPage from "./EemaAwardsJuryPage";
+import EemaAwardsProcess from "./EemaAwardsProcess";
+import EemaAwardsShortlistedApplication from "./EemaAwardsShortlistedApplication";
 
 export default function EEmaxAwardsPage() {
   const [activeSection, setActiveSection] = useState("categories");
@@ -40,7 +43,13 @@ export default function EEmaxAwardsPage() {
 
       <EemaxAwardsCatergory setActiveSection={setActiveSection} />
 
-      {/* <EemaxAwardsFees setActiveSection={setActiveSection} /> */}
+      <EemaxAwardsFees setActiveSection={setActiveSection} />
+
+      <EemaAwardsJuryPage setActiveSection={setActiveSection} />
+
+      <EemaAwardsProcess setActiveSection={setActiveSection} />
+
+      <EemaAwardsShortlistedApplication setActiveSection={setActiveSection} />
     </div>
   );
 }

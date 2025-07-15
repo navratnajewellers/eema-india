@@ -48,8 +48,10 @@ const VideoGrid = () => {
   ];
 
   return (
-    <main className="p-8">
-      <h1 className="text-xl text-center font-bold mb-11">Video Gallery</h1>
+    <main className="p-8 border-2 border-gray-200 rounded-2xl shadow-md ">
+      <h2 className="text-2xl text-center font-bold mb-11 text-black ">
+        Video Gallery
+      </h2>
       <div className=" flex justify-center items-center gap-6 flex-wrap ">
         {movies.map((m, idx) => (
           <VideoCard key={idx} {...m} />

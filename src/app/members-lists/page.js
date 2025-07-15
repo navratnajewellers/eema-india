@@ -52,7 +52,7 @@ export default function MemberListPage() {
 
   return (
     <>
-      <div className=" py-28 px-7 fancy-border ">
+      <div className=" py-28 px-7 fancy-border text-black  ">
         <section>
           <h2 className=" tracking-tight text-4xl font-bold w-fit mx-auto border-l-4 border-r-4 border-orange-600 px-4 mb-20 ">
             Members List

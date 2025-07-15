@@ -67,7 +67,7 @@ const EemaxGallery = () => {
   return (
     <section className=" py-11 ">
       <div className=" flex flex-col justify-center items-center space-y-7 mb-16 ">
-        <h2 className=" text-4xl leading-tight font-bold border-l-4 border-r-4 border-orange-600 px-4 ">
+        <h2 className=" text-4xl leading-tight font-bold border-l-4 border-r-4 border-orange-600 px-4 text-black ">
           Gallery
         </h2>
         <h5 className=" leading-relaxed font-medium text-lg text-gray-400  ">
@@ -77,7 +77,7 @@ const EemaxGallery = () => {
       <Tabs
         defaultActiveKey="1"
         appearance="pills"
-        className=" [&_.rs-nav-pills]:mx-auto "
+        className=" [&_.rs-nav-pills]:mx-auto text-black "
       >
         <Tabs.Tab eventKey="1" title="Image">
           <div className="relative w-full">
@@ -89,6 +89,9 @@ const EemaxGallery = () => {
 
             {/* main code */}
             <div className="w-full py-11 border-2 border-gray-200 shadow-md rounded-2xl overflow-hidden ">
+              <h2 className="text-2xl text-center font-bold mb-11 text-black ">
+                Image Gallery
+              </h2>
               <Slider
                 {...settings}
                 className="[&_.slick-slide]:px-4 [&_.slick-list]:-mx-4 w-[150vw] -ml-[30vw] "

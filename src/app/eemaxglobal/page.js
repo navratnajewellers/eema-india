@@ -122,7 +122,7 @@ export default function EemaxglobalPage() {
             ease: "easeInOut",
           }}
           viewport={{ amount: 0.5 }}
-          className="text-3xl font-semibold border-l-4 border-orange-600 pl-4 "
+          className="text-3xl font-semibold border-l-4 border-orange-600 pl-4 text-black "
         >
           What Is EMAX Global?
         </motion.h2>
@@ -187,7 +187,9 @@ export default function EemaxglobalPage() {
                 className="text-center space-y-2"
               >
                 <span className="">{item.icon}</span>
-                <h3 className="text-lg font-bold mt-4 mb-2 ">{item.title}</h3>
+                <h3 className="text-lg font-bold mt-4 mb-2 text-black ">
+                  {item.title}
+                </h3>
                 <p className="text-sm text-gray-600">{item.description}</p>
               </Panel>
             ))}
@@ -232,7 +234,7 @@ export default function EemaxglobalPage() {
             ease: "easeInOut",
           }}
           viewport={{ amount: 0.5 }}
-          href="#"
+          href="https://eemax.eemaindia.com/signup"
           className=" text-lg font-medium py-1.5 px-6 mt-7 border-2 border-gray-50 rounded-xl cursor-pointer text-black bg-gray-50 shadow-md transition hover:bg-transparent hover:text-white "
         >
           Partner With Us

@@ -33,7 +33,7 @@ export default function EemaxAwardsFees({ setActiveSection }) {
   return (
     <motion.section
       id="fees"
-      className=" py-7 "
+      className="  "
       onViewportEnter={() => setActiveSection("fees")}
     >
       <Image
@@ -41,7 +41,7 @@ export default function EemaxAwardsFees({ setActiveSection }) {
         alt="award-process-entry-fees"
       />
 
-      <section className="py-12 px-4 md:px-10 bg-[#fff7ed]">
+      <section className="py-16 px-4 md:px-10 bg-[#fff7ed]">
         <div className="max-w-5xl mx-auto space-y-10">
           {/* Pricing Cards */}
           <div className="grid md:grid-cols-2 gap-6">
