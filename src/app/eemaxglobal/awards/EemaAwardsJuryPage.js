@@ -2,7 +2,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Image } from "rsuite";
+import Image from "next/image";
 
 import { useEffect, useState } from "react";
 
@@ -17,12 +17,15 @@ export default function EemaAwardsJuryPage({ setActiveSection }) {
     <motion.section
       id="jury"
       onViewportEnter={() => setActiveSection("jury")}
-      className="min-h-screen bg-white py-24 text-center"
+      className="min-h-screen bg-white pb-24 text-center"
     >
-      <Image
-        src="https://www.eemaindia.com/eemaxglobal/images/award-process.png"
-        alt="award-process-categories"
-      />
+      <div className=" relative h-64 w-full overflow-hidden mb-24 ">
+        <Image
+          src="/images/others/eemax-jury.png"
+          alt="award-process-categories"
+          fill
+        />
+      </div>
 
       <div className=" px-6 sm:px-12 ">
         <h1 className="text-4xl md:text-5xl font-bold tracking-wide text-black mb-6">

@@ -25,7 +25,7 @@ const WFooter = () => {
     },
     {
       title: "Privacy",
-      link: "#",
+      link: "/privacy",
     },
     {
       title: "Careers",
