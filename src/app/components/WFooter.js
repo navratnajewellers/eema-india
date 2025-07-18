@@ -17,7 +17,7 @@ const WFooter = () => {
   const sec2Data = [
     {
       title: "Regional Initiative",
-      link: "#",
+      link: "/eema-regional-initiatives",
     },
     {
       title: "About Us",
@@ -45,7 +45,11 @@ const WFooter = () => {
     },
     {
       title: "Knowledge Center",
-      link: "#",
+      link: "/knowledge-center",
+    },
+    {
+      title: "Refund and Cancellation Policy",
+      link: "/refund-and-cancellation-policy",
     },
   ];
 

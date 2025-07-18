@@ -26,7 +26,7 @@ export default function MemberCTASection() {
         </p>
         <div className=" mt-7 ">
           <a
-            href="/become-emma-member"
+            href="/be-an-eema-member"
             className=" border-2 inline-block py-2 px-9 rounded-4xl group border-white hover:bg-white transition-colors cursor-pointer mr-7 mb-7 "
           >
             <span className=" text-white font-bold group-hover:text-orange-600 transition-colors ">
@@ -35,7 +35,7 @@ export default function MemberCTASection() {
           </a>
 
           <a
-            href="/member"
+            href="/members"
             className=" border-2 inline-block py-2 px-9 rounded-4xl group border-white bg-white hover:bg-transparent transition-colors cursor-pointer "
           >
             <span className=" text-orange-600 font-bold group-hover:text-white transition-colors ">

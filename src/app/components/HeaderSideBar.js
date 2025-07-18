@@ -209,7 +209,10 @@ export default function HeaderSideBar() {
                 <SpecialTextEffect text="EEMAX Global" link="/eemaxglobal" />
               </li>
               <li className=" py-2 ">
-                <SpecialTextEffect text="SpotLight Awards" link="#" />
+                <SpecialTextEffect
+                  text="SpotLight Awards"
+                  link="spotlightaward"
+                />
               </li>
               <li className=" py-2 ">
                 <SpecialTextEffect text="Career" link="/career" />
