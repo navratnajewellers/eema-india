@@ -139,8 +139,7 @@ export default function SaHomeWinner() {
 
       <div className="text-center mt-16 ">
         <motion.a
-          href="https://www.eemaindia.com/spotlightaward/" // replace with actual form link if available
-          target="_blank"
+          href="/spotlightaward/winners" // replace with actual form link if available
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 px-8 py-4 bg-yellow-500 hover:bg-yellow-600 text-white text-lg font-semibold rounded-full shadow-lg transition-all"
         >

@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import { Divider, Nav } from "rsuite";
 import { useState } from "react";
+import SaWinner2024 from "./SaWinner2024";
+import SaWinner2025 from "./SaWinner2025";
 
 export default function SpotlightWinnersPage() {
   const [active, setActive] = useState("home");
@@ -60,27 +62,13 @@ export default function SpotlightWinnersPage() {
           </div>
 
           <motion.div id="2025" onViewportEnter={() => setActive("2025")}>
-            <div className=" w-full h-screen flex flex-col justify-center items-center  ">
-              <h2 className=" tracking-tight font-bold text-3xl md:text-4xl text-center mb-11 ">
-                Winner 2023/2024
-              </h2>
-              <h4 className=" text-2xl md:text-3xl leading-relaxed font-semibold text-gray-400 ">
-                Comming Soon...
-              </h4>
-            </div>
+            <SaWinner2025 />
           </motion.div>
 
           <Divider />
 
           <motion.div id="2024" onViewportEnter={() => setActive("2024")}>
-            <div className=" w-full h-screen flex flex-col justify-center items-center  ">
-              <h2 className=" tracking-tight font-bold text-3xl md:text-4xl text-center mb-11 ">
-                Winner 2023/2024
-              </h2>
-              <h4 className=" text-2xl md:text-3xl leading-relaxed font-semibold text-gray-400 ">
-                Comming Soon...
-              </h4>
-            </div>
+            <SaWinner2024 />
           </motion.div>
         </section>
       </div>

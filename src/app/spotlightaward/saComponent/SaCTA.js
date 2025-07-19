@@ -23,7 +23,7 @@ export default function SaCTA() {
         </p>
 
         <motion.a
-          href="https://www.eemaindia.com/spotlightaward/" // replace with actual form link if available
+          href="https://spotlight.eemaindia.com/" // replace with actual form link if available
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.05 }}
@@ -31,7 +31,7 @@ export default function SaCTA() {
           className="inline-flex items-center gap-3 px-8 py-4 bg-yellow-500 hover:bg-yellow-600 text-white text-lg font-semibold rounded-full shadow-lg transition-all"
         >
           <Send className="w-5 h-5" />
-          Submit Now
+          Apply Now
         </motion.a>
       </motion.div>
     </section>
