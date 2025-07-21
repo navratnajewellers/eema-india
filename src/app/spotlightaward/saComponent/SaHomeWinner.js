@@ -17,61 +17,60 @@ export default function SaHomeWinner() {
   const winners = [
     {
       year: "2025",
-      title: "Best Experiential Campaign",
-      winner: "XYZ Events Pvt Ltd",
+      title: "Best AV Production - Corporate Events",
+      winner: "Tagglabs Experiential Private Limited",
       image:
         "https://www.eemaindia.com/spotlightaward/assets/images/winner-2025.jpg",
     },
     {
       year: "2024",
-      title: "Best Production Design",
-      winner: "Creative House India",
+      title: "Best Hotel for Social Events/Wedding Events",
+      winner: "Radisson Blu GRT Chennai",
       image:
         "https://www.eemaindia.com/spotlightaward/assets/images/Winners%202024.jpg",
     },
     {
       year: "2025",
-      title: "Most Innovative Use of Tech",
-      winner: "Eventech Solutions",
+      title: "Best Hotel - Corporate Events (five star)",
+      winner: "Juniper Hotels Limited",
       image:
         "https://www.eemaindia.com/spotlightaward/assets/images/winner-2025.jpg",
     },
     {
       year: "2024",
-      title: "Most Innovative Use of Tech",
-      winner: "Eventech Solutions",
+      title: "Best Artist Manager",
+      winner: "Renaissance",
       image:
         "https://www.eemaindia.com/spotlightaward/assets/images/Winners%202024.jpg",
     },
     {
       year: "2025",
-      title: "Most Innovative Use of Tech",
-      winner: "Eventech Solutions",
+      title: "Best Production House - Corporate Events",
+      winner: "RENAISSANCE",
       image:
         "https://www.eemaindia.com/spotlightaward/assets/images/winner-2025.jpg",
     },
     {
       year: "2024",
-      title: "Most Innovative Use of Tech",
-      winner: "Eventech Solutions",
+      title: "Best Dance Team",
+      winner: "Nooper Performing art center",
       image:
         "https://www.eemaindia.com/spotlightaward/assets/images/Winners%202024.jpg",
     },
     {
       year: "2025",
-      title: "Most Innovative Use of Tech",
-      winner: "Eventech Solutions",
+      title: "Best DJ - Entertainment",
+      winner: "Sumit Sethi",
       image:
         "https://www.eemaindia.com/spotlightaward/assets/images/winner-2025.jpg",
     },
     {
       year: "2024",
-      title: "Most Innovative Use of Tech",
-      winner: "Eventech Solutions",
+      title: "Best Professional Videographer",
+      winner: "WEDARTISTRY",
       image:
         "https://www.eemaindia.com/spotlightaward/assets/images/Winners%202024.jpg",
     },
-    // Add more as needed
   ];
 
   return (
