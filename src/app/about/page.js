@@ -35,9 +35,9 @@ export default function AboutPage() {
 
       <NLTPage />
 
-      <HRCodePage />
+      {/* <HRCodePage /> */}
 
-      <IndustryPapersPage />
+      {/* <IndustryPapersPage /> */}
     </>
   );
 }

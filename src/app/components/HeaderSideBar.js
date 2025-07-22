@@ -118,7 +118,7 @@ export default function HeaderSideBar() {
                 >
                   <li>
                     <a
-                      href="#"
+                      href="/members-lists"
                       className=" block px-4 py-2 hover:bg-gray-100 text-gray-800 hover:text-orange-600 hover:font-semibold transition-all "
                     >
                       Member Lists
@@ -126,26 +126,10 @@ export default function HeaderSideBar() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/be-an-eema-member"
                       className=" block px-4 py-2 hover:bg-gray-100 text-gray-800 hover:text-orange-600 hover:font-semibold transition-all "
                     >
                       New member
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className=" block px-4 py-2 hover:bg-gray-100 text-gray-800 hover:text-orange-600 hover:font-semibold transition-all "
-                    >
-                      MOM
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      className=" block px-4 py-2 hover:bg-gray-100 text-gray-800 hover:text-orange-600 hover:font-semibold transition-all "
-                    >
-                      Artiste Committee
                     </a>
                   </li>
                 </ul>
@@ -189,7 +173,7 @@ export default function HeaderSideBar() {
                 >
                   <li>
                     <a
-                      href="#"
+                      href="/eemagine2025"
                       className=" block px-4 py-2 hover:bg-gray-100 text-gray-800 hover:text-orange-600 hover:font-semibold transition-all "
                     >
                       Eemagine 2025
@@ -197,7 +181,7 @@ export default function HeaderSideBar() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/eemagine2024"
                       className=" block px-4 py-2 hover:bg-gray-100 text-gray-800 hover:text-orange-600 hover:font-semibold transition-all "
                     >
                       Eemagine 2024
@@ -211,7 +195,7 @@ export default function HeaderSideBar() {
               <li className=" py-2 ">
                 <SpecialTextEffect
                   text="SpotLight Awards"
-                  link="spotlightaward"
+                  link="/spotlightaward"
                 />
               </li>
               <li className=" py-2 ">

@@ -6,9 +6,9 @@ import { Image } from "rsuite";
 export default function EemaxAwardsFees({ setActiveSection }) {
   const PricingCard = ({ title, prices }) => (
     <motion.div
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4 }}
+      // initial={{ opacity: 0, y: 30 }}
+      // whileInView={{ opacity: 1, y: 0 }}
+      // transition={{ duration: 0.4 }}
       className="rounded-xl overflow-hidden border shadow-md"
     >
       <div className="bg-gradient-to-r from-orange-400 to-yellow-500 text-white font-bold text-center py-3 text-lg">

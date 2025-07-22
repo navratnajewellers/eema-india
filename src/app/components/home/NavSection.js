@@ -16,7 +16,7 @@ const navItems = [
   },
   {
     text: "Eemagine 2025",
-    link: "/eemagine-2025",
+    link: "/eemagine2025",
   },
   {
     text: "EEMAX Global",

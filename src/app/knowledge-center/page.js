@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 
 export default function KnowledgeCenterPage() {
   const categories = [
@@ -32,7 +31,7 @@ export default function KnowledgeCenterPage() {
       description: "Explore expert research, whitepapers, and deep dives.",
       image:
         "https://images.pexels.com/photos/7735721/pexels-photo-7735721.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      link: "/knowledge-center/whitepapers",
+      link: "/knowledge-center/industry-whitepaper",
     },
     {
       title: "Value Added Tie-Ups",
@@ -65,7 +64,7 @@ export default function KnowledgeCenterPage() {
         <section className="h-screen w-full flex flex-col items-center justify-center text-black">
           <div className="flex flex-col sm:flex-row w-full h-full">
             {resources.map((res, idx) => (
-              <Link
+              <a
                 href={res.link}
                 key={idx}
                 className="group relative flex-1 transition-all duration-500 ease-in-out overflow-hidden hover:flex-[2]"
@@ -86,7 +85,7 @@ export default function KnowledgeCenterPage() {
                     {res.description}
                   </p>
                 </div>
-              </Link>
+              </a>
             ))}
           </div>
         </section>
