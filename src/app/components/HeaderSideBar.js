@@ -204,6 +204,15 @@ export default function HeaderSideBar() {
               <li className=" py-2 ">
                 <SpecialTextEffect text="Contact Us" link="/contact" />
               </li>
+              <li className=" py-2 ">
+                <SpecialTextEffect
+                  text="Knowledge Center"
+                  link="/knowledge-center"
+                />
+              </li>
+              <li className=" py-2 ">
+                <SpecialTextEffect text="Footprints" link="/footprints" />
+              </li>
             </ul>
           </nav>
         </Drawer.Body>

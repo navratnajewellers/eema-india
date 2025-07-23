@@ -184,9 +184,12 @@ export default function NLTPage() {
       id="national-leadership-team"
       className=" bg-gray-50 text-black px-7 sm:px-24 relative py-36 overflow-hidden md:overflow-auto "
     >
-      <h4 className=" text-2xl text-black font-semibold block md:sticky top-40 z-[12] w-fit py-4 bg-gray-50 ">
+      <h2 className="text-3xl font-bold mb-16 text-center w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600">
+        National Leadership Team
+      </h2>
+      {/* <h4 className=" text-2xl text-black font-semibold block md:sticky top-40 z-[12] w-fit py-4 bg-gray-50 ">
         (National Leadership Team)
-      </h4>
+      </h4> */}
 
       {/* first table */}
       <div className=" grid grid-cols-1 md:grid-cols-6 gap-11 md:gap-2 relative mt-16 ">
@@ -199,7 +202,7 @@ export default function NLTPage() {
                 duration: 1,
                 ease: "easeInOut",
               }}
-              className=" text-2xl mb-4 mt-4 "
+              className=" text-2xl mb-4 mt-4 font-semibold "
             >
               National Executive Committee
             </motion.h4>
@@ -277,7 +280,7 @@ export default function NLTPage() {
                 duration: 1,
                 ease: "easeInOut",
               }}
-              className=" text-2xl mb-4 mt-4 "
+              className=" text-2xl mb-4 mt-4 font-semibold "
             >
               Joint Secretary and Committee Members
             </motion.h4>
@@ -355,7 +358,7 @@ export default function NLTPage() {
                 duration: 1,
                 ease: "easeInOut",
               }}
-              className=" text-2xl mb-4 mt-4 "
+              className=" text-2xl mb-4 mt-4 font-semibold "
             >
               Secretariat Team
             </motion.h4>
