@@ -42,9 +42,9 @@ export default function FootprintsPage() {
         </div>
       </section>
 
-      <section>
+      {/* <section>
         {tab === "image" ? <FootprintImage /> : <FootprintVideo />}
-      </section>
+      </section> */}
     </main>
   );
 }

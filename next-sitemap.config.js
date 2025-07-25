@@ -10,6 +10,14 @@ module.exports = {
     { loc: "/about", lastmod: new Date().toISOString(), priority: 0.8 },
     { loc: "/contact", lastmod: new Date().toISOString(), priority: 0.7 },
     { loc: "/product", lastmod: new Date().toISOString(), priority: 0.7 },
+    { loc: "/product", lastmod: new Date().toISOString(), priority: 0.7 },
+    { loc: "/product", lastmod: new Date().toISOString(), priority: 0.7 },
+    { loc: "/product", lastmod: new Date().toISOString(), priority: 0.7 },
+    { loc: "/product", lastmod: new Date().toISOString(), priority: 0.7 },
+    { loc: "/product", lastmod: new Date().toISOString(), priority: 0.7 },
+    { loc: "/product", lastmod: new Date().toISOString(), priority: 0.7 },
+    { loc: "/product", lastmod: new Date().toISOString(), priority: 0.7 },
+    { loc: "/product", lastmod: new Date().toISOString(), priority: 0.7 },
   ],
 
   robotsTxtOptions: {

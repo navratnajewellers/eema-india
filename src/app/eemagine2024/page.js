@@ -1,5 +1,3 @@
-"use client";
-
 import { Image } from "rsuite";
 import Eemagine2024Gallery from "./Eemagine2024Gallery";
 

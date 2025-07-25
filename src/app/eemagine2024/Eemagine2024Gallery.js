@@ -1,29 +1,46 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-const allImages = [
-  "/images/eemagine2024/freepik__retouch__26217.jpg",
-  "/images/eemagine2024/freepik__retouch__26225.jpg",
-  "/images/eemagine2024/freepik__retouch__26230.jpg",
-  "/images/eemagine2024/freepik__retouch__26240.jpg",
-  "/images/eemagine2024/freepik__retouch__26241.jpg",
-  "/images/eemagine2024/freepik__retouch__26249.jpg",
-  "/images/eemagine2024/freepik__retouch__26252.jpg",
-  "/images/eemagine2024/freepik__retouch__49578.jpg",
-  "/images/eemagine2024/freepik__retouch__64050-touch.jpg",
-  "/images/eemagine2024/freepik__retouch__64056-touch.jpg",
-  "/images/eemagine2024/freepik__retouch__77441-touch.jpg",
-  "/images/eemagine2024/freepik__retouch__77444-touch.jpg",
-];
+// const allImages = [
+//   "/images/eemagine2024/_P_96687-touch.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26216.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26217.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26218.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26220.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26221.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26222.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26223.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26224.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26225.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26226.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26227.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26228.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26229.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26230.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26231.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26232.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26233.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26234.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26235.jpg",
+//   "/public/images/eemagine2024/freepik__retouch__26241.jpg",
+// ];
 
 export default function Eemagine2024Gallery() {
-  const initialVisible = 9;
+  const initialVisible = 15;
   const [visibleCount, setVisibleCount] = useState(initialVisible);
 
+  const [allImages, setAllImages] = useState([]);
+
+  useEffect(() => {
+    fetch("/images/galleryFileList/eemagine2024.json")
+      .then((res) => res.json())
+      .then((data) => setAllImages(data));
+  }, []);
+
   const handleSeeMore = () => {
-    setVisibleCount((prev) => prev + 6);
+    setVisibleCount((prev) => prev + 10);
   };
 
   const visibleImages = allImages.slice(0, visibleCount);
@@ -54,7 +71,7 @@ export default function Eemagine2024Gallery() {
         <div className="text-center mt-10">
           <button
             onClick={handleSeeMore}
-            className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2 rounded-xl transition-all"
+            className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2 rounded-xl transition-all cursor-pointer"
           >
             See More
           </button>

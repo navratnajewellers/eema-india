@@ -1,24 +1,32 @@
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-const allImages = [
-  "/images/eemagine2024/freepik__retouch__26217.jpg",
-  "/images/eemagine2024/freepik__retouch__26225.jpg",
-  "/images/eemagine2024/freepik__retouch__26230.jpg",
-  "/images/eemagine2024/freepik__retouch__26240.jpg",
-  "/images/eemagine2024/freepik__retouch__26241.jpg",
-  "/images/eemagine2024/freepik__retouch__26249.jpg",
-  "/images/eemagine2024/freepik__retouch__26252.jpg",
-  "/images/eemagine2024/freepik__retouch__49578.jpg",
-  "/images/eemagine2024/freepik__retouch__64050-touch.jpg",
-  "/images/eemagine2024/freepik__retouch__64056-touch.jpg",
-  "/images/eemagine2024/freepik__retouch__77441-touch.jpg",
-  "/images/eemagine2024/freepik__retouch__77444-touch.jpg",
-];
+// const allImages = [
+//   "/images/eemagine2024/freepik__retouch__26217.jpg",
+//   "/images/eemagine2024/freepik__retouch__26225.jpg",
+//   "/images/eemagine2024/freepik__retouch__26230.jpg",
+//   "/images/eemagine2024/freepik__retouch__26240.jpg",
+//   "/images/eemagine2024/freepik__retouch__26241.jpg",
+//   "/images/eemagine2024/freepik__retouch__26249.jpg",
+//   "/images/eemagine2024/freepik__retouch__26252.jpg",
+//   "/images/eemagine2024/freepik__retouch__49578.jpg",
+//   "/images/eemagine2024/freepik__retouch__64050-touch.jpg",
+//   "/images/eemagine2024/freepik__retouch__64056-touch.jpg",
+//   "/images/eemagine2024/freepik__retouch__77441-touch.jpg",
+//   "/images/eemagine2024/freepik__retouch__77444-touch.jpg",
+// ];
 
 export default function FootprintImage() {
   const initialVisible = 9;
   const [visibleCount, setVisibleCount] = useState(initialVisible);
+
+  const [allImages, setAllImages] = useState([]);
+
+  useEffect(() => {
+    fetch("/images/galleryFileList/eemagine2024.json")
+      .then((res) => res.json())
+      .then((data) => setAllImages(data));
+  }, []);
 
   const handleSeeMore = () => {
     setVisibleCount((prev) => prev + 6);
