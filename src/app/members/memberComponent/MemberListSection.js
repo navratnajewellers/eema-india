@@ -27,10 +27,10 @@ export default function MemberListSection() {
           who make up EEMA’s vibrant community.
         </p>
         <a
-          href="/members-lists"
+          href="/members-list"
           className="inline-block bg-orange-400 text-white px-6 py-3 rounded-full font-semibold hover:bg-orange-600 transition"
         >
-          View Member List
+          View Members List
         </a>
       </motion.div>
     </section>

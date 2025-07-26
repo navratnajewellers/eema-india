@@ -109,7 +109,7 @@ export default function HeaderSideBar() {
                 </ul>
               </li>
               <li className=" py-2 ">
-                <SpecialTextEffect text="Gallery" link="#" />
+                <SpecialTextEffect text="Footprints" link="/footprints" />
               </li>
               <li className=" relative group py-2 ">
                 <SpecialButtonEffect text="Members" toggleText="member" />
@@ -118,10 +118,10 @@ export default function HeaderSideBar() {
                 >
                   <li>
                     <a
-                      href="/members-lists"
+                      href="/members-list"
                       className=" block px-4 py-2 hover:bg-gray-100 text-gray-800 hover:text-orange-600 hover:font-semibold transition-all "
                     >
-                      Member Lists
+                      Members List
                     </a>
                   </li>
                   <li>
@@ -156,9 +156,6 @@ export default function HeaderSideBar() {
                     </a>
                   </li>
                 </ul>
-              </li>
-              <li className=" py-2 ">
-                <SpecialTextEffect text="Newsletter" link="/newsletter" />
               </li>
               <li className=" py-2 ">
                 <SpecialTextEffect
@@ -199,7 +196,7 @@ export default function HeaderSideBar() {
                 />
               </li>
               <li className=" py-2 ">
-                <SpecialTextEffect text="Career" link="/career" />
+                <SpecialTextEffect text="Careers" link="/careers" />
               </li>
               <li className=" py-2 ">
                 <SpecialTextEffect text="Contact Us" link="/contact" />
@@ -209,9 +206,6 @@ export default function HeaderSideBar() {
                   text="Knowledge Center"
                   link="/knowledge-center"
                 />
-              </li>
-              <li className=" py-2 ">
-                <SpecialTextEffect text="Footprints" link="/footprints" />
               </li>
             </ul>
           </nav>

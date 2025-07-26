@@ -56,7 +56,7 @@ export default function SaCategories() {
           transition={{ duration: 0.6 }}
         >
           <Image
-            src="https://www.eemaindia.com/spotlightaward/assets/images/Categories%20(2).jpg" // Replace with your image path
+            src="/images/spotlightawards/spotlight-awards-slider-2.jpg"
             alt="Spotlight Categories"
             width={600}
             height={400}

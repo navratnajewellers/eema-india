@@ -45,7 +45,7 @@ export default function SaAwards() {
           transition={{ duration: 0.6 }}
         >
           <Image
-            src="https://www.eemaindia.com/spotlightaward/assets/images/spotlight%20awards%20(2).jpg" // replace with actual path
+            src="/images/spotlightawards/spotlight-awards-slider1.jpg"
             alt="Spotlight Awards Banner"
             width={600}
             height={700}

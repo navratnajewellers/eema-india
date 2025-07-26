@@ -169,7 +169,7 @@ export default function VATPage() {
 
   return (
     <>
-      {/* <section
+      <section
         id="newsletter"
         className=" bg-gray-50 text-black px-7 sm:px-24 relative py-11 "
       >
@@ -227,7 +227,7 @@ export default function VATPage() {
             </div>
           ))}
         </div>
-      </section> */}
+      </section>
     </>
   );
 }

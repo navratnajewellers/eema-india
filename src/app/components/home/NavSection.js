@@ -28,7 +28,7 @@ const navItems = [
   },
   {
     text: "Careers",
-    link: "/career",
+    link: "/careers",
   },
 ];
 
