@@ -15,7 +15,7 @@ const originalDropDownList = {
 };
 
 export default function HeaderSideBar() {
-  const [isTablet] = useMediaQuery("(max-width: 1111px)");
+  const [isTablet] = useMediaQuery("(max-width: 1211px)");
 
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -56,6 +56,19 @@ export default function HeaderSideBar() {
     );
   };
 
+  const closedOpenOption = () => {
+    if (
+      openDropdowns.about ||
+      openDropdowns.eemagine ||
+      openDropdowns.member ||
+      openDropdowns.news
+    ) {
+      // alert("clicked inside");
+
+      setOpenDropdowns(originalDropDownList);
+    }
+  };
+
   return (
     <>
       <div className=" fixed right-11 md:right-20 top-8 md:top-16 z-50 bg-gray-50 rounded-2xl ">
@@ -76,7 +89,7 @@ export default function HeaderSideBar() {
           setOpenDropdowns(originalDropDownList);
         }}
       >
-        <Drawer.Body>
+        <Drawer.Body onClick={() => closedOpenOption()}>
           <nav>
             <Link
               href="/"
@@ -88,7 +101,7 @@ export default function HeaderSideBar() {
               <li className=" relative group py-2 ">
                 <SpecialButtonEffect text="About Us" toggleText="about" />
                 <ul
-                  className={` absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 transform -translate-y-2 transition-all duration-200 z-50 invisible ${openDropdowns.about && isTablet ? "visible opacity-100 translate-y-0" : " group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible "} `}
+                  className={` top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 transform -translate-y-2 transition-all duration-200 z-50 invisible ${openDropdowns.about && isTablet ? " relative visible opacity-100 translate-y-0" : " absolute group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible "} `}
                 >
                   <li>
                     <a
@@ -114,7 +127,7 @@ export default function HeaderSideBar() {
               <li className=" relative group py-2 ">
                 <SpecialButtonEffect text="Members" toggleText="member" />
                 <ul
-                  className={` absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 transform -translate-y-2 transition-all duration-200 z-50 invisible ${openDropdowns.member && isTablet ? "visible opacity-100 translate-y-0" : " group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible "} `}
+                  className={` top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 transform -translate-y-2 transition-all duration-200 z-50 invisible ${openDropdowns.member && isTablet ? "relative visible opacity-100 translate-y-0" : " absolute group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible "} `}
                 >
                   <li>
                     <a
@@ -137,7 +150,7 @@ export default function HeaderSideBar() {
               <li className=" relative group py-2 ">
                 <SpecialButtonEffect text="News" toggleText="news" />
                 <ul
-                  className={` absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 transform -translate-y-2 transition-all duration-200 z-50 invisible ${openDropdowns.news && isTablet ? "visible opacity-100 translate-y-0" : " group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible "} `}
+                  className={` top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 transform -translate-y-2 transition-all duration-200 z-50 invisible ${openDropdowns.news && isTablet ? " relative visible opacity-100 translate-y-0" : " absolute group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible "} `}
                 >
                   <li>
                     <a
@@ -166,7 +179,7 @@ export default function HeaderSideBar() {
               <li className=" relative group py-2 ">
                 <SpecialButtonEffect text="EEMAGINE" toggleText="eemagine" />
                 <ul
-                  className={` absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 transform -translate-y-2 transition-all duration-200 z-50 invisible ${openDropdowns.eemagine && isTablet ? "visible opacity-100 translate-y-0" : " group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible "} `}
+                  className={` top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 transform -translate-y-2 transition-all duration-200 z-50 invisible ${openDropdowns.eemagine && isTablet ? " relative visible opacity-100 translate-y-0" : " absolute group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible "} `}
                 >
                   <li>
                     <a

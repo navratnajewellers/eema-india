@@ -17,7 +17,7 @@ import { useEffect, useState } from "react";
 // ];
 
 export default function FootprintImage() {
-  const initialVisible = 9;
+  const initialVisible = 15;
   const [visibleCount, setVisibleCount] = useState(initialVisible);
 
   const [allImages, setAllImages] = useState([]);
@@ -29,7 +29,13 @@ export default function FootprintImage() {
   }, []);
 
   const handleSeeMore = () => {
-    setVisibleCount((prev) => prev + 6);
+    setVisibleCount((prev) => prev + 20);
+    document.getElementById("images").scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleSeeAll = () => {
+    setVisibleCount(allImages.length);
+    document.getElementById("images").scrollIntoView({ behavior: "smooth" });
   };
 
   const visibleImages = allImages.slice(0, visibleCount);
@@ -39,7 +45,10 @@ export default function FootprintImage() {
       {/* <h2 className="text-3xl font-bold mb-16 text-center w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600">
         EEMA Image Footprints
       </h2> */}
-      <div className="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4">
+      <div
+        id="images"
+        className="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4"
+      >
         {visibleImages.map((src, index) => (
           <a
             href="https://www.facebook.com/eemaindia/photos"
@@ -58,12 +67,18 @@ export default function FootprintImage() {
       </div>
 
       {visibleCount < allImages.length && (
-        <div className="text-center mt-10">
+        <div className="text-center mt-10 space-x-7 ">
           <button
             onClick={handleSeeMore}
-            className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2 rounded-xl transition-all"
+            className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2 rounded-xl transition-all cursor-pointer"
           >
             See More
+          </button>
+          <button
+            onClick={handleSeeAll}
+            className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2 rounded-xl transition-all cursor-pointer"
+          >
+            View All
           </button>
         </div>
       )}

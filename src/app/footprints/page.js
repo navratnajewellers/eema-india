@@ -11,7 +11,7 @@ export default function FootprintsPage() {
   return (
     <main className=" text-black py-20 bg-gradient-to-b from-white via-orange-100 to-orange-200 ">
       <h2 className=" text-3xl font-bold text-center mb-11 w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600 ">
-        EEMA Footprint
+        EEMA Footprint over the Years
       </h2>
 
       <section className="max-w-4xl mx-auto py-7 px-4">
