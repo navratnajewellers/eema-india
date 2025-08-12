@@ -93,7 +93,7 @@ export default function MomNecPage() {
     {
       link: "https://eemaindia.com/theme/FrontThemeTemplate/pdf/20240102_2_January_2024.pdf",
       description: "National Executive Council Meeting",
-      date: "2th January, 2024",
+      date: "2nd January, 2024",
       year: 2024,
     },
     {
