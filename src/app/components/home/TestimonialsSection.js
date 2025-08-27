@@ -8,19 +8,19 @@ import "slick-carousel/slick/slick-theme.css";
 export default function TestimonialsSection() {
   const testimonials = [
     {
-      name: "Rohit Malhotra",
-      company: "Laqshya Live Experiences",
-      text: "EEMA gave us a platform to collaborate nationally. The network and knowledge we've gained are unmatched.",
+      name: "Gitikka Ganju Dhar",
+      company: "Chair, EEMA Artiste Committee",
+      text: "EEMA is a force. When I came back, post a sabbatical, it's stages served as messengers of what I brought to the table as an artiste, and now, as I lead the artiste initiative for EEMA, EEMA is serving as a vehicle of transformation. The Apex Body is rising to nurture and safeguard the interests of the industry and the nation at large. Every office bearer of EEMA today realizes the enormity of the opportunity to lead an industry to a new frontier; members and industry stakeholders need to realize it too. EEMA is the Mother Ship. It is us flying into the future.",
     },
     {
-      name: "Anjali Kapoor",
-      company: "Showtime Events",
-      text: "From government advocacy to vendor coordination, EEMA has helped us grow at every step.",
+      name: "Sumit Productions",
+      company: "New Member, North",
+      text: "For me, being part of EEMA is more than just membership—it’s about finding a platform to learn from the best, contribute meaningfully, and grow alongside peers who share the same dedication to shaping the future of live experiences in India. I’m excited to walk this journey, to give back, and to celebrate the power of coming together as one industry, one voice.",
     },
     {
-      name: "Kunal Singh",
-      company: "Tessarakt Experiential",
-      text: "The support during COVID and the digital push were crucial for our survival and success.",
+      name: "Maryann Manaseeh",
+      company: "Presenter & Engagement Expert",
+      text: "EEMA has completely redefined the way I see and experience our industry. From setting standards to safeguarding our interests, it has been a force that empowers me as a professional and gives direction to my journey. Being part of this community has given me a platform where my creativity is valued and my voice is heard. EEMA is not just shaping the industry—it is shaping me, inspiring me to collaborate, innovate, and contribute to a future where Indian event professionals shine on the global stage.",
     },
   ];
 

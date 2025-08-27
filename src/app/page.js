@@ -22,7 +22,7 @@ export default function Home() {
 
       <HomeCarousel />
 
-      <JourneyTimeline />
+      {/* <JourneyTimeline /> */}
 
       <div className=" w-[90%] h-0.5 bg-gray-200 m-auto "></div>
 

@@ -11,7 +11,7 @@ const journey = [
       "Founded in 2008 to unify and professionalize the event and experiential marketing industry in India.",
       "Aimed to build a structured, ethical, and transparent ecosystem for event professionals.",
     ],
-    image: "/images/popup/eema-website-popup-image.png",
+    image: "/images/home-page/journey-timeline/2008.jpg",
   },
   {
     date: "2008 – 2015",
@@ -21,7 +21,7 @@ const journey = [
       "Initiated knowledge-sharing platforms and member networking events.",
       "Focused on setting standards and streamlining industry practices.",
     ],
-    image: "/images/popup/eema-website-popup-image.png",
+    image: "/images/home-page/journey-timeline/2008-2015.jpeg",
   },
   {
     date: "2016",
@@ -42,7 +42,7 @@ const journey = [
         celebrate excellence and innovation in events.
       </span>,
     ],
-    image: "/images/popup/eema-website-popup-image.png",
+    image: "/images/home-page/journey-timeline/2016.jpg",
   },
   {
     date: "2020",
@@ -53,7 +53,7 @@ const journey = [
       "Pivoted towards digital, virtual, and hybrid events.",
       "Conducted upskilling and virtual training programs for members.",
     ],
-    image: "/images/popup/eema-website-popup-image.png",
+    image: "/images/home-page/journey-timeline/2020.jpg",
   },
   {
     date: "2021 – Present",
@@ -63,7 +63,7 @@ const journey = [
       "Focus on sustainability, digital transformation, and global competitiveness.",
       "Launched initiatives like EEMA Leadership Summit, EEMA Youth Connect, CSR programs.",
     ],
-    image: "/images/popup/eema-website-popup-image.png",
+    image: "/images/home-page/journey-timeline/2021-Present.jpg",
   },
   {
     date: "Today",
@@ -76,7 +76,7 @@ const journey = [
       </span>,
       "Functions as a platform for advocacy, education, networking, and business growth.",
     ],
-    image: "/images/popup/eema-website-popup-image.png",
+    image: "/images/home-page/journey-timeline/Today.jpg",
   },
   {
     date: "Future",
@@ -86,7 +86,7 @@ const journey = [
       "Embrace new technologies and sustainable practices.",
       "Continue to shape India’s global standing in the experience economy.",
     ],
-    image: "/images/popup/eema-website-popup-image.png",
+    image: "/images/home-page/journey-timeline/Present.jpg",
   },
 ];
 

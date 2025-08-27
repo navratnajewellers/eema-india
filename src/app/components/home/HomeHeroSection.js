@@ -7,25 +7,35 @@ import Image from "next/image";
 const HomeHeroSection = () => {
   const workDetails = [
     {
-      title: "EEMAX GLOBAL AWARD NIGHT 2019",
-      image:
-        "https://framerusercontent.com/images/xeE2BNz1ZC8WpZmB3ToCHzatvU.jpeg",
+      title: "EEMAGINE / EEMAX",
+      image: "/images/home-page/flagship-event/eemagine.jpg",
       description:
-        "This is a description text. This is a description text. This is a description text. This is a description text. This is a description text. This is a description text. This is a description text. This is a description text. This is a description text.",
+        "Every year, EEMA brings together the brightest minds, the most creative innovators, and the most passionate professionals from the live events and experiential industry at EEMAGINE and EEMAX Global Awards.",
     },
     {
-      title: "EEMAX Global Awards",
-      image:
-        "https://framerusercontent.com/images/Xokb1ddqeYw8fChnOTjHNKjKei4.jpeg",
+      title: "Spotlight Awards",
+      image: "/images/home-page/flagship-event/spotlight.jpg",
       description:
-        "This is a description text. This is a description text. This is a description text. This is a description text. This is a description text. This is a description text. This is a description text. This is a description text. This is a description text. This is a description text.",
+        "The Spotlight Awards celebrate creativity, passion, and innovation in the live events and experiential industry. They recognize the outstanding work, inspiring ideas, and remarkable professionals who raise the bar year after year.",
     },
     {
-      title: "EEMAgine X Gala Night",
+      title: "Presenters’ Dialogue",
       image:
         "https://framerusercontent.com/images/JbEsxAQRVzEtQ36HgSwnCROmQT8.jpeg",
       description:
-        "This is a description text. This is a description text. This is a description text. ",
+        "Presenters’ Dialogue is one of EEMA’s signature knowledge-sharing formats, designed to create engaging and thought-provoking conversations on stage. It brings together diverse voices — industry leaders, creators, entrepreneurs, and visionaries — who engage in candid dialogues that go beyond presentations.",
+    },
+    {
+      title: "East Conclave",
+      image: "/images/home-page/flagship-event/east-conclave.jpg",
+      description:
+        "The East Conclave stands as one of EEMA’s flagship events, celebrating innovation, collaboration, and growth in the live experiences industry. Bringing together industry leaders, creative minds, and emerging talent from across the region, it serves as a hub for sharing insights, exploring trends, and setting benchmarks for excellence. Just like EEMA’s other premier events, the East Conclave is where ideas meet execution, connections turn into collaborations, and the future of events is envisioned and shaped.",
+    },
+    {
+      title: "South Factor",
+      image: "/images/home-page/flagship-event/south-factor.jpg",
+      description:
+        "The South Factor is EEMA’s flagship event in the southern region, designed to spotlight innovation, talent, and excellence in the live experiences industry. Bringing together industry leaders, creative professionals, and emerging talent, it creates a vibrant platform for sharing insights, exploring new trends, and fostering meaningful collaborations.",
     },
   ];
 

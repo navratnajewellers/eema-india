@@ -498,6 +498,15 @@ export default function MemberSection() {
           ))}
         </div>
       </div>
+
+      <div className="mt-20 flex justify-center items-center ">
+        <a
+          href="/about"
+          className="inline-block bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 px-8 rounded-full transition-colors duration-300 shadow-lg"
+        >
+          Find Out More
+        </a>
+      </div>
     </section>
   );
 }

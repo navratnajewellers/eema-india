@@ -69,6 +69,17 @@ export default function ApplySteps() {
             </div>
           </motion.div>
         ))}
+
+        <div className="mt-11">
+          <a
+            href="https://membership.eemaindia.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 px-8 rounded-full transition-colors duration-300 shadow-lg"
+          >
+            APPLY NOW
+          </a>
+        </div>
       </div>
     </section>
   );

@@ -91,7 +91,7 @@ export default function EemaxglobalPage() {
             viewport={{ amount: 0.5 }}
             className="text-4xl md:text-5xl font-bold text-orange-600 mb-4"
           >
-            EMAX Global
+            EEMAX Global
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, x: 40 }}
@@ -124,7 +124,7 @@ export default function EemaxglobalPage() {
           viewport={{ amount: 0.5 }}
           className="text-3xl font-semibold border-l-4 border-orange-600 pl-4 text-black "
         >
-          What Is EMAX Global?
+          What Is EEMAX Global?
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -136,7 +136,7 @@ export default function EemaxglobalPage() {
           viewport={{ amount: 0.5 }}
           className="text-gray-700 text-lg "
         >
-          EMAX Global celebrates Indian excellence on a global platform. By
+          EEMAX Global celebrates Indian excellence on a global platform. By
           collaborating with international event associations and recognizing
           cross-border impact, we ensure that India’s creative brilliance is
           acknowledged worldwide.

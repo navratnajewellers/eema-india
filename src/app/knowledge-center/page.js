@@ -20,7 +20,7 @@ export default function KnowledgeCenterPage() {
       link: "/knowledge-center/newsletter",
     },
     {
-      title: "MOM - NEC",
+      title: "MoM - NEC",
       description: "Minutes of Meeting from NEC for full transparency.",
       image:
         "https://images.pexels.com/photos/3810792/pexels-photo-3810792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",

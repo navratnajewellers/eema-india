@@ -79,10 +79,16 @@ export default function NavSection({
           >
             EEMA India
           </Link>
-          <p className=" leading-relaxed text-lg text-gray-500 font-semibold ">
+          {/* <p className=" leading-relaxed text-lg text-gray-500 font-semibold ">
             EEMA is an autonomous, non-profit body of registered companies,
             institutions, and professionals operating within India’s Events and
             Experiential Marketing industry.
+          </p> */}
+          <p className=" leading-relaxed text-lg text-gray-500 font-semibold ">
+            EEMA is India’s first and only body uniting event management, sports
+            management, brand activators, MICE and wedding planners,
+            experiential marketers, entertainment professionals, artist
+            managers, and global counterparts on one platform.
           </p>
         </div>
       </div>
