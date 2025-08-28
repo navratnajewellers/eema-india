@@ -207,6 +207,7 @@ export default function MemberSection() {
       post: "President",
       company: "E Factor Experiences Limited",
       instagram: "https://www.instagram.com/samit.garg/?hl=en",
+      email: "president@eemaindia.com",
       linkedin: "https://www.linkedin.com/in/samit-garg-5735598/",
       image: "/images/team/samit-garg.jpg",
     },
@@ -215,6 +216,7 @@ export default function MemberSection() {
       post: "Executive Vice President",
       company: "Catpro Events",
       instagram: "https://www.instagram.com/sagarpingali1/?hl=en",
+      email: "",
       linkedin: "https://www.linkedin.com/in/sagar-pingali-1352aa5/",
       image: "/images/team/sagar-pingali.jpg",
     },
@@ -223,6 +225,7 @@ export default function MemberSection() {
       post: "General Secretary",
       company: "Vibgyor Brand Services",
       instagram: "https://www.instagram.com/ankurkalra76/",
+      email: "generalsecretary@eemaindia.com",
       linkedin:
         "https://www.linkedin.com/in/kalraankur/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in",
       image: "/images/team/ankur-kalra-photo.jpg",
@@ -232,6 +235,7 @@ export default function MemberSection() {
       post: "Secretary",
       company: "White Horse Event Management",
       instagram: "https://www.instagram.com/taranbirsahni",
+      email: "secretary@eemaindia.com",
       linkedin:
         "https://www.linkedin.com/in/taranbir-sahni-3b45a215/?originalSubdomain=in",
       image: "/images/team/taranbir-sahni.jpg",
@@ -241,6 +245,7 @@ export default function MemberSection() {
       post: "Treasurer",
       company: "TNBT Marketing Services Pvt. Ltd.",
       instagram: "https://www.instagram.com/jagskhan818/",
+      email: "treasurer@eemaindia.com",
       linkedin:
         "https://www.linkedin.com/in/jagmohan-singh-b69077a/?originalSubdomain=in",
       image: "/images/team/jagmohan-singh.jpg",
@@ -250,6 +255,7 @@ export default function MemberSection() {
       post: "Vice President - North",
       company: "Occasion Experts Pvt. Ltd.",
       instagram: "https://instagram.com/ruchinkohli?igshid=MzRlODBiNWFlZA==",
+      email: "vpnorth@eemaindia.com",
       linkedin: "https://www.linkedin.com/in/ruchin-kohli-807961167/",
       image: "/images/team/ruchin-kohli.jpg",
     },
@@ -258,6 +264,7 @@ export default function MemberSection() {
       post: "Vice President - South",
       company: "Red Chariots Event Management & Marketing",
       instagram: "https://www.instagram.com/dvvinodgopal/",
+      email: "vpsouth@eemaindia.com",
       linkedin: "https://www.linkedin.com/in/d-v-vinod-gopal-80784321/",
       image: "/images/team/d-v-vinod-2.jpg",
     },
@@ -266,6 +273,7 @@ export default function MemberSection() {
       post: "Vice President - West",
       company: "Rising Events",
       instagram: "https://www.instagram.com/harshal_rising_events/?img_index=1",
+      email: "vpwest@eemaindia.com",
       linkedin: "https://www.linkedin.com/in/harshal-kothari/",
       image: "/images/team/harshal-kothari.jpg",
     },
@@ -274,6 +282,7 @@ export default function MemberSection() {
       post: "Vice President - East",
       company: "Prelude Novel Ventures",
       instagram: "",
+      email: "vpeast@eemaindia.com",
       linkedin:
         "https://www.linkedin.com/in/kshetramohan-sonu-nanda-845aa270/?originalSubdomain=in",
       image: "/images/team/sonu-nanda.jpg",
@@ -284,6 +293,7 @@ export default function MemberSection() {
       company: "Concept Conferences Pvt. Ltd.",
       instagram:
         "https://www.instagram.com/vanessa8769?igsh=MTN4YWR6Ymt6NDV0dg==",
+      email: "jsnorth@eemaindia.com",
       linkedin:
         "https://in.linkedin.com/in/vanessa-williams-11bb153b?original_referer=https%3A%2F%2Fwww.google.com%2F",
       image: "/images/team/vanessa-williams.jpg",
@@ -293,6 +303,7 @@ export default function MemberSection() {
       post: "Joint Secretary - South",
       company: "Eventronicx",
       instagram: "https://www.instagram.com/anupamadeshmukh/",
+      email: "jssouth@eemaindia.com",
       linkedin: "",
       image: "/images/team/anupama-deshmukh.jpg",
     },
@@ -301,6 +312,7 @@ export default function MemberSection() {
       post: "Joint Secretary - East",
       company: "Solitaire Events",
       instagram: "https://www.instagram.com/isanjayagarwal/",
+      email: "jseast@eemaindia.com",
       linkedin:
         "https://www.linkedin.com/in/sanjay-agarwal-7b765732/?originalSubdomain=in",
       image: "/images/team/sanjay-agarwal.jpg",
@@ -311,6 +323,7 @@ export default function MemberSection() {
       company: "Robust Events",
       instagram:
         "https://www.instagram.com/mehtakehta/?api=postMessage&hl=am-et",
+      email: "",
       linkedin:
         "https://www.linkedin.com/in/ravi-mehta-0b969412/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in",
       image: "/images/team/ravi-mehta.jpg",
@@ -320,6 +333,7 @@ export default function MemberSection() {
       post: "Committee Member 1- North",
       company: "Forty Five Positive Tech Pvt.Ltd.",
       instagram: "https://www.instagram.com/theeventpro/",
+      email: "jswest@eemaindia.com",
       linkedin:
         "https://in.linkedin.com/in/naveen-gupta-9444b511?original_referer=",
       image: "/images/team/naveen-gupta.jpg",
@@ -329,6 +343,7 @@ export default function MemberSection() {
       post: "Committee Member 2- North",
       company: "Expro Events & Exhibits",
       instagram: "https://www.instagram.com/vipulk65?igsh=MXV1ZzBmOGx0MGtkeQ==",
+      email: "",
       linkedin: "https://in.linkedin.com/in/vipul-agarwal-a1484655",
       image: "/images/team/vipul-agarwal.jpg",
     },
@@ -337,6 +352,7 @@ export default function MemberSection() {
       post: "Ergo Consulting Services (India) Pvt Ltd",
       company: "Committee Member 2 - South",
       instagram: "https://www.instagram.com/ergorajesh/",
+      email: "",
       linkedin:
         "https://www.linkedin.com/in/rajesh-gopinathan/?originalSubdomain=in",
       image: "/images/team/g-rajesh.jpg",
@@ -347,6 +363,7 @@ export default function MemberSection() {
       company: "Varsham Events And Entertainment Pvt. Ltd.",
       instagram:
         "https://www.instagram.com/ramkumar_varsham/?__d=1%3Futm_source%3Dig_embed",
+      email: "",
       linkedin:
         "https://www.linkedin.com/in/ramkumar-ramasamy-46495920a/?originalSubdomain=in",
       image: "/images/team/r-ramkumar.jpeg",
@@ -356,6 +373,7 @@ export default function MemberSection() {
       post: "Committee Member 1- west",
       company: "Trinity Entertainment And Strategic Consultants LLP",
       instagram: "https://www.instagram.com/hemant342/",
+      email: "",
       linkedin: "https://www.linkedin.com/in/hemant-matai/",
       image: "/images/team/hemant-matai.jpg",
     },
@@ -364,6 +382,7 @@ export default function MemberSection() {
       post: "Committee Member 2- west",
       company: "Collective Heads Experiential Mkt. Solutions Pvt.Ltd",
       instagram: "https://www.instagram.com/keyran26/",
+      email: "",
       linkedin: "",
       image: "/images/team/kiran-shetty.jpg",
     },
@@ -372,6 +391,7 @@ export default function MemberSection() {
       post: "Committee Member 1- East",
       company: "Millennium Accolades Promotions Pvt Ltd",
       instagram: "https://www.instagram.com/pramod.lunawat.7/",
+      email: "",
       linkedin:
         "https://in.linkedin.com/in/pramodlunawat?original_referer=https%3A%2F%2Fwww.google.com%2F",
       image: "/images/team/pramod-lunawat.jpg",
@@ -381,6 +401,7 @@ export default function MemberSection() {
       post: "Committee Member 2- East",
       company: "Encore Events Pvt. Ltd",
       instagram: "",
+      email: "",
       linkedin: "https://in.linkedin.com/in/sanjay-bhandari-44b337241",
       image: "/images/team/sanjay-bhandari.jpg",
     },
@@ -466,13 +487,24 @@ export default function MemberSection() {
 
                   <div>
                     <div className=" mt-11 md:mt-auto flex justify-between items-center ">
-                      <a
+                      {/* <a
                         href={data.instagram}
                         target="_blank"
                         className=" h-nav-link-container group relative h-1.5 w-fit flex items-center justify-between px-4 py-3 cursor-pointer text-black text-sm font-semibold transition-all duration-300 hover:text-white "
                       >
                         <span className="transition-all duration-300 group-hover:text-[16px] text-nowrap ">
                           INSTAGRAM
+                        </span>
+                        <ArrowUpRight className="w-4 h-4 ml-1.5 opacity-0 transform translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 text-black" />
+                      </a> */}
+
+                      <a
+                        href={data.email}
+                        target="_blank"
+                        className=" h-nav-link-container group relative h-1.5 w-fit flex items-center justify-between px-4 py-3 cursor-pointer text-black text-sm font-semibold transition-all duration-300 hover:text-white "
+                      >
+                        <span className="transition-all duration-300 group-hover:text-[16px] text-nowrap ">
+                          EMAIL
                         </span>
                         <ArrowUpRight className="w-4 h-4 ml-1.5 opacity-0 transform translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 text-black" />
                       </a>
