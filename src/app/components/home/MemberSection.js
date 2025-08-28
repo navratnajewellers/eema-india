@@ -216,7 +216,7 @@ export default function MemberSection() {
       post: "Executive Vice President",
       company: "Catpro Events",
       instagram: "https://www.instagram.com/sagarpingali1/?hl=en",
-      email: "",
+      email: "evp@eemaindia.com",
       linkedin: "https://www.linkedin.com/in/sagar-pingali-1352aa5/",
       image: "/images/team/sagar-pingali.jpg",
     },
@@ -477,8 +477,13 @@ export default function MemberSection() {
                     <h2 className=" font-bold text-4xl md:text-5xl tracking-tight mb-4 ">
                       {data.name}
                     </h2>
-                    <p className=" text-lg text-orange-600 mb-4 ">
-                      {data.post}
+                    <p className=" text-lg text-orange-600 hover:text-orange-700 mb-4 ">
+                      <a
+                        href={data.email ? `mailto:${data.email}` : data.email}
+                        className=" block "
+                      >
+                        {data.post}
+                      </a>
                     </p>
                     <h4 className=" font-medium text-2xl tracking-tight ">
                       {data.company}
@@ -487,24 +492,13 @@ export default function MemberSection() {
 
                   <div>
                     <div className=" mt-11 md:mt-auto flex justify-between items-center ">
-                      {/* <a
+                      <a
                         href={data.instagram}
                         target="_blank"
                         className=" h-nav-link-container group relative h-1.5 w-fit flex items-center justify-between px-4 py-3 cursor-pointer text-black text-sm font-semibold transition-all duration-300 hover:text-white "
                       >
                         <span className="transition-all duration-300 group-hover:text-[16px] text-nowrap ">
                           INSTAGRAM
-                        </span>
-                        <ArrowUpRight className="w-4 h-4 ml-1.5 opacity-0 transform translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 text-black" />
-                      </a> */}
-
-                      <a
-                        href={data.email}
-                        target="_blank"
-                        className=" h-nav-link-container group relative h-1.5 w-fit flex items-center justify-between px-4 py-3 cursor-pointer text-black text-sm font-semibold transition-all duration-300 hover:text-white "
-                      >
-                        <span className="transition-all duration-300 group-hover:text-[16px] text-nowrap ">
-                          EMAIL
                         </span>
                         <ArrowUpRight className="w-4 h-4 ml-1.5 opacity-0 transform translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 text-black" />
                       </a>

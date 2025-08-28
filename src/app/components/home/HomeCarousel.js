@@ -30,7 +30,7 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 4000,
+  autoplaySpeed: 7000,
   arrows: false,
   pauseOnHover: false,
 };
@@ -48,9 +48,21 @@ export default function HomeCarousel() {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.4 }}
-              className=" block relative w-full h-[35vh] md:h-[50vh] xl:h-screen "
+              // className=" block relative w-full h-[35vh] md:h-[50vh] xl:h-screen "
             >
-              <Image src={src.image} alt={`banner-${idx + 1}`} fill />
+              {/* <Image
+                src={src.image}
+                alt={`banner-${idx + 1}`}
+                fill
+                className=" object-cover "
+              /> */}
+              <Image
+                src={src.image}
+                alt={`banner-${idx + 1}`}
+                height={1280}
+                width={768}
+                className=" h-full w-full "
+              />
             </motion.a>
           ))}
         </Slider>

@@ -3,6 +3,7 @@
 import { Pagination, Table, useMediaQuery } from "rsuite";
 import { useEffect, useState } from "react";
 import defaultData from "./memberList.json";
+import MemberSearch from "./MemberSearch";
 
 const { Column, HeaderCell, Cell } = Table;
 
@@ -57,6 +58,9 @@ export default function MemberListPage() {
           <h2 className=" tracking-tight text-4xl font-bold w-fit mx-auto border-l-4 border-r-4 border-orange-600 px-4 mb-20 ">
             Members List
           </h2>
+
+          <MemberSearch />
+
           <div className=" max-w-6xl [&_.rs-table-row-header]:[&_.rs-table-cell]:!bg-orange-400 [&_.rs-table-row-header]:[&_.rs-table-cell]:text-white [&_.rs-table-row-header]:[&_.rs-table-cell]:font-bold [&_.rs-table-row-header]:[&_.rs-table-cell]:text-[15px] [&_.rs-table-row]:not-odd:[&_.rs-table-cell]:!bg-gray-100 ">
             <Table
               autoHeight

@@ -25,7 +25,7 @@ export default function NLTPage() {
       email: "president@eemaindia.com",
     },
     {
-      name: "PVN Vidyasagar",
+      name: "Sagar Pingali",
       company_name: "Catpro Events",
       designation: "Executive Vice President",
       email: "evp@eemaindia.com",
@@ -72,9 +72,6 @@ export default function NLTPage() {
       designation: "Vice President - East",
       email: "vpeast@eemaindia.com",
     },
-  ];
-
-  const jointSecretaryData = [
     {
       name: "Vanessa Williams",
       company_name: "Concept Conferences Pvt. Ltd.",
@@ -99,6 +96,9 @@ export default function NLTPage() {
       designation: "Joint Secretary - West",
       email: "jswest@eemaindia.com",
     },
+  ];
+
+  const jointSecretaryData = [
     {
       name: "Naveen Gupta",
       company_name: "Expro Events & Exhibits",
@@ -175,6 +175,11 @@ export default function NLTPage() {
       designation: "Assistant Finance Manager",
       email: "accounts@eemaindia.com",
     },
+    {
+      name: "Khayati Arora",
+      designation: "Marcom Manager",
+      email: "marcom@eemaindia.com",
+    },
   ];
 
   if (!mounted) return null;
@@ -244,7 +249,7 @@ export default function NLTPage() {
                 <Cell dataKey="name" />
               </Column>
 
-              <Column width={250}>
+              <Column width={230}>
                 <HeaderCell className=" nlt-table-header text-white ">
                   Company Name
                 </HeaderCell>
@@ -258,7 +263,7 @@ export default function NLTPage() {
                 <Cell dataKey="designation" />
               </Column>
 
-              <Column width={250}>
+              <Column width={270}>
                 <HeaderCell className=" nlt-table-header text-white ">
                   Email
                 </HeaderCell>
@@ -282,7 +287,7 @@ export default function NLTPage() {
               }}
               className=" text-2xl mb-4 mt-4 font-semibold "
             >
-              Joint Secretary and Committee Members
+              Committee Members
             </motion.h4>
             <motion.span
               initial={{ opacity: 0, x: -60 }}

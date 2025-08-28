@@ -10,31 +10,6 @@ import { useState } from "react";
 
 const membershipTiers = [
   {
-    tierName: "STAR MEMBER",
-    price: "₹ 15000/",
-    description:
-      "Artists ( stand alone representing yourself – Any of the below skills ) having performed for 5 shows with any existing EEMA Platinum / Gold / Silver members",
-    benefits: [
-      "Access to EEMA events at a special fee",
-      "EEMAXG Awards Night attendance at a special fee",
-      "Workshop attendance at a special fee",
-      "Regional Conclaves at a special fee",
-    ],
-    linkHref: "star",
-  },
-  {
-    tierName: "GOLD",
-    price: "₹ 40000/",
-    description:
-      "Event Management /Activation Agencies / Experiential Marketing Companies / International Agencies with a minimum turnover of Rs. 2 crore in the immediate past year and in existence for a minimum of two years",
-    benefits: [
-      "Participation in the Annual General Meeting without voting rights.",
-      "Access to EEMA events.",
-      "Complimentary access to two EEMA workshops.",
-    ],
-    linkHref: "gold",
-  },
-  {
     tierName: "PLATINUM",
     price: "₹ 50000/",
     description:
@@ -48,6 +23,19 @@ const membershipTiers = [
     linkHref: "platinum",
   },
   {
+    tierName: "GOLD",
+    price: "₹ 40000/",
+    description:
+      "Event Management /Activation Agencies / Experiential Marketing Companies / International Agencies with a minimum turnover of Rs. 2 crore in the immediate past year and in existence for a minimum of two years",
+    benefits: [
+      "Participation in the Annual General Meeting without voting rights.",
+      "Access to EEMA events.",
+      "Complimentary access to two EEMA workshops.",
+    ],
+    linkHref: "gold",
+  },
+
+  {
     tierName: "ASSOCIATE PARTNER MEMBER",
     price: "₹ 25000/",
     description:
@@ -57,6 +45,19 @@ const membershipTiers = [
       "Complimentary access to two EEMA workshops",
     ],
     linkHref: "APM",
+  },
+  {
+    tierName: "STAR MEMBER",
+    price: "₹ 15000/",
+    description:
+      "Artists ( stand alone representing yourself – Any of the below skills ) having performed for 5 shows with any existing EEMA Platinum / Gold / Silver members",
+    benefits: [
+      "Access to EEMA events at a special fee",
+      "EEMAXG Awards Night attendance at a special fee",
+      "Workshop attendance at a special fee",
+      "Regional Conclaves at a special fee",
+    ],
+    linkHref: "star",
   },
 ];
 
@@ -88,19 +89,22 @@ const settings = {
 
 const modalCategoryDetails = [
   {
-    openModal: "star",
-    title: "Star Members",
+    openModal: "platinum",
+    title: "Platinum Members",
     benefits: [
-      "Access to EEMA events at a special fee",
-      "EEMAXG Awards Night attendance at a special fee",
-      "Workshop attendance at a special fee",
-      "Regional Conclaves at a special fee",
-      "Listing on EEMA Website",
-      "Participation at events which EEMA has tie-up with (eg FICCI | CII | ICWF | EVENTtech etc.) (in process)",
+      "Right to vote & hold office in the National Executive Committee",
+      "Participation in the Annual General Meeting with voting rights",
+      "Access to EEMA events",
+      "Complimentary access to three EEMA workshops",
+      "Upto 20 free Club membership for member employees.",
+      "Usage of EEMA logo on company's stationery",
+      "Listing of members' company on EEMA website",
+      "Participation at events which EEMA has a tie-up with (e.g. FICCI |CII | ICWF | EVENTtech etc.) (in process)",
+      "Access to relationships with trade bodies such as CII & FICCI once there is an agreement with these organisations. (in process)",
     ],
     requiredDocuments:
-      "* PAN Card copy * GST Registration copy * Proof of address * 2 references from existing EEMA members (This can be done on email and a separate document is not required)",
-    fees: "A one time joining fee of Rs 15,000 ( Rupees Fifteen Thousand only) and an annual membership fee of Rs 10,000 (Rupees Ten Thousand only). There is a joining fee without GST and Annual fee with GST of 18%.",
+      "* Company Registration ( In case of Partnership / Pvt Ltd / Ltd / LLC companies) * PAN card * GST Registration * Address proof   * Board resolution * Memorandum of Article (MOA)  *Balance sheet for the past two years certified by your CA * 2 references from existing members (This can be done by Email)",
+    fees: "A one time joining fee of Rs 50,000 (Rupees Fifty Thousand only) and an annual membership fee of Rs 40,000 (Rupees Forty Thousand only). There is a joining fee without GST and annual fee with GST of 18%.",
   },
   {
     openModal: "gold",
@@ -120,24 +124,7 @@ const modalCategoryDetails = [
       "* Company Registration( In case of Partnership / Pvt Ltd / Ltd / LLC companies ) * PAN Card copy * GST Registration copy * Proof of address *Board Resolution*, Balance sheet for the last two years certified by your CA * 2 references from existing EEMA members ( This can be done on email and a separate document is not required. )",
     fees: "A one-time joining fee of Rs. 40,000 (Rupees Forty thousand Only) and an annual membership fee of Rs. 25,000 (Rupees Twenty five thousand only). There is a joining fee without GST and Annual fee with GST of 18%",
   },
-  {
-    openModal: "platinum",
-    title: "Platinum Members",
-    benefits: [
-      "Right to vote & hold office in the National Executive Committee",
-      "Participation in the Annual General Meeting with voting rights",
-      "Access to EEMA events",
-      "Complimentary access to three EEMA workshops",
-      "Upto 20 free Club membership for member employees.",
-      "Usage of EEMA logo on company's stationery",
-      "Listing of members' company on EEMA website",
-      "Participation at events which EEMA has a tie-up with (e.g. FICCI |CII | ICWF | EVENTtech etc.) (in process)",
-      "Access to relationships with trade bodies such as CII & FICCI once there is an agreement with these organisations. (in process)",
-    ],
-    requiredDocuments:
-      "* Company Registration ( In case of Partnership / Pvt Ltd / Ltd / LLC companies) * PAN card * GST Registration * Address proof   * Board resolution * Memorandum of Article (MOA)  *Balance sheet for the past two years certified by your CA * 2 references from existing members (This can be done by Email)",
-    fees: "A one time joining fee of Rs 50,000 (Rupees Fifty Thousand only) and an annual membership fee of Rs 40,000 (Rupees Forty Thousand only). There is a joining fee without GST and annual fee with GST of 18%.",
-  },
+
   {
     openModal: "APM",
     title: "Associate Partner Members",
@@ -154,6 +141,21 @@ const modalCategoryDetails = [
     requiredDocuments:
       "* Company Registration(In case of Partnership / Pvt Ltd / Ltd / LLC companies) * PAN Card copy * GST Registration copy * Proof of address * Board resolution *2 references from existing EEMA members (This can be done on email and a separate document is not required)",
     fees: "A one time joining fee of Rs 25,000 (Rupees Twenty Five Thousand only) and an annual membership fee of Rs 25,000 (Rupees Twenty Five Thousand only ). There is a joining fee without GST and Annual Fee with GST of 18%.",
+  },
+  {
+    openModal: "star",
+    title: "Star Members",
+    benefits: [
+      "Access to EEMA events at a special fee",
+      "EEMAXG Awards Night attendance at a special fee",
+      "Workshop attendance at a special fee",
+      "Regional Conclaves at a special fee",
+      "Listing on EEMA Website",
+      "Participation at events which EEMA has tie-up with (eg FICCI | CII | ICWF | EVENTtech etc.) (in process)",
+    ],
+    requiredDocuments:
+      "* PAN Card copy * GST Registration copy * Proof of address * 2 references from existing EEMA members (This can be done on email and a separate document is not required)",
+    fees: "A one time joining fee of Rs 15,000 ( Rupees Fifteen Thousand only) and an annual membership fee of Rs 10,000 (Rupees Ten Thousand only). There is a joining fee without GST and Annual fee with GST of 18%.",
   },
 ];
 

@@ -63,7 +63,7 @@ export default function CareersPage() {
             className="relative text-center text-white z-10 px-4"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-7 text-orange-600">
-              Build Your Career at EEMA
+              Build a Career in the Experiential Industry
             </h1>
             <p className="text-lg md:text-xl max-w-2xl mx-auto">
               Join a vibrant team of professionals leading India&apos;s event
@@ -192,16 +192,20 @@ export default function CareersPage() {
           </p>
           <div className="space-x-4 mt-7 ">
             <a
-              href="/apply?type=intern"
+              href="https://forms.gle/w274eYR29TtT1ngR7"
+              target="_blank"
+              referrerPolicy="no-referrer"
               className="inline-block bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition"
             >
-              Apply Now – Interns
+              Apply for Internship
             </a>
             <a
-              href="/apply?type=experienced"
+              href="https://forms.gle/gHgyTzZqPnnYmEqE7"
+              target="_blank"
+              referrerPolicy="no-referrer"
               className="inline-block bg-orange-400 text-white px-6 py-3 rounded-full font-semibold hover:bg-orange-600 transition"
             >
-              Apply Now – Experienced
+              Apply for Full Time
             </a>
           </div>
         </section>

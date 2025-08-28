@@ -8,19 +8,19 @@ import { motion } from "framer-motion";
 export default function MemberVideoGrid() {
   const videoTestimonials = [
     {
-      src: "https://www.youtube.com/embed/XI3XDzxUSlQ",
+      src: "https://www.youtube.com/embed/Il4AdrA2YWU",
       title: "EEMA Member Experience 1",
     },
     {
-      src: "https://www.youtube.com/embed/AvEctX9b2LU",
+      src: "https://www.youtube.com/embed/JXW3kH-G3us",
       title: "EEMA Member Experience 2",
     },
     {
-      src: "https://www.youtube.com/embed/XI3XDzxUSlQ",
+      src: "https://www.youtube.com/embed/Il4AdrA2YWU",
       title: "EEMA Member Experience 1",
     },
     {
-      src: "https://www.youtube.com/embed/AvEctX9b2LU",
+      src: "https://www.youtube.com/embed/JXW3kH-G3us",
       title: "EEMA Member Experience 2",
     },
   ];
