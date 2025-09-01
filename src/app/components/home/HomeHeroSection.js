@@ -60,7 +60,7 @@ const HomeHeroSection = () => {
               ease: "easeInOut",
               delay: 0.4,
             }}
-            className=" tracking-tight font-bold text-5xl mb-7 text-orange-600  "
+            className=" tracking-tight font-bold text-2xl sm:text-5xl mb-7 text-orange-600  "
           >
             Flagship Events
           </motion.h2>
@@ -72,7 +72,7 @@ const HomeHeroSection = () => {
               ease: "easeInOut",
               delay: 0.6,
             }}
-            className=" leading-relaxed font-medium text-2xl text-gray-200 "
+            className=" leading-relaxed font-medium text-xl sm:text-2xl text-gray-200 "
           >
             Signature events that bring India’s event ecosystem to life
           </motion.p>
@@ -99,14 +99,14 @@ const HomeHeroSection = () => {
                 className=" px-7 text-center col-span-full md:col-span-4 flex flex-col justify-center items-center border-amber-500 "
               >
                 <h2
-                  className={` leading-relaxed text-3xl font-semibold mb-7 ${isEven ? "text-black" : "text-white"} `}
+                  className={` leading-relaxed text-xl sm:text-3xl font-semibold mb-7 ${isEven ? "text-black" : "text-white"} `}
                 >
                   {data.title}
                 </h2>
                 <p
                   className={` leading-relaxed text-sm font-medium text-gray-300 ${isEven ? "text-white" : "text-gray-300"}  `}
                 >
-                  {data.description}
+                  {data.description.slice(0, 310)}
                 </p>
               </motion.div>
 

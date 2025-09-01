@@ -414,10 +414,10 @@ export default function MemberSection() {
       </h2> */}
 
       <div className="max-w-3xl mx-auto text-center">
-        <h4 className=" text-black text-4xl font-bold w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600">
+        <h4 className=" text-xl text-black sm:text-4xl font-bold w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600">
           National Executive Committee
         </h4>
-        <p className="text-xl font-semibold text-gray-500 mt-10 mb-20">
+        <p className=" text-lg sm:text-xl font-semibold text-gray-500 mb-7 mt-10 sm:mb-20">
           Meet the visionary leaders steering EEMA towards innovation, unity,
           and excellence across India’s event and experiential landscape.
         </p>
@@ -525,7 +525,7 @@ export default function MemberSection() {
         </div>
       </div>
 
-      <div className="mt-20 flex justify-center items-center ">
+      <div className=" mt-7 sm:mt-20 flex justify-center items-center ">
         <a
           href="/about"
           className="inline-block bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 px-8 rounded-full transition-colors duration-300 shadow-lg"
