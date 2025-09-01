@@ -6,23 +6,26 @@ import { useRef } from "react";
 export default function ScalingText({ text = "SCROLL TO SCALE" }) {
   const ref = useRef(null);
 
-  // Get scroll progress from 0 to 1 (within the element)
+  // Get scroll progress (0 → 1 as element moves through viewport)
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["start end", "end start"], // scroll starts when element enters and ends when it leaves
+    offset: ["start end", "end start"],
   });
 
-  // Map scroll progress to scale values (from 1 to 2)
-  const scale = useTransform(scrollYProgress, [0, 1], [0.2, 1.2]);
+  // Scale up in the middle, then back down
+  const scale = useTransform(scrollYProgress, [0, 0.5, 1], [0.5, 0.8, 0.5]);
+
+  // Opacity: fade in → fully visible → fade out
+  const opacity = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [0, 1, 1, 0]);
 
   return (
-    <div className="">
+    <div className="my-2 sm:my-20">
       <div
         ref={ref}
         className="sticky top-1/2 flex justify-center items-center"
       >
         <motion.h1
-          style={{ scale, opacity: scale }}
+          style={{ scale, opacity }}
           transition={{ duration: 0.5 }}
           className="text-4xl font-semibold text-black"
         >

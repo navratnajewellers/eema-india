@@ -147,7 +147,7 @@ export default function FootprintVideo() {
         {visibleCount < videos.length && (
           <div className="text-center mt-8">
             <button
-              onClick={() => setVisibleCount((prev) => prev + 3)}
+              onClick={() => setVisibleCount((prev) => prev + 10)}
               className="px-6 py-2 bg-orange-500 text-white font-medium rounded-full hover:bg-orange-600 transition cursor-pointer"
             >
               See More

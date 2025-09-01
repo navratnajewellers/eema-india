@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Divider, Nav } from "rsuite";
 import { motion } from "framer-motion";
 import EemaxWinner2024 from "./EemaxWinner2024";
+import EemaxWinner2025 from "./EemaxWinner2025";
 
 export default function EemaxWinnerPage() {
   const [active, setActive] = useState("home");
@@ -54,14 +55,7 @@ export default function EemaxWinnerPage() {
           ))} */}
 
           <motion.div id="2025" onViewportEnter={() => setActive("2025")}>
-            <div className=" w-full h-screen flex flex-col justify-center items-center  ">
-              <h2 className=" tracking-tight font-bold text-3xl md:text-4xl text-center mb-11 ">
-                Winner 2023/2024
-              </h2>
-              <h4 className=" text-2xl md:text-3xl leading-relaxed font-semibold text-gray-400 ">
-                Comming Soon...
-              </h4>
-            </div>
+            <EemaxWinner2025 />
           </motion.div>
 
           <Divider />

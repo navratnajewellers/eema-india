@@ -36,7 +36,7 @@ const membershipTiers = [
   },
 
   {
-    tierName: "ASSOCIATE PARTNER MEMBER",
+    tierName: "ASSOCIATE",
     price: "₹ 25000/",
     description:
       "Event Support Service providers / Supply chain / Artist Management Agencies in operation with a minimum turnover of Rs. 50 lacs for one financial year.",
@@ -47,7 +47,7 @@ const membershipTiers = [
     linkHref: "APM",
   },
   {
-    tierName: "STAR MEMBER",
+    tierName: "STAR",
     price: "₹ 15000/",
     description:
       "Artists ( stand alone representing yourself – Any of the below skills ) having performed for 5 shows with any existing EEMA Platinum / Gold / Silver members",

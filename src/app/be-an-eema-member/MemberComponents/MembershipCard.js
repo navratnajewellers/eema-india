@@ -10,7 +10,7 @@ export default function MembershipCard({
   setOpenCategory,
 }) {
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center max-w-sm w-full h-full transform transition-transform duration-300 hover:scale-105 hover:shadow-xl my-20">
+    <div className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center max-w-sm w-full h-full min-h-[640px] transform transition-transform duration-300 hover:scale-105 hover:shadow-xl my-20">
       {/* Tier Name */}
       <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
         {tierName}
@@ -23,7 +23,7 @@ export default function MembershipCard({
       </p>
 
       {/* Short Description */}
-      <p className="text-gray-600 mb-6 flex-grow">
+      <p className="text-gray-600 mb-6">
         {" "}
         {/* flex-grow to push button to bottom */}
         {description}

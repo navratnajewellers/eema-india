@@ -7,7 +7,7 @@ export default function MemberCTASection() {
   return (
     <section className=" bg-gray-50 w-full relative z-0 m-cta-bg-sec ">
       <Image
-        src="https://www.asce.org/-/media/images/asce/content/standard/promo-full-width/promo-full-width-img1.jpg"
+        src="/images/others/career-interview.jpg"
         alt="bg-image"
         fill
         className=" object-cover -z-10 "

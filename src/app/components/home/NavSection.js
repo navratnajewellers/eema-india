@@ -42,7 +42,7 @@ export default function NavSection({
     <section className=" bg-gray-50 h-full relative ">
       <div className=" relative bottom-0 left-0 w-full mt-2 md:mt-2 xl:mt-2 mb-20 overflow-hidden ">
         <div className=" flex justify-center items-center p-0 xl:mt-14  ">
-          <div className=" relative h-[160px] w-[340px] md:h-[70px] md:w-[210px] ">
+          <div className=" relative h-[160px] w-[340px] md:h-[110px] md:w-[230px] ">
             <Image src={headerImage} alt="company-logo" fill />
           </div>
           {/* <div className=" relative h-[160px] w-[340px] md:h-[150px] md:w-[370px] ">

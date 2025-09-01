@@ -45,41 +45,34 @@ export default function RegionalInitiativesPage() {
       title: "GURUKOOL",
       description:
         "GURUKOOL was shaped as an outcome of Manthan as a means to provide interactive learning for employees and members. This event consisted of industry experts sharing their experiences with the audience.",
-      image:
-        "https://eemaindia.com/uploads/regionalinitiatives/5cb6fa2c0b7a6je6BnXgXfx.png",
+      image: "/images/regional-initiative/5cb6fa2c0b7a6je6BnXgXfx.png",
     },
     {
       title: "POWER BRUNCH",
       description:
         "POWER BRUNCH marked a new trend in networking and though leadership. The inaugural session was graced by Amish Tripathi, the celebrated author who wowed the West Zone audience with his success philosophy.",
-      image:
-        "https://eemaindia.com/uploads/regionalinitiatives/5cb6f9a9e9ea9BrDcA4iniJ.png",
+      image: "/images/regional-initiative/5cb6f9a9e9ea9BrDcA4iniJ.png",
     },
     {
-      title: "EEMAG",
+      title: "EEMA",
       description:
-        "EEMAG is an in-house industry newsletter that was launched digitally to members and industry stakeholders all the way back in October 2014.",
-      image:
-        "https://eemaindia.com/uploads/regionalinitiatives/5cb6f992981e8KZBMDDaahU.png",
+        "EEMA is an in-house industry newsletter that was launched digitally to members and industry stakeholders all the way back in October 2014.",
+      image: "/images/regional-initiative/5cb6f992981e8KZBMDDaahU.png",
     },
   ];
 
   const slides = [
     {
-      image:
-        "https://eemaindia.com/uploads/sliders/5cbd67fd98eaat0IqCkok4h.jpeg",
+      image: "/images/regional-initiative/5cbd67fd98eaat0IqCkok4h.jpeg",
     },
     {
-      image:
-        "https://eemaindia.com/uploads/sliders/5cbd67d3b9aadypYyC1T0KD.jpeg",
+      image: "/images/regional-initiative/5cbd67d3b9aadypYyC1T0KD.jpeg",
     },
     {
-      image:
-        "https://eemaindia.com/uploads/sliders/5cbd67fd98eaat0IqCkok4h.jpeg",
+      image: "/images/regional-initiative/5cbd67fd98eaat0IqCkok4h.jpeg",
     },
     {
-      image:
-        "https://eemaindia.com/uploads/sliders/5cbd67d3b9aadypYyC1T0KD.jpeg",
+      image: "/images/regional-initiative/5cbd67d3b9aadypYyC1T0KD.jpeg",
     },
   ];
 
@@ -286,7 +279,7 @@ export default function RegionalInitiativesPage() {
           represent your region on a national stage.
         </p>
         <a
-          href="#"
+          href="https://membership.eemaindia.com/"
           className=" text-lg font-medium py-1.5 px-6 mt-7 border-2 border-gray-50 rounded-xl cursor-pointer text-black bg-gray-50 shadow-md transition hover:bg-transparent hover:text-white "
         >
           Partner With Us

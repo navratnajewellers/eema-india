@@ -5,25 +5,22 @@ import { Divider, Image } from "rsuite";
 
 const data = {
   Zonal: {
-    North: ["North Event 1", "North Event 2"],
-    South: ["South Event 1"],
-    East: ["East Event A"],
-    West: ["West Summit"],
+    // North: ["North Event 1", "North Event 2"],
+    North: ["North Meet"],
+    South: ["South Factor"],
+    East: ["East Conclave"],
+    West: ["West Inspire 2025"],
   },
   National: ["National Conference", "Annual Meetup"],
 };
 
 const media = {
-  "North Event 1": {
+  "North Meet": {
     images: [
       "/images/eemagine2024/freepik__retouch__26217.jpg",
       "/images/eemagine2024/freepik__retouch__26241.jpg",
     ],
     videos: ["https://www.youtube.com/embed/Gm5ekx35QnY"],
-  },
-  "North Event 2": {
-    images: ["/images/eemagine2024/freepik__retouch__26241.jpg"],
-    videos: ["https://www.youtube.com/embed/1LjjgN8P0Ro"],
   },
   "National Conference": {
     images: ["/images/eemagine2024/freepik__retouch__64056-touch.jpg"],
@@ -111,7 +108,7 @@ export default function KnowledgeEventsPage() {
                 className={clsx(
                   "block w-full text-left px-3 py-1 rounded-md text-sm",
                   selectedEvent === eventName
-                    ? "bg-orange-300 text-purple-900"
+                    ? "bg-orange-300 text-white font-semibold"
                     : "hover:bg-gray-200"
                 )}
               >

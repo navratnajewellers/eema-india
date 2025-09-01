@@ -20,8 +20,7 @@ const HomeHeroSection = () => {
     },
     {
       title: "Presenters’ Dialogue",
-      image:
-        "https://framerusercontent.com/images/JbEsxAQRVzEtQ36HgSwnCROmQT8.jpeg",
+      image: "/images/home-page/flagship-event/presenters-dialogue.jpg",
       description:
         "Presenters’ Dialogue is one of EEMA’s signature knowledge-sharing formats, designed to create engaging and thought-provoking conversations on stage. It brings together diverse voices — industry leaders, creators, entrepreneurs, and visionaries — who engage in candid dialogues that go beyond presentations.",
     },
@@ -36,6 +35,12 @@ const HomeHeroSection = () => {
       image: "/images/home-page/flagship-event/south-factor.jpg",
       description:
         "The South Factor is EEMA’s flagship event in the southern region, designed to spotlight innovation, talent, and excellence in the live experiences industry. Bringing together industry leaders, creative professionals, and emerging talent, it creates a vibrant platform for sharing insights, exploring new trends, and fostering meaningful collaborations.",
+    },
+    {
+      title: "COREA 3.0",
+      image: "/images/home-page/flagship-event/corea.jpg",
+      description:
+        "COREA is the acronym for the Congress of Regional Event Associations, which is an initiative by EEMA. EEMA is India's apex body for the events and experiential marketing industry, and COREA is an event designed to unite regional event associations under the umbrella of EEMA.",
     },
   ];
 

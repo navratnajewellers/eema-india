@@ -26,14 +26,12 @@ const joiningSteps = [
     title: "Get Interviewed",
     description:
       "Connect with our team to understand mutual goals and expectations.",
-    image:
-      "https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "/images/others/career-interview.jpg",
   },
   {
     title: "Join the Team",
     description: "Become part of EEMA and contribute to exciting projects.",
-    image:
-      "https://images.pexels.com/photos/4344860/pexels-photo-4344860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "/images/others/career-join-team.jpg",
   },
 ];
 
@@ -54,7 +52,7 @@ export default function CareersPage() {
 
       <div className="bg-white">
         {/* Hero Section */}
-        <section className="relative h-[80vh] bg-cover bg-center bg-[url('https://images.pexels.com/photos/3182796/pexels-photo-3182796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] flex items-center justify-center">
+        <section className="relative h-[80vh] bg-cover bg-center bg-[url('/images/others/career-banner.jpg')] flex items-center justify-center">
           <div className="bg-black/60 absolute inset-0" />
           <motion.div
             initial={{ opacity: 0, y: 20 }}

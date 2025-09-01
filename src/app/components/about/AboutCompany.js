@@ -40,9 +40,9 @@ const AboutCompany = () => {
       id="about-eema"
       className=" bg-gray-50 px-7 sm:px-24 relative py-11 "
     >
-      <h2 className="text-3xl font-bold mb-16 text-center w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600">
+      {/* <h2 className="text-3xl font-bold mb-16 text-center w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600">
         About EEMA
-      </h2>
+      </h2> */}
       <h4 className=" text-2xl text-black sticky top-40 z-10 w-fit bg-gray-50 ">
         (About EEMA)
       </h4>
@@ -62,7 +62,9 @@ const AboutCompany = () => {
           </motion.div>
 
           <div className=" sm:col-span-3 px-7 flex justify-center items-center ">
-            <ScalingText text={data.textToWrite} />
+            <div>
+              <ScalingText text={data.textToWrite} />
+            </div>
           </div>
         </div>
       ))}
