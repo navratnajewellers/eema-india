@@ -8,17 +8,15 @@ import Image from "next/image";
 
 const bannerDetils = [
   {
-    image:
-      "https://www.eemaindia.com/uploads/sliders/66e420119fc9cNrsM1Om1d3.jpeg",
+    image: "/images/home-page/banner-images/66e420119fc9cNrsM1Om1d3.jpg",
     link: "https://events.eemaindia.com/reg-events/gjdh4u-eemagine-2025",
   },
   {
-    image: "https://www.eemaindia.com/uploads/sliders/123456eec2025mar11.jpg",
+    image: "/images/home-page/banner-images/123456eec2025mar11.jpg",
     link: "https://events.eemaindia.com/reg-events/gjdh58-inspire",
   },
   {
-    image:
-      "https://www.eemaindia.com/uploads/sliders/664d7a05ebaffa2S1wDysKs.png",
+    image: "/images/home-page/banner-images/664d7a05ebaffa2S1wDysKs.jpg",
     link: "https://www.eemaindia.com/eemaxglobal/",
   },
 ];

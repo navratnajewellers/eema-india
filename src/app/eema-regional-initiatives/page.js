@@ -176,7 +176,7 @@ export default function RegionalInitiativesPage() {
             defaultActiveKey="1"
             vertical={isMobile ? false : true}
             appearance="subtle"
-            className="  [&_.rs-nav]:overflow-x-scroll [&_.rs-nav]:md:overflow-auto [&_.rs-nav-item-active]:!text-orange-600 [&_.rs-nav-item-active:before]:!bg-orange-600 [&_.rs-nav-item]:hover:!text-orange-500 "
+            className="  [&_.rs-nav]:overflow-x-scroll [&_.rs-nav]:md:overflow-auto [&_.rs-nav-item-active]:!text-orange-600 [&_.rs-nav-item-active:before]:!bg-orange-600 [&_.rs-nav-item]:hover:!text-orange-500 [&_.rs-nav]:!justify-center [&_.rs-nav]:gap-4 [&_.rs-nav]:!border-r [&_.rs-nav]:!border-r-orange-300 "
           >
             {featureDetails.map((data, index) => (
               <Tabs.Tab
