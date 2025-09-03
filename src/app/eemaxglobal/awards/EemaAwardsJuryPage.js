@@ -1,4 +1,3 @@
-// app/jury/page.tsx or pages/jury.tsx
 "use client";
 
 import { motion } from "framer-motion";
