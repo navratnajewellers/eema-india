@@ -11,26 +11,6 @@ const AboutCompany = () => {
     },
     {
       textToWrite:
-        "The only body of it’s kind, EEMA seeks to bring together the leading Event management, Brand Activation, Sports management, MICE, Wedding planners, Experiential marketers, Entertainment professionals, Artist management companies and their international counterparts on a single, convenient platform.",
-    },
-    {
-      textToWrite:
-        "EEMA is the first and only body of its kind, which seeks to bring together the country’s leading Event Management, Sports Management and Brand Activation companies, MICE and Wedding Planners, Experiential Marketers, Entertainment Professionals, Artist Management Companies and International counterparts on the same platform.",
-    },
-    {
-      textToWrite:
-        "EEMA today is the only national association with a unified voice that leads dialogue within its members and with government, Statutory Bodies, Taxation Authorities, Private and Municipal Licensing Bodies, Corporate Industry, Vendors and Artists.",
-    },
-    {
-      textToWrite:
-        "EEMA is setting Industry Standards that guide its members and has prescribed a Code of Conduct for its members and their employees.",
-    },
-    {
-      textToWrite:
-        "Over the years, EEMA has also been instrumental in organizing the coming together of industry stakeholders at its annual convention EEMAGINE and has instituted EEMAX, the industry premier Award Ceremony to recognise excellence in the event and experiental marketing space.",
-    },
-    {
-      textToWrite:
         "Since its incorporation in 2008, EEMA has rapidly grown in membership to include all significant organised players across the length and breadth of the country, and it is estimated that close to 80% of the organized revenue in this space, is represented through EEMA members.",
     },
   ];
