@@ -229,3 +229,121 @@ body {
   border-radius: 50%;
   z-index: 1;
 } */
+
+/* ===========================
+   Fancy Scrollbar (Global)
+   – Chrome/Edge/Safari + Firefox
+   =========================== */
+
+:root {
+  --sb-track: #0b0b0c0f; /* subtle track */
+  --sb-thumb: #ea580c; /* Tailwind orange-600 */
+  --sb-thumb-hover: #fb923c; /* orange-400 for hover */
+  --sb-thumb-active: #c2410c; /* orange-700 for active */
+  --sb-corner: transparent;
+  --sb-width: 10px;
+  --sb-radius: 999px;
+}
+
+/* Optional dark theme tweak */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --sb-track: #ffffff14;
+    --sb-thumb: #fb923c; /* a bit brighter on dark */
+    --sb-thumb-hover: #fdba74;
+    --sb-thumb-active: #ea580c;
+  }
+}
+
+/* GLOBAL: apply to page scrollbars */
+html {
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: var(--sb-thumb) var(--sb-track);
+  /* Optional: keeps layout stable when scrollbars appear */
+  scrollbar-gutter: stable;
+}
+
+/* WebKit (Chrome/Edge/Safari) */
+*::-webkit-scrollbar {
+  width: var(--sb-width);
+  height: var(--sb-width);
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--sb-track);
+  border-radius: var(--sb-radius);
+  /* subtle inset groove */
+  box-shadow:
+    inset 0 0 0 1px #0000000a,
+    inset 0 0 6px #00000014;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--sb-thumb), var(--sb-thumb-active));
+  border-radius: var(--sb-radius);
+  border: 2px solid transparent; /* creates a gap from track */
+  background-clip: content-box; /* keep border gap visible */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--sb-thumb-hover), var(--sb-thumb));
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(
+    180deg,
+    var(--sb-thumb-active),
+    var(--sb-thumb-active)
+  );
+}
+
+*::-webkit-scrollbar-corner {
+  background: var(--sb-corner);
+}
+
+/* ===========================
+   Utility Class Version
+   – Add .fancy-scrollbar to any scrollable element
+   =========================== */
+
+.fancy-scrollbar {
+  overflow: auto; /* or overflow-y: auto; as needed */
+
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: var(--sb-thumb) var(--sb-track);
+}
+
+/* WebKit for the utility class */
+.fancy-scrollbar::-webkit-scrollbar {
+  width: var(--sb-width);
+  height: var(--sb-width);
+}
+
+.fancy-scrollbar::-webkit-scrollbar-track {
+  background: var(--sb-track);
+  border-radius: var(--sb-radius);
+  box-shadow:
+    inset 0 0 0 1px #0000000a,
+    inset 0 0 6px #00000014;
+}
+
+.fancy-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--sb-thumb), var(--sb-thumb-active));
+  border-radius: var(--sb-radius);
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.fancy-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--sb-thumb-hover), var(--sb-thumb));
+}
+
+.fancy-scrollbar::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(
+    180deg,
+    var(--sb-thumb-active),
+    var(--sb-thumb-active)
+  );
+}

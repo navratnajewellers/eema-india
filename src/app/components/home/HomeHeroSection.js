@@ -104,9 +104,11 @@ const HomeHeroSection = () => {
                   {data.title}
                 </h2>
                 <p
-                  className={` leading-relaxed text-sm font-medium text-gray-300 ${isEven ? "text-white" : "text-gray-300"}  `}
+                  className={` leading-relaxed text-sm font-medium text-gray-300 max-h-64 overflow-y-auto fancy-scrollbar ${isEven ? "text-white" : "text-gray-300"}  `}
                 >
-                  {data.description.slice(0, 310)}
+                  {data.description.length > 310
+                    ? `${data.description.slice(0, 310)} .`
+                    : data.description}
                 </p>
               </motion.div>
 

@@ -10,7 +10,7 @@ export default function WHeader({ headerNavItems, headerImage }) {
       <section className=" h-[14vh] md:h-[8vh] xl:h-[5vh] w-full">
         <Link
           href="/"
-          className=" h-home-container inline-block fixed top-2 left-2 md:top-11 md:left-14 z-50 py-9 px-7 bg-gray-50 rounded-4xl text-black "
+          className=" h-home-container inline-block fixed top-5 left-4 md:top-11 md:left-14 z-50 py-2.5 px-2.5 sm:py-9 sm:px-7 bg-gray-50 rounded-2xl sm:rounded-4xl text-black "
         >
           Home
         </Link>

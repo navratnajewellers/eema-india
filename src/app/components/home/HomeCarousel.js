@@ -22,7 +22,7 @@ const bannerDetils = [
 ];
 
 const settings = {
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 700,
   slidesToShow: 1,
@@ -57,8 +57,8 @@ export default function HomeCarousel() {
               <Image
                 src={src.image}
                 alt={`banner-${idx + 1}`}
-                height={1280}
-                width={768}
+                width={1280}
+                height={768}
                 className=" h-full w-full "
               />
             </motion.a>

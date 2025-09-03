@@ -19,7 +19,7 @@ export default function ScalingText({ text = "SCROLL TO SCALE" }) {
   const opacity = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [0, 1, 1, 0]);
 
   return (
-    <div className="my-2 sm:my-20">
+    <div className="my-0.5 sm:my-20">
       <div
         ref={ref}
         className="sticky top-1/2 flex justify-center items-center"
@@ -27,7 +27,7 @@ export default function ScalingText({ text = "SCROLL TO SCALE" }) {
         <motion.h1
           style={{ scale, opacity }}
           transition={{ duration: 0.5 }}
-          className="text-4xl font-semibold text-black"
+          className=" text-2xl sm:text-4xl font-semibold text-black"
         >
           {text}
         </motion.h1>

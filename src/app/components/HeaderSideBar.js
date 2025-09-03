@@ -71,7 +71,7 @@ export default function HeaderSideBar() {
 
   return (
     <>
-      <div className=" fixed right-11 md:right-20 top-8 md:top-16 z-50 bg-gray-50 rounded-2xl ">
+      <div className=" fixed right-5 md:right-20 top-5 md:top-16 z-50 bg-gray-50 rounded-2xl ">
         <Hamburger
           toggled={menuOpen}
           toggle={setMenuOpen}
