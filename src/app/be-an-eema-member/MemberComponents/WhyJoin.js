@@ -13,36 +13,37 @@ const reasons = [
     description:
       "Connect with top event professionals, vendors, and global partners through national and international platforms.",
     // image: "/images/why-join/network.jpg",
-    image:
-      "https://images.pexels.com/photos/2566581/pexels-photo-2566581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    // image:
+    //   "https://images.pexels.com/photos/2566581/pexels-photo-2566581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "/images/others/career-join-team.jpg",
   },
   {
     title: "Access Exclusive Events",
     description:
       "Attend high-impact industry summits, workshops, and award shows as part of your membership.",
     // image: "/images/why-join/events.jpg",
-    image: "https://eemaindia.com/uploads/gallery/5caf115f5f366wJNp17iBD0.jpeg",
+    image: "/images/new-member/access-exclusive-events.jpeg",
   },
   {
     title: "Industry Recognition",
     description:
       "Be part of award-winning projects, showcase your work, and gain visibility in the industry.",
     // image: "/images/why-join/recognition.jpg",
-    image: "https://eemaindia.com/uploads/gallery/5caf047d2efc1CysGPRzQbC.jpeg",
+    image: "/images/new-member/industry-recognition.jpeg",
   },
   {
     title: "Learning & Development",
     description:
       "Get access to curated masterclasses, white papers, and newsletters to stay ahead in the field.",
     // image: "/images/why-join/learning.jpg",
-    image: "https://eemaindia.com/uploads/gallery/5caf02a24face5j7pTvGakQ.jpeg",
+    image: "/images/new-member/learning-development.jpeg",
   },
   {
     title: "Collaborative Growth",
     description:
       "Partner with industry leaders and government bodies to help shape the future of the event industry.",
     // image: "/images/why-join/collaboration.jpg",
-    image: "https://eemaindia.com/uploads/gallery/5caf0c56546ebUmQQx4Py9p.jpeg",
+    image: "/images/new-member/collaborative-growth.jpeg",
   },
 ];
 

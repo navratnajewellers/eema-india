@@ -56,7 +56,7 @@ export default function NewMemberHeroSection() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative w-full max-w-lg h-80 md:h-96 rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="https://eemaindia.com/uploads/sliders/5cbd68be125e2p5qKj96aSR.jpeg"
+                src="/images/others/5cbd68be125e2p5qKj96aSR.jpeg"
                 alt="People networking at an EEMA event"
                 fill
                 style={{ objectFit: "cover" }} // Ensures the image covers the area

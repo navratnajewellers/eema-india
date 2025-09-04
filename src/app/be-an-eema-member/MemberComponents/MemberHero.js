@@ -2,10 +2,17 @@
 
 import { Button } from "rsuite";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="relative bg-cover bg-center h-[80vh] w-full bg-[url('https://eemaindia.com/uploads/banners/5cbb11048a3f5axhvRkNgGY.jpeg')]">
+    <section className="relative h-[80vh] w-full">
+      <Image
+        src="/images/others/5cbb11048a3f5axhvRkNgGY.jpeg"
+        alt="Member Banner"
+        fill
+        className=" object-cover -z-10 "
+      />
       <div className="absolute inset-0 bg-black/60 flex items-center justify-center px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

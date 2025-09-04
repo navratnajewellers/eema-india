@@ -7,6 +7,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Gift, RefreshCw, Users, Wallet } from "lucide-react";
 
 export default function RegionalInitiativesPage() {
   const [isMobile] = useMediaQuery("(max-width: 768px)");
@@ -17,12 +18,14 @@ export default function RegionalInitiativesPage() {
       description: "A charitable trust to aid the needy",
       image:
         "https://www.volunteerindiaispiice.com/wp-content/uploads/2022/02/12299392_10150591199694946_6743987408806625850_n-1.jpg",
+      icon: <RefreshCw size={95} />,
     },
     {
       title: "Employee Engagement",
       description:
         "To promote engagement among North employees and various members",
       image: "https://www.sociabble.com/medias/employee-engagement-ideas.jpg",
+      icon: <Users size={95} />,
     },
     {
       title: "Vendors/Partners Day",
@@ -30,6 +33,7 @@ export default function RegionalInitiativesPage() {
         "To celebrate the hard work and evoke pride among vendors and partners who are a part of EEMA",
       image:
         "https://www.outlife.in/uploads/6/1/9/7/6197204/img-4971-copy_3_orig.jpg",
+      icon: <Gift size={95} />,
     },
     {
       title: "Money Hai Toh Honey Hai",
@@ -37,6 +41,7 @@ export default function RegionalInitiativesPage() {
         "An initiative that helps generate revenue and share profits gained from talent and artist acquisition",
       image:
         "https://www.peta.org/wp-content/uploads/2024/04/IMG_1721-scaled.jpg",
+      icon: <Wallet size={95} />,
     },
   ];
 
@@ -185,14 +190,18 @@ export default function RegionalInitiativesPage() {
                 title={`${data.title}`}
               >
                 <div className=" text-center space-y-4 py-4 px-7 ">
-                  <div className=" relative mx-auto rounded-2xl overflow-hidden h-72 w-[90%] md:w-[475px] ">
+                  {/* <div className=" relative mx-auto rounded-2xl overflow-hidden h-72 w-[90%] md:w-[475px] ">
                     <Image
                       src={data.image}
                       alt={data.title}
                       fill
                       className=" object-cover "
                     />
+                  </div> */}
+                  <div className=" flex justify-center items-center ">
+                    {data.icon}
                   </div>
+
                   <h4 className=" inline-block pl-4 tracking-tight text-2xl text-orange-600 font-semibold mt-4 ">
                     {data.title}
                   </h4>
