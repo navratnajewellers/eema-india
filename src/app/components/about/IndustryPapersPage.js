@@ -13,37 +13,43 @@ export default function IndustryPapersPage() {
       title: "Events Re-Opening Guidelines",
       image:
         "https://eemaindia.com/uploads/whitepapers/60f3d50e7fa39cABrdbib7E.jpeg",
-      link: "https://eemaindia.com/uploads/whitepapers/pdf/1626592526_EEMA_SOP.pdf",
+      // link: "https://eemaindia.com/uploads/whitepapers/pdf/1626592526_EEMA_SOP.pdf",
+      link: "/documents/knowledge-center/industry-whitepaper/1626592526_EEMA_SOP.pdf",
     },
     {
       title: "Making Experiences in India",
       image:
         "https://eemaindia.com/uploads/whitepapers/5d63c2b86b037BgBzuv3y8X.jpeg",
-      link: "https://eemaindia.com/uploads/whitepapers/pdf/1566819000_EEMA_Report_2015_-_EEMA_Final_lores.pdf",
+      // link: "https://eemaindia.com/uploads/whitepapers/pdf/1566819000_EEMA_Report_2015_-_EEMA_Final_lores.pdf",
+      link: "/documents/knowledge-center/industry-whitepaper/1566819000_EEMA_Report_2015_-_EEMA_Final_lores.pdf",
     },
     {
       title: "Indian Events Industry",
       image:
         "https://eemaindia.com/uploads/whitepapers/5d63c25ed3f3aOmjsrU4mgd.jpeg",
-      link: "https://eemaindia.com/uploads/whitepapers/pdf/1566818910_EEMA_2012_-_INDIAN_EVENTS_INDUSTRY_LOW.pdf",
+      // link: "https://eemaindia.com/uploads/whitepapers/pdf/1566818910_EEMA_2012_-_INDIAN_EVENTS_INDUSTRY_LOW.pdf",
+      link: "/documents/knowledge-center/industry-whitepaper/1566818910_EEMA_2012_-_INDIAN_EVENTS_INDUSTRY_LOW.pdf",
     },
     {
       title: "The Business of Experiences",
       image:
         "https://eemaindia.com/uploads/whitepapers/5d527f02e8443c5lahHlmAO.jpeg",
-      link: "https://eemaindia.com/uploads/whitepapers/pdf/1677822134_E&Y_last_year_report_2012-_The_business_of_experiences_white_paper.pdf",
+      // link: "https://eemaindia.com/uploads/whitepapers/pdf/1677822134_E&Y_last_year_report_2012-_The_business_of_experiences_white_paper.pdf",
+      link: "/documents/knowledge-center/industry-whitepaper/1677822134_E&Y_last_year_report_2012-_The_business_of_experiences_white_paper.pdf",
     },
     {
       title: "FICCI EY Report",
       image:
         "https://eemaindia.com/uploads/whitepapers/5cb6e4f954361NV11WsEGYe.jpeg",
-      link: "https://eemaindia.com/uploads/whitepapers/pdf/1555489891_EY-a-billion-screens-of-opportunity-min.pdf",
+      // link: "https://eemaindia.com/uploads/whitepapers/pdf/1555489891_EY-a-billion-screens-of-opportunity-min.pdf",
+      link: "/documents/knowledge-center/industry-whitepaper/1555489891_EY-a-billion-screens-of-opportunity-min.pdf",
     },
     {
       title: "#Experience Next 2017",
       image:
         "https://eemaindia.com/uploads/whitepapers/5d63c54ddea40H0yeI0SLxy.jpeg",
-      link: "https://eemaindia.com/uploads/whitepapers/pdf/1555489891_EY-a-billion-screens-of-opportunity-min.pdf",
+      // link: "https://eemaindia.com/uploads/whitepapers/pdf/1555489891_EY-a-billion-screens-of-opportunity-min.pdf",
+      link: "/documents/knowledge-center/industry-whitepaper/1555489891_EY-a-billion-screens-of-opportunity-min.pdf",
     },
   ];
 
