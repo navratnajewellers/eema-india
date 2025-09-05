@@ -469,7 +469,7 @@ export default function MemberSection() {
                     alt="Member"
                     fill
                     priority
-                    className=" object-cover rounded-4xl "
+                    className=" object-fill sm:object-cover rounded-4xl "
                   />
                 </div>
                 <div className=" flex flex-col justify-between px-4 py-7 ">
