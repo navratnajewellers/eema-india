@@ -1,7 +1,7 @@
 "use client";
 
 import AllPressCoverage from "../components/press-coverage/AllPressCoverage";
-import EemaInitiatives from "../components/press-coverage/EemaInitiatives";
+// import EemaInitiatives from "../components/press-coverage/EemaInitiatives";
 import WHeader from "../components/WHeader";
 
 export default function PressCoveragePage() {
@@ -22,7 +22,7 @@ export default function PressCoveragePage() {
 
       <AllPressCoverage />
 
-      <EemaInitiatives />
+      {/* <EemaInitiatives /> */}
     </>
   );
 }

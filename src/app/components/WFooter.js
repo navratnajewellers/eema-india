@@ -191,7 +191,7 @@ const WFooter = () => {
               <span>
                 MADE BY
                 <a
-                  href="#"
+                  href="https://sahayta.co.in/"
                   className=" text-orange-600 font-bold tracking-tight ml-1 "
                 >
                   SAHAYTA

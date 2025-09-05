@@ -11,7 +11,6 @@ const originalDropDownList = {
   about: false,
   member: false,
   eemagine: false,
-  news: false,
 };
 
 export default function HeaderSideBar() {
@@ -57,12 +56,7 @@ export default function HeaderSideBar() {
   };
 
   const closedOpenOption = () => {
-    if (
-      openDropdowns.about ||
-      openDropdowns.eemagine ||
-      openDropdowns.member ||
-      openDropdowns.news
-    ) {
+    if (openDropdowns.about || openDropdowns.eemagine || openDropdowns.member) {
       // alert("clicked inside");
 
       setOpenDropdowns(originalDropDownList);
@@ -147,28 +141,11 @@ export default function HeaderSideBar() {
                   </li>
                 </ul>
               </li>
-              <li className=" relative group py-2 ">
-                <SpecialButtonEffect text="News" toggleText="news" />
-                <ul
-                  className={` top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 transform -translate-y-2 transition-all duration-200 z-50 invisible ${openDropdowns.news && isTablet ? " relative visible opacity-100 translate-y-0" : " absolute group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible "} `}
-                >
-                  <li>
-                    <a
-                      href="/press-coverage-eema/"
-                      className=" block px-4 py-2 hover:bg-gray-100 text-gray-800 hover:text-orange-600 hover:font-semibold transition-all "
-                    >
-                      Press Coverage
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/press-coverage-eema/#eema-initiatives"
-                      className=" block px-4 py-2 hover:bg-gray-100 text-gray-800 hover:text-orange-600 hover:font-semibold transition-all "
-                    >
-                      EEMA Initiative
-                    </a>
-                  </li>
-                </ul>
+              <li className=" py-2 ">
+                <SpecialTextEffect
+                  text="Press Coverage"
+                  link="/press-coverage-eema"
+                />
               </li>
               <li className=" py-2 ">
                 <SpecialTextEffect
