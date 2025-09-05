@@ -8,7 +8,7 @@ export default function SaAwardsAboutPage({ setActiveSection }) {
       onViewportEnter={() => setActiveSection("about")}
     >
       <Image
-        src="https://www.eemaindia.com/spotlightaward/assets/images/spotlight%20awards.jpg"
+        src="/images/spotlightawards/spotlight-awards.jpg"
         alt="spolight-awards-about"
       />
       <section className="bg-white py-20 px-4 md:px-20">

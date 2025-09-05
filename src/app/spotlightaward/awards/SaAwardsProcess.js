@@ -9,7 +9,7 @@ export default function SaAwardsProcess({ setActiveSection }) {
       className=" text-black "
     >
       <Image
-        src="https://www.eemaindia.com/spotlightaward/assets/images/Award%20Process%20&%20Guidlines.jpg"
+        src="/images/spotlightawards/award-process-guidlines.jpg"
         alt="spolight-awards-about"
       />
 

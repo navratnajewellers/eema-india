@@ -378,7 +378,7 @@ export default function SaWinner2024() {
   return (
     <section className=" text-black ">
       <Image
-        src="https://www.eemaindia.com/spotlightaward/assets/images/Winners%202024.jpg"
+        src="/images/spotlightawards/winners-2024.jpg"
         alt="spotlight awards 2024 winner banner"
       />
 

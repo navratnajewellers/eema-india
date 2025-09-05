@@ -11,7 +11,7 @@ export default function EemaAwardsShortlistedApplication({ setActiveSection }) {
       onViewportEnter={() => setActiveSection("shortlisted-applicants")}
     >
       <Image
-        src="https://www.eemaindia.com/eemaxglobal/images/shortlisted-applicants.jpg"
+        src="/images/others/shortlisted-applicants.jpg"
         alt="award-process-entry-fees"
       />
 

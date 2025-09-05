@@ -7,6 +7,35 @@ import { ArrowUpRight } from "lucide-react";
 
 const totalPressCoverageData = [
   {
+    date: "July 18, 2025",
+    title:
+      "EEMAGINE 2025 Set to Unite India’s Experiential Industry in Udaipur",
+    image: "/images/press-coverage/eemagine-2025-udaipur.jpg",
+    link: "https://www.google.com/url?q=https://in.eventfaqs.com/2025/07/18/eemagine-2025-set-to-unite-indias-experiential-industry-in-udaipur/&sa=D&source=editors&ust=1756290112447468&usg=AOvVaw2kn1uhT5G8oiYa5jShw1fe",
+  },
+  {
+    date: "August 13, 2025",
+    title: "EEMAGINE 2025: Taking India to the World",
+    image: "/images/press-coverage/eemagine-2025-taking-india-to-the-world.jpg",
+    link: "https://www.google.com/url?q=https://in.eventfaqs.com/2025/08/13/eemagine-2025-taking-india-to-the-world/&sa=D&source=editors&ust=1756290112447571&usg=AOvVaw10ObatpCJArGAo5EFqVIYo",
+  },
+  {
+    date: "August 13, 2025",
+    title:
+      "EEMAGINE 2025 lights up times square, celebrates India’s global event leadership",
+    image:
+      "/images/press-coverage/eemagine-goes-big-and-takes-over-the-times-square-the-city.webp",
+    link: "https://www.google.com/url?q=https://bottindia.com/eemagine-2025-lights-up-times-square-celebrates-indias-global-event-leadership/&sa=D&source=editors&ust=1756290112447676&usg=AOvVaw2eoiP4vAwMBYrevhG770VD",
+  },
+  {
+    date: "August 14, 2025",
+    title:
+      "EEMAGINE 2025: India showcases global presence in Event and Entertainment Industry",
+    image:
+      "/images/press-coverage/eemagine-goes-big-and-takes-over-the-times-square-the-city.webp",
+    link: "https://www.google.com/url?q=https://www.exhibitionshowcase.com/eemagine-2025-india-showcases-global-presence-in-event-and-entertainment-industry/&sa=D&source=editors&ust=1756290112447782&usg=AOvVaw1km9PXnriyWsXy7uKOjfXX",
+  },
+  {
     date: "May 27, 2025",
     title:
       "EEMA Spotlight Awards 2025 - Celebrates the unsung heroes of the event industry",

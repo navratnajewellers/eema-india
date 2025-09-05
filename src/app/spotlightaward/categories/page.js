@@ -433,7 +433,7 @@ export default function SpotlightAwardsCategoriesPage() {
   return (
     <div>
       <Image
-        src="https://www.eemaindia.com/spotlightaward/assets/images/Categories%20(2).jpg"
+        src="/images/spotlightawards/categories.jpg"
         alt="spotlight-awards-categories"
       />
 

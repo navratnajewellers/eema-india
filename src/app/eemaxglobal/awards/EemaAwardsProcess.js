@@ -11,7 +11,7 @@ export default function EemaAwardsProcess({ setActiveSection }) {
       onViewportEnter={() => setActiveSection("award-process")}
     >
       <Image
-        src="https://www.eemaindia.com/eemaxglobal/images/award-process-guidelines.jpg"
+        src="/images/others/award-process-guidelines.jpg"
         alt="award-process-entry-fees"
       />
 

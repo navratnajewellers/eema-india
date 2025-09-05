@@ -15,29 +15,33 @@ export default function KnowledgeCenterPage() {
     {
       title: "Newsletters",
       description: "Stay updated with our latest newsletters and insights.",
-      image:
-        "https://images.pexels.com/photos/7213105/pexels-photo-7213105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      // image:
+      //   "https://images.pexels.com/photos/7213105/pexels-photo-7213105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "/knowledge-center/knowledge-center-newsletter.webp",
       link: "/knowledge-center/newsletter",
     },
     {
       title: "MoM - NEC",
       description: "Minutes of Meeting from NEC for full transparency.",
-      image:
-        "https://images.pexels.com/photos/3810792/pexels-photo-3810792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      // image:
+      //   "https://images.pexels.com/photos/3810792/pexels-photo-3810792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "/images/knowledge-center/knowledge-center-mom.webp",
       link: "/knowledge-center/mom",
     },
     {
       title: "Whitepapers",
       description: "Explore expert research, whitepapers, and deep dives.",
-      image:
-        "https://images.pexels.com/photos/7735721/pexels-photo-7735721.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      // image:
+      //   "https://images.pexels.com/photos/7735721/pexels-photo-7735721.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "/images/knowledge-center/knowledge-center-whitepaper.webp",
       link: "/knowledge-center/industry-whitepaper",
     },
     {
       title: "Value Added Tie-Ups",
       description: "Explore valuable partnerships and strategic tie-ups.",
-      image:
-        "https://images.pexels.com/photos/8439749/pexels-photo-8439749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      // image:
+      //   "https://images.pexels.com/photos/8439749/pexels-photo-8439749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "/images/knowledge-center/knowledge-center-tie-up.webp",
       link: "/knowledge-center/value-added-tieups",
     },
     {

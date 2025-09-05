@@ -19,57 +19,49 @@ export default function SaHomeWinner() {
       year: "2025",
       title: "Best AV Production - Corporate Events",
       winner: "Tagglabs Experiential Private Limited",
-      image:
-        "https://www.eemaindia.com/spotlightaward/assets/images/winner-2025.jpg",
+      image: "/images/spotlightawards/winner-2025.jpg",
     },
     {
       year: "2024",
       title: "Best Hotel for Social Events/Wedding Events",
       winner: "Radisson Blu GRT Chennai",
-      image:
-        "https://www.eemaindia.com/spotlightaward/assets/images/Winners%202024.jpg",
+      image: "/images/spotlightawards/winners-2024.jpg",
     },
     {
       year: "2025",
       title: "Best Hotel - Corporate Events (five star)",
       winner: "Juniper Hotels Limited",
-      image:
-        "https://www.eemaindia.com/spotlightaward/assets/images/winner-2025.jpg",
+      image: "/images/spotlightawards/winner-2025.jpg",
     },
     {
       year: "2024",
       title: "Best Artist Manager",
       winner: "Renaissance",
-      image:
-        "https://www.eemaindia.com/spotlightaward/assets/images/Winners%202024.jpg",
+      image: "/images/spotlightawards/winners-2024.jpg",
     },
     {
       year: "2025",
       title: "Best Production House - Corporate Events",
       winner: "RENAISSANCE",
-      image:
-        "https://www.eemaindia.com/spotlightaward/assets/images/winner-2025.jpg",
+      image: "/images/spotlightawards/winner-2025.jpg",
     },
     {
       year: "2024",
       title: "Best Dance Team",
       winner: "Nooper Performing art center",
-      image:
-        "https://www.eemaindia.com/spotlightaward/assets/images/Winners%202024.jpg",
+      image: "/images/spotlightawards/winners-2024.jpg",
     },
     {
       year: "2025",
       title: "Best DJ - Entertainment",
       winner: "Sumit Sethi",
-      image:
-        "https://www.eemaindia.com/spotlightaward/assets/images/winner-2025.jpg",
+      image: "/images/spotlightawards/winner-2025.jpg",
     },
     {
       year: "2024",
       title: "Best Professional Videographer",
       winner: "WEDARTISTRY",
-      image:
-        "https://www.eemaindia.com/spotlightaward/assets/images/Winners%202024.jpg",
+      image: "/images/spotlightawards/winners-2024.jpg",
     },
   ];
 

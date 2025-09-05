@@ -270,7 +270,7 @@ export default function EemaxAwardsCatergory({ setActiveSection }) {
       onViewportEnter={() => setActiveSection("categories")}
     >
       <Image
-        src="https://www.eemaindia.com/eemaxglobal/images/award-process-categories.jpg"
+        src="/images/others/award-process-categories.jpg"
         alt="award-process-categories"
       />
 

@@ -7,7 +7,7 @@ export default function MemberListSection() {
   return (
     <section className="py-20 px-4 bg-gray-50 text-center relative z-0">
       <Image
-        src="https://eemaindia.com/images/viewMember.jpg"
+        src="/images/others/viewMember.jpg"
         alt="bg-image"
         fill
         className=" -z-10 brightness-[40%] object-cover "

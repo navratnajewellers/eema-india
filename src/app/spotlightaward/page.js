@@ -13,7 +13,7 @@ export default function SpotlightPage() {
       <main className="bg-white text-gray-800 px-6 md:px-12 lg:px-24 py-12">
         <section>
           <img
-            src="https://www.eemaindia.com/spotlightaward/assets/images/Spotlight%20Logo%20Web%20banner-01.jpg"
+            src="/images/spotlightawards/spotlight-logo-web-banner.jpg"
             alt="spotlight-awards-banner-image"
           />
         </section>

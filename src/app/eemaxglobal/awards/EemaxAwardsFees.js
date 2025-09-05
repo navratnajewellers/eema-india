@@ -37,7 +37,7 @@ export default function EemaxAwardsFees({ setActiveSection }) {
       onViewportEnter={() => setActiveSection("fees")}
     >
       <Image
-        src="https://www.eemaindia.com/eemaxglobal/images/award-process-entry-fees.jpg"
+        src="/images/others/award-process-entry-fees.jpg"
         alt="award-process-entry-fees"
       />
 

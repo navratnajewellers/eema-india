@@ -39,7 +39,7 @@ export default function Eemagine2025Page() {
 
       <section>
         <Image
-          src="https://eemaindia.com/uploads/sliders/66e420119fc9cNrsM1Om1d3.jpeg"
+          src="/images/others/66e420119fc9cNrsM1Om1d3.jpg"
           alt="eemagine-2025"
         />
       </section>
