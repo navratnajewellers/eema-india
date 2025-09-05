@@ -29,6 +29,11 @@ export const metadata = {
     "EEMA, Event Association India, Experiential Marketing, Event Management India, EEMAGINE, EEMAX, EEMA Membership, EEMA Events, Indian Event Industry",
   icons: {
     icon: [{ url: "./favicon.ico", type: "image/x-icon" }],
+    shortcut: "/images/favicon/favicon-16x16.png",
+    apple: "/images/favicon/apple-touch-icon.png",
+  },
+  alternates: {
+    canonical: "https://eemaindia.com",
   },
   openGraph: {
     title: "Event and Entertainment Management Association | EEMA India",
@@ -58,6 +63,42 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* schema */}
+        <Script
+          id="organization-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+        >
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "EEMA - Event and Entertainment Management Association",
+            url: "https://eemaindia.com",
+            logo: "https://eemaindia.com/images/logo/eema-logo-orange-black-sm.png",
+            sameAs: [
+              "https://www.facebook.com/eemaindia",
+              "https://www.linkedin.com/company/eemaindia",
+              "https://twitter.com/eemaindia",
+            ],
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: "01140546007",
+              contactType: "Customer Service",
+              areaServed: "IN",
+              availableLanguage: "English",
+            },
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "E-330, 80 Feet Rd, Block E, Greater Kailash II",
+              addressLocality: "New Delhi",
+              addressRegion: "Delhi",
+              postalCode: "110048",
+              addressCountry: "IN",
+            },
+          })}
+        </Script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${interTight.variable} antialiased`}
       >
