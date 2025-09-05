@@ -2,6 +2,58 @@ import { useState } from "react";
 
 const videos = [
   {
+    url: "https://www.youtube.com/embed/nIArLzPk_jI",
+    title: "EEMAGINE 2025 DAY 1 Highlight",
+  },
+  {
+    url: "https://www.youtube.com/embed/DwwNrijvnYU",
+    title: "EEMAGINE 2025 DAY 2 Highlight",
+  },
+  {
+    url: "https://www.youtube.com/embed/Ml1SIWG95qY",
+    title: "EEMAGINE 2025 DAY 3 Highlight",
+  },
+  {
+    url: "https://www.youtube.com/embed/G5oU0amDLJU",
+    title: "EEMAGINE 2025 Drone",
+  },
+  {
+    url: "https://www.youtube.com/embed/MxzA3GvxQM4",
+    title: "COREA 3.0",
+  },
+  {
+    url: "https://www.youtube.com/embed/6cTXKJZocsY",
+    title: "Spotlight 2025",
+  },
+  {
+    url: "https://www.youtube.com/embed/6wBbjhk2Ncw",
+    title: "East Conclave 2025 - Day 1",
+  },
+  {
+    url: "https://www.youtube.com/embed/boLRF2JHeUU",
+    title: "East Conclave 2025 - Day 2",
+  },
+  {
+    url: "https://www.youtube.com/embed/XI3XDzxUSlQ",
+    title: "EEMAGINE 2024",
+  },
+  {
+    url: "https://www.youtube.com/embed/1EUGixN5XEg",
+    title: "EEMAGINE 2024 Day 1",
+  },
+  {
+    url: "https://www.youtube.com/embed/DxeFK0ARXw8",
+    title: "EEMAGINE 2024 Day 2",
+  },
+  {
+    url: "https://www.youtube.com/embed/5ZeLE2LJdS0",
+    title: "EEMAGINE 2024 Day 3",
+  },
+  {
+    url: "https://www.youtube.com/embed/0cVNnjPUt5g",
+    title: "EEMAGINE 2023",
+  },
+  {
     url: "https://www.youtube.com/embed/Gm5ekx35QnY",
     title: "Meet us at #EEMAgine2018 | Gitikka Ganju Dhar",
   },

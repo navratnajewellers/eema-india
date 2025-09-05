@@ -20,7 +20,7 @@ export default function FootprintsPage() {
           <button
             onClick={() => setTab("image")}
             className={clsx(
-              "px-6 py-2 rounded-full font-semibold transition",
+              "px-6 py-2 rounded-full font-semibold transition cursor-pointer hover:scale-110 ",
               tab === "image"
                 ? "bg-orange-600 text-white"
                 : "bg-gray-200 text-gray-700"
@@ -31,7 +31,7 @@ export default function FootprintsPage() {
           <button
             onClick={() => setTab("video")}
             className={clsx(
-              "px-6 py-2 rounded-full font-semibold transition",
+              "px-6 py-2 rounded-full font-semibold transition cursor-pointer hover:scale-110 ",
               tab === "video"
                 ? "bg-orange-600 text-white"
                 : "bg-gray-200 text-gray-700"
