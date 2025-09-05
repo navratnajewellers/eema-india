@@ -366,7 +366,7 @@ export default function MemberSection() {
       email: "",
       linkedin:
         "https://www.linkedin.com/in/ramkumar-ramasamy-46495920a/?originalSubdomain=in",
-      image: "/images/team/r-ramkumar.jpeg",
+      image: "/images/team/r-ramkumar.jpg",
     },
     {
       name: "Hemant Matai",
@@ -463,13 +463,13 @@ export default function MemberSection() {
               </div>
 
               <div className=" grid grid-cols-1 md:grid-cols-2 gap-2 ">
-                <div className=" relative h-[30vh] md:h-[400px] xl:h-[70vh] w-[80%] m-auto ">
+                <div className=" relative h-[300px] md:h-[400px] xl:h-[70vh] w-[80%] m-auto ">
                   <Image
                     src={data.image}
                     alt="Member"
                     fill
                     priority
-                    className=" object-fill sm:object-cover rounded-4xl "
+                    className=" object-cover rounded-4xl "
                   />
                 </div>
                 <div className=" flex flex-col justify-between px-4 py-7 ">
