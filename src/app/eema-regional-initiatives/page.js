@@ -50,7 +50,7 @@ export default function RegionalInitiativesPage() {
       title: "GURUKOOL",
       description:
         "GURUKOOL was shaped as an outcome of Manthan as a means to provide interactive learning for employees and members. This event consisted of industry experts sharing their experiences with the audience.",
-      image: "/images/regional-initiative/5cb6fa2c0b7a6je6BnXgXfx.png",
+      image: "/images/regional-initiative/gurukool.jpg",
     },
     {
       title: "POWER BRUNCH",
@@ -59,10 +59,10 @@ export default function RegionalInitiativesPage() {
       image: "/images/regional-initiative/5cb6f9a9e9ea9BrDcA4iniJ.png",
     },
     {
-      title: "EEMA",
+      title: "10 Years of EEMA",
       description:
         "EEMA is an in-house industry newsletter that was launched digitally to members and industry stakeholders all the way back in October 2014.",
-      image: "/images/regional-initiative/5cb6f992981e8KZBMDDaahU.png",
+      image: "/images/regional-initiative/10-years-of-eema.jpg",
     },
   ];
 

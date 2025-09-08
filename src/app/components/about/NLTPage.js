@@ -187,7 +187,7 @@ export default function NLTPage() {
   return (
     <section
       id="national-leadership-team"
-      className=" bg-gray-50 text-black px-7 sm:px-24 relative py-36 overflow-hidden md:overflow-auto "
+      className=" bg-gray-50 text-black px-7 sm:px-24 relative py-36 "
     >
       <h2 className="text-3xl font-bold mb-16 text-center w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600">
         National Leadership Team
@@ -224,52 +224,48 @@ export default function NLTPage() {
           </div>
         </section>
 
-        <section className=" flex justify-center items-center md:col-span-4 ">
+        <section className=" flex items-center md:col-span-4 ">
           <motion.div
-            initial={{ opacity: 0, x: 60 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             transition={{
               duration: 1,
               ease: "easeInOut",
             }}
+            className=" w-full "
           >
-            <Table
-              // height={300}
-              width={isMobile ? 350 : isTablet ? 500 : 770}
-              data={NECData}
-              bordered
-              cellBordered
-              autoHeight
-              wordWrap="break-word"
-            >
-              <Column width={150}>
-                <HeaderCell className=" nlt-table-header text-white ">
-                  Name
-                </HeaderCell>
-                <Cell dataKey="name" />
-              </Column>
-
-              <Column width={230}>
-                <HeaderCell className=" nlt-table-header text-white ">
-                  Company Name
-                </HeaderCell>
-                <Cell dataKey="company_name" />
-              </Column>
-
-              <Column width={120}>
-                <HeaderCell className=" nlt-table-header text-white ">
-                  Designation
-                </HeaderCell>
-                <Cell dataKey="designation" />
-              </Column>
-
-              <Column width={270}>
-                <HeaderCell className=" nlt-table-header text-white ">
-                  Email
-                </HeaderCell>
-                <Cell dataKey="email" />
-              </Column>
-            </Table>
+            <div className="overflow-x-auto ">
+              <table className="min-w-full border border-gray-200 text-left text-sm">
+                <thead>
+                  <tr className="bg-orange-600 text-white">
+                    <th className="px-4 py-3 font-semibold">Name</th>
+                    <th className="px-4 py-3 font-semibold">Company Name</th>
+                    <th className="px-4 py-3 font-semibold">Designation</th>
+                    <th className="px-4 py-3 font-semibold">Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {NECData.map((item, index) => (
+                    <tr
+                      key={index}
+                      className="border-b border-gray-200 bg-white hover:bg-orange-50 text-black"
+                    >
+                      <td className="px-4 py-3">{item.name}</td>
+                      <td className="px-4 py-3">{item.company_name}</td>
+                      <td className="px-4 py-3">{item.designation}</td>
+                      <td className="px-4 py-3">
+                        <a
+                          href={`mailto:${item.email}`}
+                          className="text-blue-600 hover:underline"
+                        >
+                          {item.email}
+                        </a>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </motion.div>
         </section>
       </div>
@@ -302,52 +298,48 @@ export default function NLTPage() {
           </div>
         </section>
 
-        <section className=" flex justify-center items-center md:col-span-4 ">
+        <section className=" flex items-center md:col-span-4 ">
           <motion.div
-            initial={{ opacity: 0, x: 60 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             transition={{
               duration: 1,
               ease: "easeInOut",
             }}
+            className=" w-full "
           >
-            <Table
-              // height={300}
-              width={isMobile ? 350 : isTablet ? 500 : 750}
-              data={jointSecretaryData}
-              bordered
-              cellBordered
-              autoHeight
-              wordWrap="break-word"
-            >
-              <Column width={150}>
-                <HeaderCell className=" nlt-table-header text-white ">
-                  Name
-                </HeaderCell>
-                <Cell dataKey="name" />
-              </Column>
-
-              <Column width={250}>
-                <HeaderCell className=" nlt-table-header text-white ">
-                  Company Name
-                </HeaderCell>
-                <Cell dataKey="company_name" />
-              </Column>
-
-              <Column width={160}>
-                <HeaderCell className=" nlt-table-header text-white ">
-                  Designation
-                </HeaderCell>
-                <Cell dataKey="designation" />
-              </Column>
-
-              <Column width={190}>
-                <HeaderCell className=" nlt-table-header text-white ">
-                  Email
-                </HeaderCell>
-                <Cell dataKey="email" />
-              </Column>
-            </Table>
+            <div className="overflow-x-auto ">
+              <table className="min-w-full border border-gray-200 text-left text-sm">
+                <thead>
+                  <tr className="bg-orange-600 text-white">
+                    <th className="px-4 py-3 font-semibold">Name</th>
+                    <th className="px-4 py-3 font-semibold">Company Name</th>
+                    <th className="px-4 py-3 font-semibold">Designation</th>
+                    <th className="px-4 py-3 font-semibold">Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {jointSecretaryData.map((item, index) => (
+                    <tr
+                      key={index}
+                      className="border-b border-gray-200 bg-white hover:bg-orange-50 text-black"
+                    >
+                      <td className="px-4 py-3">{item.name}</td>
+                      <td className="px-4 py-3">{item.company_name}</td>
+                      <td className="px-4 py-3">{item.designation}</td>
+                      <td className="px-4 py-3">
+                        <a
+                          href={`mailto:${item.email}`}
+                          className="text-blue-600 hover:underline"
+                        >
+                          {item.email}
+                        </a>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </motion.div>
         </section>
       </div>
@@ -380,45 +372,46 @@ export default function NLTPage() {
           </div>
         </section>
 
-        <section className=" flex justify-center items-center md:col-span-4 ">
+        <section className=" flex items-center md:col-span-4 ">
           <motion.div
-            initial={{ opacity: 0, x: 60 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             transition={{
               duration: 1,
               ease: "easeInOut",
             }}
+            className=" w-full "
           >
-            <Table
-              // height={300}
-              width={isMobile ? 350 : isTablet ? 500 : 580}
-              data={secretariatTeamData}
-              bordered
-              cellBordered
-              autoHeight
-              wordWrap="break-word"
-            >
-              <Column width={150}>
-                <HeaderCell className=" nlt-table-header text-white ">
-                  Name
-                </HeaderCell>
-                <Cell dataKey="name" />
-              </Column>
-
-              <Column width={160}>
-                <HeaderCell className=" nlt-table-header text-white ">
-                  Designation
-                </HeaderCell>
-                <Cell dataKey="designation" />
-              </Column>
-
-              <Column width={270}>
-                <HeaderCell className=" nlt-table-header text-white ">
-                  Email
-                </HeaderCell>
-                <Cell dataKey="email" />
-              </Column>
-            </Table>
+            <div className="overflow-x-auto ">
+              <table className="min-w-full border border-gray-200 text-left text-sm">
+                <thead>
+                  <tr className="bg-orange-600 text-white">
+                    <th className="px-4 py-3 font-semibold">Name</th>
+                    <th className="px-4 py-3 font-semibold">Designation</th>
+                    <th className="px-4 py-3 font-semibold">Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {secretariatTeamData.map((item, index) => (
+                    <tr
+                      key={index}
+                      className="border-b border-gray-200 bg-white hover:bg-orange-50 text-black"
+                    >
+                      <td className="px-4 py-3">{item.name}</td>
+                      <td className="px-4 py-3">{item.designation}</td>
+                      <td className="px-4 py-3">
+                        <a
+                          href={`mailto:${item.email}`}
+                          className="text-blue-600 hover:underline"
+                        >
+                          {item.email}
+                        </a>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </motion.div>
         </section>
       </div>

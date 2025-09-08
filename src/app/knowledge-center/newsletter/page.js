@@ -179,7 +179,7 @@ export default function KcNewsletterPage() {
                         key={index}
                         target="_blank"
                       >
-                        <div className=" relative h-72 w-full ">
+                        <div className=" relative h-72 md:h-80 w-full ">
                           <Image src={data.image} alt="20254" fill />
                         </div>
                         <div className=" bg-orange-600 text-white ">

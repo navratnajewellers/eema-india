@@ -271,7 +271,7 @@ export default function MembershipCategoriesSection() {
                       <h4 className=" text-xl font-semibold leading-relaxed mb-4 text-black ">
                         Documents required for Star membership{" "}
                       </h4>
-                      <p className=" text-lg font-normal leading-relaxed mb-4 ">
+                      <p className=" text-lg font-normal leading-relaxed mb-4 text-black ">
                         {data.requiredDocuments}
                       </p>
                       <p className=" text-sm font-medium text-gray-400 ">
@@ -286,7 +286,7 @@ export default function MembershipCategoriesSection() {
                       <h4 className=" text-xl font-semibold leading-relaxed mb-4 text-black ">
                         Fees for Star Membership
                       </h4>
-                      <p className=" text-lg font-normal leading-relaxed mb-4 ">
+                      <p className=" text-lg font-normal leading-relaxed mb-4 text-black ">
                         {data.fees}
                       </p>
                     </div>

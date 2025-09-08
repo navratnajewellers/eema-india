@@ -61,7 +61,7 @@ export default function MemberListPage() {
 
           <MemberSearch />
 
-          <div className=" max-w-6xl [&_.rs-table-row-header]:[&_.rs-table-cell]:!bg-orange-400 [&_.rs-table-row-header]:[&_.rs-table-cell]:text-white [&_.rs-table-row-header]:[&_.rs-table-cell]:font-bold [&_.rs-table-row-header]:[&_.rs-table-cell]:text-[15px] [&_.rs-table-row]:not-odd:[&_.rs-table-cell]:!bg-gray-100 ">
+          <div className=" max-w-6xl !mx-auto [&_.rs-table-row-header]:[&_.rs-table-cell]:!bg-orange-400 [&_.rs-table-row-header]:[&_.rs-table-cell]:text-white [&_.rs-table-row-header]:[&_.rs-table-cell]:font-bold [&_.rs-table-row-header]:[&_.rs-table-cell]:text-[15px] [&_.rs-table-row]:not-odd:[&_.rs-table-cell]:!bg-gray-100 ">
             <Table
               autoHeight
               width={isMobile ? 350 : isTablet ? 650 : 770}

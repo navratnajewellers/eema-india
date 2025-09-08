@@ -111,7 +111,7 @@ const WFooter = () => {
     },
     {
       title: "YOUTUBE",
-      link: "https://www.youtube.com/@theeemaindia",
+      link: "https://www.youtube.com/@eemaindia1",
     },
   ];
 
