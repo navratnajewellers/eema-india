@@ -1,43 +1,30 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-// const allImages = [
-//   "/images/eemagine2024/_P_96687-touch.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26216.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26217.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26218.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26220.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26221.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26222.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26223.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26224.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26225.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26226.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26227.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26228.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26229.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26230.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26231.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26232.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26233.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26234.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26235.jpg",
-//   "/public/images/eemagine2024/freepik__retouch__26241.jpg",
-// ];
+const allImages = [
+  "/images/eemagine2024/0B9A0001.jpg",
+  "/images/eemagine2024/0B9A0479.jpg",
+  "/images/eemagine2024/0B9A0521.jpg",
+  "/images/eemagine2024/C4300785.jpg",
+  "/images/eemagine2024/freepik__retouch__61873.jpg",
+  "/images/eemagine2024/manish-and-neha.jpg",
+  "/images/eemagine2024/TKD_4116.jpg",
+  "/images/eemagine2024/usha.jpg",
+];
 
 export default function Eemagine2024Gallery() {
   const initialVisible = 15;
   const [visibleCount, setVisibleCount] = useState(initialVisible);
 
-  const [allImages, setAllImages] = useState([]);
+  // const [allImages, setAllImages] = useState([]);
 
-  useEffect(() => {
-    fetch("/images/galleryFileList/eemagine2024.json")
-      .then((res) => res.json())
-      .then((data) => setAllImages(data));
-  }, []);
+  // useEffect(() => {
+  //   fetch("/images/galleryFileList/eemagine2024.json")
+  //     .then((res) => res.json())
+  //     .then((data) => setAllImages(data));
+  // }, []);
 
   const handleSeeMore = () => {
     setVisibleCount((prev) => prev + 10);

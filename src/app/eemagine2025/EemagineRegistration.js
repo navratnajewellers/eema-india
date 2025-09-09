@@ -4,13 +4,14 @@ import clsx from "clsx";
 import { useState } from "react";
 import Eemagine2025Pricing from "./eemagine2025Component/Eemagine2025Pricing";
 import EemaxGlobalRegistration from "./eemagine2025Component/EemaxGlobalRegistration";
+import Eemagine2025Gallery from "./eemagine2025Component/Eemagine2025Gallery";
 
 export default function EemagineRegistration() {
   const [tab, setTab] = useState("eemagine");
 
   return (
     <section className=" bg-[#fff7ed] ">
-      <div className="max-w-4xl mx-auto py-12 px-4">
+      <div className=" mx-auto py-12 px-4">
         {/* Tab Buttons */}
         <div className="flex justify-center gap-4 mb-11">
           <button
@@ -22,7 +23,7 @@ export default function EemagineRegistration() {
                 : "bg-gray-200 text-gray-700"
             )}
           >
-            EEMAGINE Registration
+            EEMAGINE
           </button>
           <button
             onClick={() => setTab("eemax")}
@@ -39,7 +40,7 @@ export default function EemagineRegistration() {
 
         <div>
           {tab === "eemagine" ? (
-            <Eemagine2025Pricing />
+            <Eemagine2025Gallery />
           ) : (
             <EemaxGlobalRegistration />
           )}

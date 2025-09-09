@@ -15,7 +15,7 @@ export default function Eemagine2024Page() {
 
       <section>
         <Image
-          src="https://eemaindia.com/theme/FrontThemeTemplate/images/emmagine-2024-new.jpeg"
+          src="/images/others/emmagine-2024-new.jpeg"
           alt="eemagine-2024"
         />
       </section>

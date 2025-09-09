@@ -46,35 +46,7 @@ export default function Eemagine2025Page() {
 
       <EemagineRegistration />
 
-      {/* keyDate */}
-      <section className="bg-gradient-to-r from-yellow-100 via-orange-100 to-orange-200 py-12">
-        <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-2xl font-semibold mb-4">Important Dates</h3>
-          <p className="mb-2">
-            ✅ Early Bird till <strong>15th July</strong>
-          </p>
-          <p>
-            📅 Regular Registration: <strong>16th July - 3rd August</strong>
-          </p>
-        </div>
-
-        <section className="flex justify-center gap-4 my-8">
-          <a
-            href="https://eemax.eemaindia.com/signup"
-            className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold"
-          >
-            Register Now
-          </a>
-          <a
-            href="/eemaxglobal"
-            className="border border-orange-600 text-orange-600 px-6 py-3 rounded-lg font-semibold"
-          >
-            Visit EEMAX Global
-          </a>
-        </section>
-      </section>
-
-      <Eemagine2025Gallery />
+      {/* <Eemagine2025Gallery /> */}
     </main>
   );
 }

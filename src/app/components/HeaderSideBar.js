@@ -181,7 +181,7 @@ export default function HeaderSideBar() {
               </li>
               <li className=" py-2 ">
                 <SpecialTextEffect
-                  text="SpotLight Awards"
+                  text="Spotlight Awards"
                   link="/spotlightaward"
                 />
               </li>

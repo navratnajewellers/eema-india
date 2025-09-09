@@ -114,7 +114,8 @@ export default function CareersPage() {
             >
               <div className=" relative w-full h-96 ">
                 <Image
-                  src="/images/others/career.jpg"
+                  // src="/images/others/career.jpg"
+                  src="/images/others/career-join-team.jpg"
                   alt="career"
                   fill
                   className=" object-cover "

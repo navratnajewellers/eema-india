@@ -4,44 +4,34 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 // const allImages = [
-//   "/images/eemagine2024/freepik__retouch__26217.jpg",
-//   "/images/eemagine2024/freepik__retouch__26225.jpg",
-//   "/images/eemagine2024/freepik__retouch__26230.jpg",
-//   "/images/eemagine2024/freepik__retouch__26240.jpg",
-//   "/images/eemagine2024/freepik__retouch__26241.jpg",
-//   "/images/eemagine2024/freepik__retouch__26249.jpg",
-//   "/images/eemagine2024/freepik__retouch__26252.jpg",
-//   "/images/eemagine2024/freepik__retouch__49578.jpg",
-//   "/images/eemagine2024/freepik__retouch__64050-touch.jpg",
-//   "/images/eemagine2024/freepik__retouch__64056-touch.jpg",
-//   "/images/eemagine2024/freepik__retouch__77441-touch.jpg",
-//   "/images/eemagine2024/freepik__retouch__77444-touch.jpg",
+//   "/images/others/career-interview.jpg",
+//   "/images/others/career-join-team.jpg",
 // ];
 
 export default function Eemagine2025Gallery() {
-  const initialVisible = 9;
+  const initialVisible = 18;
   const [visibleCount, setVisibleCount] = useState(initialVisible);
 
   const [allImages, setAllImages] = useState([]);
 
   useEffect(() => {
-    fetch("/images/galleryFileList/eemagine2024.json")
+    fetch("/images/galleryFileList/eemagine2025.json")
       .then((res) => res.json())
       .then((data) => setAllImages(data));
   }, []);
 
   const handleSeeMore = () => {
-    setVisibleCount((prev) => prev + 6);
+    setVisibleCount((prev) => prev + 15);
   };
 
   const visibleImages = allImages.slice(0, visibleCount);
 
   return (
-    <section className="bg-white py-16 px-6 sm:px-20">
+    <section className=" py-16 px-6 sm:px-20">
       <h2 className="text-3xl font-bold mb-16 text-center w-fit mx-auto px-4 border-l-4 border-r-4 border-orange-600">
-        Eemagine 2025 Moments
+        Eemagine 2025 Footprints
       </h2>
-      {/* <div className="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4">
+      <div className="columns-1 sm:columns-2 md:columns-3 gap-4 space-y-4">
         {visibleImages.map((src, index) => (
           <div
             key={index}
@@ -49,7 +39,7 @@ export default function Eemagine2025Gallery() {
           >
             <Image
               src={src}
-              alt={`EEMAGINE 2024 Image ${index + 1}`}
+              alt={`EEMAGINE 2025 Image ${index + 1}`}
               width={600}
               height={400}
               className="w-full h-auto object-cover rounded-xl hover:scale-105 transition-transform duration-300"
@@ -67,11 +57,11 @@ export default function Eemagine2025Gallery() {
             See More
           </button>
         </div>
-      )} */}
+      )}
 
-      <h4 className=" text-gray-500 text-center font-medium text-xl uppercase animate-pulse ">
+      {/* <h4 className=" text-gray-500 text-center font-medium text-xl uppercase animate-pulse ">
         Coming Soon
-      </h4>
+      </h4> */}
     </section>
   );
 }
