@@ -1,32 +1,47 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-// const allImages = [
-//   "/images/eemagine2024/freepik__retouch__26217.jpg",
-//   "/images/eemagine2024/freepik__retouch__26225.jpg",
-//   "/images/eemagine2024/freepik__retouch__26230.jpg",
-//   "/images/eemagine2024/freepik__retouch__26240.jpg",
-//   "/images/eemagine2024/freepik__retouch__26241.jpg",
-//   "/images/eemagine2024/freepik__retouch__26249.jpg",
-//   "/images/eemagine2024/freepik__retouch__26252.jpg",
-//   "/images/eemagine2024/freepik__retouch__49578.jpg",
-//   "/images/eemagine2024/freepik__retouch__64050-touch.jpg",
-//   "/images/eemagine2024/freepik__retouch__64056-touch.jpg",
-//   "/images/eemagine2024/freepik__retouch__77441-touch.jpg",
-//   "/images/eemagine2024/freepik__retouch__77444-touch.jpg",
-// ];
+const allImages = [
+  "/images/galleryFileList/003A8670.jpg",
+  "/images/galleryFileList/003A8690.jpg",
+  "/images/galleryFileList/003A8735.jpg",
+  "/images/galleryFileList/0043.jpg",
+  "/images/galleryFileList/1044.jpg",
+  "/images/galleryFileList/2011-goa.jpg",
+  "/images/galleryFileList/2012-delhi.jpg",
+  "/images/galleryFileList/2013-jaipur.jpg",
+  "/images/galleryFileList/2013-jaipur1.jpg",
+  "/images/galleryFileList/2013-jaipur2.jpg",
+  "/images/galleryFileList/2D1A9462.jpg",
+  "/images/galleryFileList/_MG_3725.jpg",
+  "/images/galleryFileList/A37I0133.jpg",
+  "/images/galleryFileList/C4300482.jpg",
+  "/images/galleryFileList/C4300527.jpg",
+  "/images/galleryFileList/DSC_1459.jpg",
+  "/images/galleryFileList/DSC_1466.jpg",
+  "/images/galleryFileList/DY1A9209.jpg",
+  "/images/galleryFileList/eemagine-2014-kochi.jpg",
+  "/images/galleryFileList/gitikka-hosting.jpg",
+  "/images/galleryFileList/RGP_9251.jpg",
+  "/images/galleryFileList/SANT0332.jpg",
+  "/images/galleryFileList/SANT0657.jpg",
+  "/images/galleryFileList/SANT0997.jpg",
+  "/images/galleryFileList/SANT1129.jpg",
+  "/images/galleryFileList/SANT4081.jpg",
+  "/images/galleryFileList/session.jpg",
+];
 
 export default function FootprintImage() {
   const initialVisible = 15;
   const [visibleCount, setVisibleCount] = useState(initialVisible);
 
-  const [allImages, setAllImages] = useState([]);
+  // const [allImages, setAllImages] = useState([]);
 
-  useEffect(() => {
-    fetch("/images/galleryFileList/eemagine2025.json")
-      .then((res) => res.json())
-      .then((data) => setAllImages(data));
-  }, []);
+  // useEffect(() => {
+  //   fetch("/images/galleryFileList/eemagine2025.json")
+  //     .then((res) => res.json())
+  //     .then((data) => setAllImages(data));
+  // }, []);
 
   const handleSeeMore = () => {
     setVisibleCount((prev) => prev + 20);
