@@ -135,7 +135,7 @@ export default function JourneyTimeline() {
                     alt={data.title}
                     height={400}
                     width={500}
-                    className=" rounded-2xl overflow-hidden object-cover "
+                    className=" rounded-2xl h-full sm:h-60 overflow-hidden object-cover "
                   />
                 </section>
               </div>
