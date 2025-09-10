@@ -23,7 +23,7 @@ export default function FootprintImage() {
   const [allImages, setAllImages] = useState([]);
 
   useEffect(() => {
-    fetch("/images/galleryFileList/eemagine2024.json")
+    fetch("/images/galleryFileList/eemagine2025.json")
       .then((res) => res.json())
       .then((data) => setAllImages(data));
   }, []);
