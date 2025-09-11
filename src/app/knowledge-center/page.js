@@ -17,7 +17,7 @@ export default function KnowledgeCenterPage() {
       description: "Stay updated with our latest newsletters and insights.",
       // image:
       //   "https://images.pexels.com/photos/7213105/pexels-photo-7213105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      image: "/knowledge-center/knowledge-center-newsletter.webp",
+      image: "/images/knowledge-center/knowledge-center-newsletter.webp",
       link: "/knowledge-center/newsletter",
     },
     {
