@@ -2,6 +2,7 @@
 
 import { motion } from "motion/react";
 import ScalingText from "../home/ScalingText";
+import Image from "next/image";
 
 const AboutCompany = () => {
   const aboutCompanyData = [
@@ -48,6 +49,22 @@ const AboutCompany = () => {
           </div>
         </div>
       ))}
+
+      <div className=" flex justify-center items-center gap-4 mt-7  ">
+        <Image
+          src="/images/others/we-care-img.jpg"
+          alt="we-care"
+          height={80}
+          width={65}
+        />
+
+        <p className=" text-gray-600 ">
+          FOR SUPPORT PLEASE MAIL:{" "}
+          <a href="mailto:wecare@eemaindia.com" className=" text-orange-600 ">
+            wecare@eemaindia.com
+          </a>
+        </p>
+      </div>
     </section>
   );
 };
